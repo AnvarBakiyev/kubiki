@@ -1,0 +1,58 @@
+{
+ "per_folder": {
+  "r3_v31_ds": {
+   "n": 30,
+   "one_try": 9,
+   "judge_pick": 14,
+   "best_possible": 18
+  },
+  "r3_v31_ds_fix": {
+   "n": 30,
+   "one_try": 12,
+   "judge_pick": 17,
+   "best_possible": 18
+  },
+  "r3_v31b_ds": {
+   "n": 30,
+   "one_try": 15,
+   "judge_pick": 16,
+   "best_possible": 24
+  },
+  "r3_v31b_ds_fix": {
+   "n": 30,
+   "one_try": 18,
+   "judge_pick": 18,
+   "best_possible": 24
+  },
+  "r3_v32_ds": {
+   "n": 30,
+   "one_try": 15,
+   "judge_pick": 20,
+   "best_possible": 24
+  },
+  "r3_v32_ds_fix": {
+   "n": 30,
+   "one_try": 18,
+   "judge_pick": 23,
+   "best_possible": 27
+  },
+  "r3_v32b_ds": {
+   "n": 30,
+   "one_try": 21,
+   "judge_pick": 22,
+   "best_possible": 27
+  },
+  "r3_v32b_ds_fix": {
+   "n": 30,
+   "one_try": 21,
+   "judge_pick": 23,
+   "best_possible": 30
+  }
+ },
+ "total": {
+  "n": 240,
+  "one_try": 129,
+  "judge_pick": 153,
+  "best_possible": 192
+ }
+}

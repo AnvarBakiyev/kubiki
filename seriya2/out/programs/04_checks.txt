@@ -1,0 +1,8 @@
+brick tree  
+hero kid  
+start kid near tree  
+act kid sneak  
+act kid walk  
+away kid tree  
+face kid sly  
+cam follow

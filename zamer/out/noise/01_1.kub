@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick bars a10 e red
+brick wall a1 b green
+hero prisoner prisoner a1 s
+hero guard guard b9 w
+cam wide on a2 at 0s
+act guard walk to c8 from 0s to 2.5s
+face prisoner calm at 0s
+face prisoner happy at 2.0s
+act prisoner climb to d8 from 3.0s to 4.5s
+cam close on prisoner at 4.5s shake

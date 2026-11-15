@@ -1,0 +1,6 @@
+brick crate  
+hero thief  
+start thief near crate  
+act thief hide  
+face thief sly  
+cam close

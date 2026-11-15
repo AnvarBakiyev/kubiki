@@ -1,0 +1,8 @@
+len 6s
+plate green
+brick tree green
+hero kid near tree
+cam follow on kid at 0s
+act kid sneak away from tree from 0s to 4s
+face kid sly at 4s
+act kid walk past tree from 4s to 6s

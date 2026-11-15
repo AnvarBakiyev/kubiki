@@ -1,0 +1,7 @@
+brick door
+brick car
+hero thief
+away thief door
+past thief car
+act thief run
+cam follow

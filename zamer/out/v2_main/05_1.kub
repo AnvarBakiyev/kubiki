@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick crate c4 north tan
+hero thief <theif1> c4 east
+hero cop <cop1> c3 west
+cam wide on c4 at 0s
+act <cop1> walk to c2 from 0s to 2.5s
+act <theif1> run to c5 from 0s to 4.5s
+act <theif1> fall to c4 from 3.0s to 3.5s
+fx dust on <theif1> at 3.5s

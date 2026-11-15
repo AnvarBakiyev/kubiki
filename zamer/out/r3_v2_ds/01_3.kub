@@ -1,0 +1,17 @@
+len 5s
+plate gray
+brick bars a1 north brown
+brick bars a2 north brown
+brick bars a3 north brown
+brick wall b1 north gray
+brick wall b2 north gray
+brick wall b3 north gray
+brick wall b4 north gray
+brick tower c3 north gray
+hero prisoner jack a1 south
+hero guard tom d1 east
+cam wide on a1 at 0s
+act guard tom walk to d10 from 0s to 3s
+act prisoner jack climb to b4 from 3s to 4.5s
+act prisoner jack run to j10 from 4.5s to 5s
+cam close on jack at 4.5s

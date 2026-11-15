@@ -1,0 +1,8 @@
+len 5s
+plate gray
+brick tree green
+cam wide on tree at 0s
+act thief stand behind tree from 0s to 5s
+act cop walk past tree from 1s to 4s
+face thief sly at 2s
+cam close on thief at 3s shake

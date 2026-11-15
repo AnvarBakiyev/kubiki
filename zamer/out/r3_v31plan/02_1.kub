@@ -1,0 +1,6 @@
+len 5s
+plate gray
+brick car yellow
+hero thief near wall
+hero cop behind thief
+cam follow on thief from 0s to 5s

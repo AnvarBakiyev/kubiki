@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick car red
+hero cop behind car
+hero thief near car
+hero citizen near car
+cam wide on car at 0s
+act cop run to thief from 0.0s to 3.0s
+act thief stand from 3.0s to 5.0s
+act citizen wave from 1.0s to 4.0s
+act citizen wave from 2.0s to 5.0s

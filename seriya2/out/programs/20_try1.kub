@@ -1,0 +1,11 @@
+len 6s
+plate gray
+brick lamp yellow
+hero cop near lamp
+hero kid west of cop
+cam close on cop at 0s
+face kid happy at 0s
+act kid wave from 0s to 2s
+face cop surprised at 1.5s
+act cop stand from 0s to 6s
+act kid stand from 2s to 6s

@@ -1,0 +1,7 @@
+brick tree
+hero cop
+hero guard
+act cop wave
+face guard surprised
+face guard happy
+cam medium

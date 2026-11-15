@@ -1,0 +1,8 @@
+len 6s
+plate green
+brick tower gray
+hero prisoner west of tower
+hero kid west of tower
+cam wide on tower at 0s
+act prisoner walk away from tower from 0s to 6s
+act kid walk away from tower from 0s to 6s

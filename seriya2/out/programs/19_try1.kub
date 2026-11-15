@@ -1,0 +1,15 @@
+len 6s
+plate tan
+brick tower yellow
+brick crate blue
+brick block green
+brick wall gray
+brick bars black
+hero kid west of tower
+hero citizen near crate
+cam low on kid at 0s
+act kid climb onto tower from 0s to 3s
+face kid happy at 3s
+act kid wave from 3s to 6s
+cam follow on kid at 3s
+fx dust on kid at 3s

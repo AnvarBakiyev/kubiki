@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick car a1 west blue
+hero thief rob at a2 south
+hero cop copat b1 north
+cam follow on rob at 0s
+act rob run to g5 from 0s to 5s
+act cop run to h6 from 1.5s to 5.5s
+fx dust on rob at 0.5s

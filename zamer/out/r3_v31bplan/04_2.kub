@@ -1,0 +1,10 @@
+len 5s
+plate white
+brick door gray
+hero guard near door
+hero prisoner behind camera
+cam medium on guard at 0s
+act guard stand from 0s to 5s
+prisoner walk sneak past guard from 2s to 4s
+cam follow on prisoner from 1s to 3s
+face guard surprised at 4s

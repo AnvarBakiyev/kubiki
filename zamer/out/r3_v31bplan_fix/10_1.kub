@@ -1,0 +1,13 @@
+len 5s
+plate gray
+brick car black
+hero guard near thief
+hero thief near car
+hero citizen near car
+hero citizen near guard
+cam wide on guard thief car at 0s
+act guard run to thief from 1.5s to 2s
+act thief stop near car from 2s to 3s
+act thief stand near car from 3s to 5s
+act citizen wave past car from 3s to 4s
+act citizen wave past guard from 4s to 5s

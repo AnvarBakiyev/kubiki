@@ -1,0 +1,527 @@
+{
+ "model": "qwen3.5:9b",
+ "cfg": "v31",
+ "summary": {
+  "valid": 10,
+  "must": 9,
+  "full": 7,
+  "n": 30,
+  "scenes_full_any": [
+   1,
+   2,
+   4,
+   6
+  ],
+  "scenes_full_majority": [
+   2,
+   4
+  ]
+ },
+ "results": [
+  {
+   "scene": 1,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 5,
+   "sec": 21.3
+  },
+  {
+   "scene": 1,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «prisoner face scared at 2.5s»: нет команды prisoner",
+    "строка 12 «prisoner face running away at 4s»: нет команды prisoner"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 17.4
+  },
+  {
+   "scene": 1,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero guard away from prisoner»: где: near/behind/on <деталь или имя>",
+    "строка 7 «act away walk past prisoner from 0s to 2s»: нет персонажа away",
+    "строка 10 «act prisoner run away from prison from 3.5s to 5s»: нет цели prison"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 19.3
+  },
+  {
+   "scene": 2,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 3,
+   "sec": 18.6
+  },
+  {
+   "scene": 2,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 16.2
+  },
+  {
+   "scene": 2,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 4,
+   "sec": 17.4
+  },
+  {
+   "scene": 3,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «act kid fall from tower at 2s to 3s»: act <имя> <действие> <куда> from <начало>s to <конец>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 21.8
+  },
+  {
+   "scene": 3,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «cop near tower»: нет команды cop",
+    "строка 7 «act cop run to tower from 0s to 3s»: нет персонажа cop",
+    "строка 8 «climb cop onto tower from 3s to 4s»: нет команды climb"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 16.7
+  },
+  {
+   "scene": 3,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «cop climb onto tower from 2s to 4s»: нет команды cop"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 2,
+   "sec": 15.6
+  },
+  {
+   "scene": 4,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 1,
+   "sec": 17.4
+  },
+  {
+   "scene": 4,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «hero prisoner sneak past guard from 1s to 4s»: где: near/behind/on <деталь или имя>"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 13.8
+  },
+  {
+   "scene": 4,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 1,
+   "sec": 16.4
+  },
+  {
+   "scene": 5,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «act thief stumble on block from 1.5s to 2.5s»: нет действия stumble"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 4,
+   "sec": 23.8
+  },
+  {
+   "scene": 5,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "вор падает не у ящика"
+   ],
+   "fixes": 6,
+   "sec": 18.2
+  },
+  {
+   "scene": 5,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «act thief run away from wall from 0s to 5s»: нет персонажа thief",
+    "строка 6 «fx dust on thief at 2.5s»: цель не персонаж, не деталь и не клетка: thief",
+    "строка 7 «act thief fall from 3s to 4s»: нет персонажа thief",
+    "строка 8 «act cop run to thief from 1s to 4s»: нет персонажа cop",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 16.6
+  },
+  {
+   "scene": 6,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 18 «cam top on scene at 4s»: цель не персонаж, не деталь и не клетка: scene"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 4,
+   "sec": 25.9
+  },
+  {
+   "scene": 6,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 1,
+   "sec": 14.3
+  },
+  {
+   "scene": 6,
+   "rep": 3,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "shake"
+   ],
+   "staging": [],
+   "fixes": 3,
+   "sec": 15.0
+  },
+  {
+   "scene": 7,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 8 «face thief sly at 2s shake»: face <имя> <лицо> at <время>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 18.0
+  },
+  {
+   "scene": 7,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «act thief stand behind tree from 0s to 5s»: нет персонажа thief",
+    "строка 6 «act cop walk past tree from 1s to 4s»: нет персонажа cop",
+    "строка 7 «face thief sly at 2s»: нет персонажа thief",
+    "строка 8 «cam close on thief at 3s shake»: цель не персонаж, не деталь и не клетка: thief",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 16.1
+  },
+  {
+   "scene": 7,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero cop walk to block from 0s to 5s»: где: near/behind/on <деталь или имя>",
+    "строка 7 «block white»: нет команды block"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 15.8
+  },
+  {
+   "scene": 8,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не оказывается рядом с ребёнком"
+   ],
+   "fixes": 2,
+   "sec": 24.1
+  },
+  {
+   "scene": 8,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «hero cop past wall»: где: near/behind/on <деталь или имя>",
+    "строка 8 «act past run to wall from 2s to 4s»: нет персонажа past",
+    "строка 9 «act past jump over wall from 3s to 4.5s»: нет персонажа past"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 18.7
+  },
+  {
+   "scene": 8,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 10 «act kid happy from 3.5s to 4.5s»: нет действия happy"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 4,
+   "sec": 17.5
+  },
+  {
+   "scene": 9,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 6 «hero guard2 behind block from right»: нет вида guard2",
+    "строка 11 «act guard2 run to prisoner from 2.5s to 3.5s»: нет персонажа guard2"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 22.4
+  },
+  {
+   "scene": 9,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «hero guard2 behind block»: нет вида guard2",
+    "строка 10 «act guard2 run to prisoner from 1s to 3s»: нет персонажа guard2"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 2,
+   "sec": 17.5
+  },
+  {
+   "scene": 9,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «hero guard run to prisoner from 0s to 2s»: где: near/behind/on <деталь или имя>",
+    "строка 4 «hero guard2 run to prisoner from 1s to 3s»: нет вида guard2"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 14.5
+  },
+  {
+   "scene": 10,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 10 «act thief stop to wall from 2s to 3s»: нет действия stop"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 6,
+   "sec": 20.2
+  },
+  {
+   "scene": 10,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 11 «act thief stop from 3s to 4s»: нет действия stop"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 2,
+   "sec": 18.4
+  },
+  {
+   "scene": 10,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 10 «act thief stop from 3s to 4s»: нет действия stop"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 16.9
+  }
+ ]
+}

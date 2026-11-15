@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick crate tree a brown
+brick block b tan
+hero thief bad away from tree
+hero cop good near b
+cam wide on scene at 0s
+act bad run to tree from 1s to 2s
+act bad fall over block from 2s to 3s
+fx dust on bad at 3s
+act bad stand from 4s to 5s
+act good walk to bad from 1s to 5s

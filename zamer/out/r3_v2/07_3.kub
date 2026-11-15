@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick tree a1 north green
+hero thief вор a2 east
+hero cop полис a3 west
+cam wide on a1 at 0s
+act вор hide to a1 from 1s to 5s
+face вор sly at 4s
+cam close on вор at 4s
+polys walk to a2 from 2s to 4s

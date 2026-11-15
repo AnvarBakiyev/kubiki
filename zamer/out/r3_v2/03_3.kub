@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick tower d1 north white
+hero kid timo d2 east
+hero cop mark e1 south
+cam low on d2 at 0s
+face timo scared at 1.5s
+act mark climb to d3 from 1s to 2.5s
+face timo happy at 2.5s
+cam close on timo at 2.5s shake

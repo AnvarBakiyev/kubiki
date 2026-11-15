@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick car c6 east red
+hero thief Jack d3 west
+hero cop Mike e3 west
+cam wide on Jack at 0s
+act Jack run to d10 from 0s to 2s
+act Mike run to e10 from 0s to 2s
+cam follow on Jack at 2s
+act Jack run to j10 from 2.5s to 5s
+act Mike run to j10 from 2.5s to 5s

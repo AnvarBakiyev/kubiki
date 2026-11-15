@@ -1,0 +1,11 @@
+len 5s
+plate black
+fx dust on citizen at 0s
+brick tower a1 north white
+hero prisoner prisoner a7 south
+hero guard guard1 c1 east
+hero guard guard2 e9 west
+cam low on prisoner at 0s shake
+act guard1 run to a7 from 0.5s to 4s
+act guard2 run to a7 from 0.5s to 4s
+face prisoner scared at 2.5s

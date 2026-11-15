@@ -1,0 +1,8 @@
+brick wall  
+hero prisoner  
+hero cop  
+act prisoner stand  
+act prisoner run  
+away prisoner cop  
+face cop angry  
+cam wide

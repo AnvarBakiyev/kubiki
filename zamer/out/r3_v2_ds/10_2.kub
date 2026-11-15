@@ -1,0 +1,17 @@
+len 5s
+plate gray
+brick car e5 east blue
+hero cop chris e3 west
+hero thief tom g5 east
+hero kid ben e6 south
+hero citizen ann e7 north
+cam wide on e5 at 0s
+act tom run to g5 from 0s to 3s
+act chris run to e5 from 0s to 4s
+act tom stand from 3s to 5s
+face tom scared at 3s
+face chris happy at 4s
+act ann wave from 0s to 5s
+act ben wave from 0s to 5s
+face ann happy at 0s
+face ben happy at 0s

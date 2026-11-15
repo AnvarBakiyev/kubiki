@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick tower a10 yellow
+hero kid child a10 north
+hero cop officer a9 south
+cam low on a10 at 0s
+act child stand to nowhere from 0s to 3s
+face child scared at 2.5s
+act officer climb to a10 from 1.5s to 4.5s
+face child happy at 4.5s

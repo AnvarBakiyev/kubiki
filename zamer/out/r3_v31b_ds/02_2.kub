@@ -1,0 +1,9 @@
+len 5s
+plate black
+brick car white
+hero thief near car
+hero cop near car
+cam follow on thief at 0s
+act thief run past car from 0s to 3s
+act cop run past car from 0.5s to 3.5s
+cam follow on thief at 0s

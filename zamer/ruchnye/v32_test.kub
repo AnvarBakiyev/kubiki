@@ -1,0 +1,17 @@
+len 5s
+plate gray
+brick lamp yellow
+brick crate brown
+brick tree green
+brick car red
+hero prisoner near lamp
+hero guard west of lamp
+hero guard2 east of lamp
+hero thief near crate
+hero cop near tree
+act guard run to prisoner from 0s to 2s
+act guard2 run to prisoner from 0s to 2s
+act thief trip over crate from 0s to 2s
+act cop hide behind tree from 0s to 2s
+act cop stop at car from 2s to 4s
+cam wide on lamp at 0s

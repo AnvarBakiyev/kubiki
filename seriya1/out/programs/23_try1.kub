@@ -1,0 +1,8 @@
+len 6s
+plate green
+brick tower gray
+hero cop east of tower
+cam medium on cop at 0s
+act cop run to tower from 0s to 3s
+act cop stop at tower from 3s to 4s
+face cop surprised at 4s

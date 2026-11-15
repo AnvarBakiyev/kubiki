@@ -1,0 +1,11 @@
+brick tree
+brick lamp
+hero citizen
+hero kid
+start citizen near lamp
+face kid sly
+act kid hide
+act kid sneak
+past kid tree
+face citizen happy
+cam wide

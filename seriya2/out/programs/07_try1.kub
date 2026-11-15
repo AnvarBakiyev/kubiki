@@ -1,0 +1,9 @@
+len 6s
+plate gray
+brick door brown
+hero thief east of door
+cam medium on thief at 0s
+act thief walk to door from 0s to 3s
+face thief sly at 3s
+act thief push from 3s to 5s
+face thief happy at 5s

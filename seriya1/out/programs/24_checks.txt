@@ -1,0 +1,7 @@
+brick tree  
+hero citizen  
+hero citizen 2  
+start citizen near tree  
+face citizen happy  
+act citizen wave  
+cam wide

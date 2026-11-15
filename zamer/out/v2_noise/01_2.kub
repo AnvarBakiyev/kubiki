@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick bars a1 east white
+brick wall a2 north tan
+hero prisoner tom a3 north
+hero guard alex b5 west
+cam wide on a2 at 0s
+act guard alex walk to b2 from 0s to 2.5s
+face prisoner tom scared at 1s
+act prisoner tom climb to c2 from 2.6s to 4s
+act prisoner tom run to d2 from 3.8s to 4.9s
+cam close on tom at 4.8s

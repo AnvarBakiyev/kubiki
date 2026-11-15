@@ -1,0 +1,9 @@
+len 6s
+plate gray
+brick tower gray
+brick wall gray
+hero guard west of tower
+cam medium on guard at 0s
+act guard walk to tower from 0s to 4s
+act guard stop at tower from 4s to 6s
+face guard calm at 4s

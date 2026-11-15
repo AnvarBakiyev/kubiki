@@ -1,0 +1,13 @@
+len 5s
+plate gray
+brick tower a1 north brown
+brick tower b1 north brown
+hero kid kid1 b2 north
+hero policeman cop1 a3 west
+cam low on a1 at 0s
+act kid1 stand from 0s to 2s
+face kid1 scared at 0s
+act cop1 run to a1 from 0s to 2.5s
+act cop1 climb to b2 from 2.5s to 4s
+face kid1 happy at 4s
+act kid1 wave from 4s to 5s

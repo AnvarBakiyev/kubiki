@@ -1,0 +1,14 @@
+len 5s
+plate green
+brick wall gray
+brick block blue
+hero kid behind wall
+hero cop near block
+cam wide on wall at 0s
+face kid scared at 0s
+act cop run away from block from 0s to 1.5s
+act cop jump over wall from 1.5s to 3s
+face kid happy at 3s
+act kid wave from 3s to 5s
+cam close on kid at 3.5s
+fx dust on cop at 2s

@@ -1,0 +1,7 @@
+len 5s
+plate gray
+brick tree 1 green
+act thief hide behind tree from 0s to 5s
+cop walk past tree from 0s to 5s
+face thief sly at 4s
+cam close on thief at 4s

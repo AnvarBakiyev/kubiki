@@ -1,0 +1,20 @@
+len 5s
+plate gray
+brick wall a1 white
+brick block a2 blue
+brick block a3 blue
+brick block a4 blue
+brick block a5 blue
+hero cop dick near block
+hero thief jinx behind block
+hero citizen alex near wall
+hero citizen mara near wall
+cam wide on block at 0s
+act dick run to jinx from 1s to 2s
+act jinx stop from 2s to 3s
+act alex happy near wall from 3s to 4s
+face alex happy at 3.5s
+act alex wave at 3.5s
+act mara happy near wall from 3s to 4s
+face mara happy at 3.5s
+act mara wave at 3.5s

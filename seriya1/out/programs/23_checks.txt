@@ -1,0 +1,7 @@
+brick tower  
+hero cop  
+act cop run  
+end cop near tower  
+act cop stand  
+face cop surprised  
+cam medium

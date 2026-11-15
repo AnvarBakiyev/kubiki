@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick wall a1 n white
+brick wall j1 s white
+car car d1 s black
+hero thief rob <a3> w red
+hero cop patr <j3> e blue
+act thief run to d6 from 0.5s to 4s
+act cop run to d5 from 1s to 4s
+cam follow on thief at 0s
+face scared at 1s
+fx crash on car at 1s

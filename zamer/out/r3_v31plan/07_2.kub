@@ -1,0 +1,10 @@
+len 5s
+plate white
+brick tree green
+hero thief near tree
+hero cop behind tree
+cam close on thief at 0s shake
+act thief stand from 0s to 1s
+act cop walk to tree from 1s to 2s
+act thief wave from 2s to 3s
+act cop past tree from 4s to 5s

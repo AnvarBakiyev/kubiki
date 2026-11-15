@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick bars a2 east brown
+brick wall j2 north black
+hero prisoner zack b1 south
+hero guard mike a9 north
+cam wide on a2 at 0s
+act mike walk to a6 from 0.5s to 4.0s
+face mike calm at 3.0s
+act zack climb to e5 from 3.5s to 4.8s
+cam close on zack at 4.9s shake
+fx dust on zack at 4.9s

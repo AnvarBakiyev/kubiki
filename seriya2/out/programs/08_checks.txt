@@ -1,0 +1,8 @@
+brick door
+hero thief
+hero thief 2
+fx alarm
+start thief near door
+face thief sly
+cam close
+shake

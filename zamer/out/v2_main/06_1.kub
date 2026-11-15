@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick door a1 north white
+hero prisoner bob a1 south
+hero guard robby b1 north
+cam wide on a1 at 0s
+act bob run to i9 from 0s to 5s
+act robby run to a5 from 2s to 3s
+face robby angry at 3s
+fx alarm on robby at 4s
+cam follow on bob at 1s shake

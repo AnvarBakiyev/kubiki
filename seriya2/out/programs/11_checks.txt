@@ -1,0 +1,6 @@
+brick door  
+hero cop  
+act cop run  
+end cop near door  
+face cop angry  
+cam close

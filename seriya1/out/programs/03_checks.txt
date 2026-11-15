@@ -1,0 +1,11 @@
+brick wall
+brick tower
+brick bars
+hero guard
+start guard near tower
+cam medium
+act guard walk
+end guard near wall
+sides guard bars
+act guard stand
+face guard calm

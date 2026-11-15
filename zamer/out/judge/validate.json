@@ -1,0 +1,9379 @@
+{
+ "summary": {
+  "один разбор": {
+   "pairs": 666,
+   "agree": 465,
+   "agree_pct": 0.698,
+   "judge_yes_hand_yes": 234,
+   "judge_yes_hand_no": 45,
+   "judge_no_hand_yes": 156,
+   "judge_no_hand_no": 231,
+   "precision": 0.839,
+   "recall": 0.6
+  },
+  "согласие 2 из 3": {
+   "pairs": 222,
+   "agree": 159,
+   "agree_pct": 0.716,
+   "judge_yes_hand_yes": 86,
+   "judge_yes_hand_no": 19,
+   "judge_no_hand_yes": 44,
+   "judge_no_hand_no": 73,
+   "precision": 0.819,
+   "recall": 0.662
+  }
+ },
+ "rows": [
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "past thief crate"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide",
+    "act cop walk"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide",
+    "act cop walk"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide",
+    "act cop walk"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act cop walk",
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "act guard run",
+    "act guard run",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief run",
+    "act thief fall",
+    "chase cop thief",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "chase cop thief",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "past thief crate"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "past thief crate"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide",
+    "act cop walk"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide",
+    "act cop walk"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide",
+    "act cop walk"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act cop walk",
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "act guard run",
+    "act guard run",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief run",
+    "act thief fall",
+    "chase cop thief",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "chase cop thief",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "chase cop thief",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard lamp",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "sides guard lamp"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "chase cop thief",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car",
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car",
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near thief",
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car",
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car",
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near thief",
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car",
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero thief",
+    "act thief run",
+    "act thief fall",
+    "end cop near thief",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero thief",
+    "act thief run",
+    "act thief fall",
+    "past thief crate",
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero thief",
+    "act thief run",
+    "act thief fall",
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief run",
+    "end cop near thief",
+    "act thief fall",
+    "brick tree",
+    "hero thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "past thief crate"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "act guard run",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2",
+    "act citizen wave"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "act citizen wave"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "act citizen wave",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act citizen wave",
+    "hero citizen"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard bars",
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall",
+    "hero prisoner 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car",
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid",
+    "end kid near cop"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero prisoner",
+    "act prisoner sneak",
+    "past prisoner guard",
+    "end guard near prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero prisoner",
+    "past prisoner guard",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero prisoner",
+    "act prisoner sneak",
+    "past prisoner guard"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "past prisoner guard",
+    "act prisoner sneak",
+    "hero prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero thief",
+    "act thief run",
+    "act thief fall",
+    "end cop near thief",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero thief",
+    "act thief run",
+    "act thief fall",
+    "past thief crate",
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero thief",
+    "act thief run",
+    "act thief fall",
+    "end cop near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief run",
+    "end cop near thief",
+    "act thief fall",
+    "brick tree",
+    "hero thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "cam medium"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "past thief crate"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "sides cop wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "sides cop wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act prisoner stand",
+    "act guard run",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen 2",
+    "act citizen wave"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "act citizen wave"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "act citizen wave",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act citizen wave",
+    "hero citizen"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero citizen 2"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start cop near car",
+    "start thief near car",
+    "act thief fall",
+    "fx flash"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 0,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  }
+ ]
+}

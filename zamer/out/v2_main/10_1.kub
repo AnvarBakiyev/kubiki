@@ -1,0 +1,14 @@
+len 5s
+plate tan
+brick car a3 south red
+hero cop <officer> b2 north
+hero thief <villain> c4 north
+hero citizen <joy1> e7 east
+hero citizen <joy2> g8 west
+cam wide on a3 at 0s
+act <officer> run to a5 from 0.5s to 2.5s
+act <villain> stop to b6 from 1.0s to 4.0s
+face <joy1> happy at 1.0s
+face <joy2> happy at 1.0s
+act <joy1> wave to e8 from 1.5s to 4.5s
+act <joy2> wave to g7 from 2.0s to 5.0s

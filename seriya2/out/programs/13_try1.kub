@@ -1,0 +1,12 @@
+len 6s
+plate gray
+brick car gray
+hero thief behind car
+hero kid west of car
+cam wide on car at 0s
+act thief hide behind car from 0s to 1.5s
+face thief sly at 1.5s
+act thief walk away from car from 1.5s to 4s
+act kid sneak past car from 2s to 4.5s
+act kid walk past thief from 4.5s to 6s
+face kid calm at 6s

@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick bars red
+brick wall brown
+hero prisoner near bars
+hero guard behind bars
+act guard walk past prisoner from 0s to 2s
+face prisoner happy at 1s
+act prisoner climb over wall from 2s to 3.5s
+act prisoner run away from guard from 3.5s to 5s
+cam wide on bars at 0s
+cam close on prisoner at 4s

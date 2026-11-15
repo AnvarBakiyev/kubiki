@@ -1,0 +1,11 @@
+len 5s
+plate black
+brick wall white
+brick block gray
+hero prisoner near lamp
+hero guard1 near block
+hero guard2 near block
+cam low on lamp at 0s shake
+act guard1 run to prisoner from 0s to 5s
+act guard2 run to prisoner from 0s to 5s
+face prisoner scared at 5s

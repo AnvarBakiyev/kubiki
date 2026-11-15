@@ -1,0 +1,7 @@
+len 6s
+plate green
+brick lamp green
+hero citizen near lamp
+cam close on citizen at 0s
+face citizen calm at 0s
+face citizen surprised at 2s

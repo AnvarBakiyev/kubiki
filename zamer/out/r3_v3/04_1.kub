@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick wall <a> white
+hero guard guard1 near door
+hero prisoner <prisoner1> behind guard1
+act prisoner1 sneak to door from 0s to 3s
+act guard1 stand from 0s to 4s
+face guard1 surprised at 4.5s
+cam medium on guard1 at 0s

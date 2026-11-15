@@ -1,0 +1,14 @@
+len 5s
+plate black
+brick tower c1 north white
+hero prisoner john c1 south
+act john stand at 0s to 5s
+hero guard alpha j8 west
+hero guard beta h3 east
+cam low on c1 at 0s shake
+fx flash on c1 at 2.5s
+face john scared at 1.5s
+act alpha run to c1 from 1s to 4s
+act beta run to c1 from 1.5s to 4.5s
+cam follow on alpha at 3s
+fx alarm on c1 at 4s

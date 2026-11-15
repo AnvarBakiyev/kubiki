@@ -1,0 +1,14 @@
+len 5s
+plate gray
+brick car a1 east black
+hero cop john a3 south
+hero thief mike a7 north
+hero citizen ann c2 east
+hero citizen bob d5 west
+cam wide on c1 at 0s
+act john walk to b2 from 0.5s to 1.5s
+act mike run to a5 from 0.5s to 1.5s
+act mike stop at a5 from 1.5s to 5.0s
+act ann wave to c3 from 1.0s to 2.0s
+act bob wave to d4 from 1.0s to 2.0s
+cam follow on john at 0s

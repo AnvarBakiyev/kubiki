@@ -1,0 +1,8 @@
+brick tower
+brick crate
+hero kid
+act kid jump
+act kid wave
+start kid on tower
+end kid near crate
+cam medium

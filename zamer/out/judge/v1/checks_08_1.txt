@@ -1,0 +1,8 @@
+brick wall
+hero kid
+hero cop
+start kid near wall
+act cop run
+over cop wall
+act kid happy
+act kid wave

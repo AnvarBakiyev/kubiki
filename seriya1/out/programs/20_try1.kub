@@ -1,0 +1,9 @@
+len 6s
+plate green
+brick tower gray
+hero prisoner south of tower
+hero kid on tower
+cam low on tower at 0s
+act prisoner climb onto tower from 0s to 5s
+face kid scared at 4s
+cam close on kid at 5s

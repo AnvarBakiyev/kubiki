@@ -1,0 +1,10 @@
+len 5s
+plate tan
+brick wall a1 east gray
+brick wall h1 west gray
+hero kid losty i2 south
+hero cop cop1 j2 north
+cam wide on h3 at 0s
+act cop1 run to i2 from 4.5s to 5s
+face losty happy at 3s
+act losty wave from 2s to 4s

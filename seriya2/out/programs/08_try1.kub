@@ -1,0 +1,8 @@
+len 6s
+plate gray
+brick door gray
+hero thief west of door
+cam close on thief at 0s shake
+fx alarm on door at 0s
+face thief sly at 1s
+act thief stand from 0s to 6s

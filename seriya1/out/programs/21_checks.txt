@@ -1,0 +1,7 @@
+brick tower
+hero kid
+hero prisoner
+start kid on tower
+start prisoner on tower
+face kid happy
+cam close

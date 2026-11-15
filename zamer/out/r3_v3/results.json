@@ -1,0 +1,731 @@
+{
+ "model": "qwen3.5:9b",
+ "cfg": "v3",
+ "summary": {
+  "valid": 1,
+  "must": 1,
+  "full": 1,
+  "n": 30,
+  "scenes_full_any": [
+   6
+  ],
+  "scenes_full_majority": []
+ },
+ "results": [
+  {
+   "scene": 1,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall bars near prisoner»: нет клетки bars",
+    "строка 4 «hero guard near wall bars»: где: near/behind/on <деталь или имя>",
+    "строка 5 «hero prisoner behind wall bars»: где: near/behind/on <деталь или имя>",
+    "строка 6 «cam wide on wall bars at 0s»: cam <...> on <имя или деталь> at <время>s",
+    "строка 7 «act guard walk past prisoner from 2s to 4s»: нет персонажа guard",
+    "строка 8 «face prisoner hopeful at 3.5s»: нет персонажа prisoner",
+    "строка 9 «act prisoner climb over wall bars from 4s to 5s»: нет персонажа prisoner",
+    "строка 10 «act prisoner run away from wall bars from 4s to 5s»: нет персонажа prisoner",
+    "строка 11 «cam follow on prisoner at 5s»: цель не персонаж, не деталь и не клетка: prisoner",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 23.3
+  },
+  {
+   "scene": 1,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick bars a1»: brick <деталь> <клетка> <цвет>",
+    "строка 4 «brick wall a2»: brick <деталь> <клетка> <цвет>",
+    "строка 5 «hero prisoner pr0 near bars»: нет детали bars на сцене",
+    "строка 6 «hero guard g1 past bars to wall»: где: near/behind/on <деталь или имя>",
+    "строка 7 «cam wide on scene at 0s»: цель не персонаж, не деталь и не клетка: scene",
+    "строка 8 «act g1 walk past bars from 0s to 3.5s»: нет персонажа g1",
+    "строка 9 «pr0 climb over wall from 3.5s to 4.5s»: нет команды pr0",
+    "строка 10 «pr0 run away from bars from 3.5s to 5s»: нет команды pr0",
+    "строка 11 «cam close on pr0 at 4.5s»: цель не персонаж, не деталь и не клетка: pr0",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 20.8
+  },
+  {
+   "scene": 1,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall 1 red»: нет клетки 1",
+    "строка 4 «brick bars 2 tan»: нет клетки 2",
+    "строка 5 «hero guard near bars»: где: near/behind/on <деталь или имя>",
+    "строка 6 «hero prisoner behind bars»: где: near/behind/on <деталь или имя>",
+    "строка 7 «cam wide on bars at 0s»: цель не персонаж, не деталь и не клетка: bars",
+    "строка 8 «act guard walk past blocks from 1.5s to 3.5s»: нет персонажа guard",
+    "строка 9 «act prisoner climb over wall from 4s to 5s»: нет персонажа prisoner",
+    "строка 10 «act prisoner run away from guard from 4.5s to 5s»: нет персонажа prisoner",
+    "строка 11 «cam close on prisoner at 4.8s»: цель не персонаж, не деталь и не клетка: prisoner",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 20.4
+  },
+  {
+   "scene": 2,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero thief <bob> near tree»: нет детали tree на сцене",
+    "строка 5 «hero cop <jake> past tree»: где: near/behind/on <деталь или имя>",
+    "строка 6 «cam wide on bob at 0s»: цель не персонаж, не деталь и не клетка: bob",
+    "строка 7 «act bob run to a1 from 0s to 2.5s»: нет персонажа bob",
+    "строка 8 «act jake run past car from 0s to 2.5s»: нет персонажа jake",
+    "строка 9 «cam follow on bob at 2.5s»: цель не персонаж, не деталь и не клетка: bob",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 21.8
+  },
+  {
+   "scene": 2,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 11 «cam follow on rob from 0s to 5s»: cam <...> on <имя или деталь> at <время>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 22.3
+  },
+  {
+   "scene": 2,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall bars car near a1 blue»: brick <деталь> <клетка> <цвет>",
+    "строка 5 «hero cop run past car from 0s to 5s»: где: near/behind/on <деталь или имя>",
+    "строка 6 «act thief run past car from 0s to 5s»: нет цели car"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 2,
+   "sec": 15.9
+  },
+  {
+   "scene": 3,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «hero cop alice near tree»: нет детали tree на сцене",
+    "строка 9 «act alice walk past tree from 2s to 4.5s»: нет персонажа alice",
+    "строка 10 «act alice climb onto tower from 3.5s to 5s»: нет персонажа alice"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 22.5
+  },
+  {
+   "scene": 3,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «climb onto <a1> from 2s to 4s»: нет команды climb"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 19.5
+  },
+  {
+   "scene": 3,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick tower a green»: нет клетки a",
+    "строка 4 «hero kid stuck on tower»: нет детали tower на сцене",
+    "строка 5 «hero cop near tree»: где: near/behind/on <деталь или имя>",
+    "строка 6 «cam low on tower at 0s»: цель не персонаж, не деталь и не клетка: tower",
+    "строка 7 «face kid scared at 0s»: нет персонажа kid",
+    "строка 8 «act cop run to tower from 1s to 3s»: нет персонажа cop",
+    "строка 9 «climb onto tower from 2s to 4s»: нет команды climb",
+    "строка 10 «face kid happy at 4s»: нет персонажа kid",
+    "строка 11 «wave»: нет команды wave",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 15.8
+  },
+  {
+   "scene": 4,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall <a> white»: нет клетки a",
+    "строка 4 «hero guard guard1 near door»: нет детали door на сцене",
+    "строка 5 «hero prisoner <prisoner1> behind guard1»: не найдено, рядом с чем ставить: behind guard1",
+    "строка 6 «act prisoner1 sneak to door from 0s to 3s»: нет персонажа prisoner1",
+    "строка 7 «act guard1 stand from 0s to 4s»: нет персонажа guard1",
+    "строка 8 «face guard1 surprised at 4.5s»: нет персонажа guard1",
+    "строка 9 «cam medium on guard1 at 0s»: цель не персонаж, не деталь и не клетка: guard1",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 19.9
+  },
+  {
+   "scene": 4,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick door j white»: нет клетки j",
+    "строка 4 «hero guard guard near door»: нет детали door на сцене",
+    "строка 5 «hero prisoner prisoner on crate»: нет детали crate на сцене",
+    "строка 6 «cam medium on guard at 0s»: цель не персонаж, не деталь и не клетка: guard",
+    "строка 7 «act prisoner sneak past guard from 2.5s to 4.5s»: нет персонажа prisoner",
+    "строка 8 «face guard surprised at 4.8s»: нет персонажа guard",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 13.4
+  },
+  {
+   "scene": 4,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick door a red»: нет клетки a",
+    "строка 4 «hero guard near door»: где: near/behind/on <деталь или имя>",
+    "строка 5 «hero prisoner behind guard»: где: near/behind/on <деталь или имя>",
+    "строка 6 «cam medium on guard at 0s»: цель не персонаж, не деталь и не клетка: guard",
+    "строка 7 «act prisoner sneak past guard from 4.5s to 5s»: нет персонажа prisoner",
+    "строка 8 «face guard surprised at 5s»: нет персонажа guard",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 12.4
+  },
+  {
+   "scene": 5,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick crate tree a brown»: нет клетки tree",
+    "строка 4 «brick block b tan»: нет клетки b",
+    "строка 5 «hero thief bad away from tree»: где: near/behind/on <деталь или имя>",
+    "строка 6 «hero cop good near b»: не найдено, рядом с чем ставить: near b",
+    "строка 7 «cam wide on scene at 0s»: цель не персонаж, не деталь и не клетка: scene",
+    "строка 8 «act bad run to tree from 1s to 2s»: нет персонажа bad",
+    "строка 9 «act bad fall over block from 2s to 3s»: нет персонажа bad",
+    "строка 10 «fx dust on bad at 3s»: цель не персонаж, не деталь и не клетка: bad",
+    "строка 11 «act bad stand from 4s to 5s»: нет персонажа bad",
+    "строка 12 «act good walk to bad from 1s to 5s»: нет персонажа good",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 19.7
+  },
+  {
+   "scene": 5,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «brick wall bars a2 gray»: нет клетки bars",
+    "строка 5 «hero thief bor near crate»: нет детали crate на сцене",
+    "строка 6 «hero cop max on tower»: нет детали tower на сцене",
+    "строка 7 «act bor run from 0s to 5s»: нет персонажа bor",
+    "строка 8 «act bor walk past block from 0s to 4s»: нет персонажа bor",
+    "строка 9 «act bor stand at 3.5s»: act <имя> <действие> <куда> from <начало>s to <конец>s",
+    "строка 10 «act bor fall from 4s to 4s»: нет персонажа bor",
+    "строка 11 «act bor climb over block from 3.5s to 4s»: нет персонажа bor",
+    "строка 12 «fx dust on bor at 4s»: цель не персонаж, не деталь и не клетка: bor",
+    "строка 13 «face bor scared at 4.5s»: нет персонажа bor",
+    "строка 14 «act max walk near bor from 1s to 2s»: нет персонажа max",
+    "строка 15 «act max run to bor from 2s to 5s»: нет персонажа max",
+    "строка 16 «face max angry at 4.5s»: нет персонажа max",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 21.7
+  },
+  {
+   "scene": 5,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero thief robby near tree»: нет детали tree на сцене",
+    "строка 6 «act robby run away from crate from 0s to 2.5s»: нет персонажа robby",
+    "строка 7 «act robby stumble over crate from 2.5s to 3.0s»: нет персонажа robby",
+    "строка 8 «act robby fall from 3.0s to 3.1s»: нет персонажа robby",
+    "строка 9 «fx dust on robby at 3.0s»: цель не персонаж, не деталь и не клетка: robby",
+    "строка 10 «act mike run to robby from 1.5s to 4.5s»: нет цели robby",
+    "строка 11 «face robby scared at 3.0s»: нет персонажа robby"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 19.0
+  },
+  {
+   "scene": 6,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall bars <a1> black»: нет клетки bars",
+    "строка 6 «hero guard mike behind wall bars b1»: нет детали wall на сцене",
+    "строка 7 «face mike angry at 0s»: нет персонажа mike",
+    "строка 8 «act mike fall from 0s to 3s»: нет персонажа mike",
+    "строка 9 «fx alarm on scene at 1s»: цель не персонаж, не деталь и не клетка: scene",
+    "строка 10 «cam wide on mike at 0s shake»: цель не персонаж, не деталь и не клетка: mike",
+    "строка 11 «act jake run away from mike from 0s to 5s»: нет цели mike",
+    "строка 13 «act mike wave from 2s to 5s»: нет персонажа mike"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 21.6
+  },
+  {
+   "scene": 6,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 0,
+   "sec": 15.4
+  },
+  {
+   "scene": 6,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «act smith angry at 2s»: act <имя> <действие> <куда> from <начало>s to <конец>s",
+    "строка 12 «cam shake on smith at 4s»: нет слова shake"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 16.6
+  },
+  {
+   "scene": 7,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «brick wall bars car b2 brown»: brick <деталь> <клетка> <цвет>",
+    "строка 6 «hero cop mike near block»: нет детали block на сцене",
+    "строка 7 «cam wide on block at 0s»: цель не персонаж, не деталь и не клетка: block",
+    "строка 9 «face mike calm at 0s»: нет персонажа mike",
+    "строка 10 «act mike walk past tree from 0.5s to 3.5s»: нет персонажа mike",
+    "строка 11 «face mike calm at 1.5s»: нет персонажа mike",
+    "строка 12 «act mike walk past tree from 3.5s to 5s»: нет персонажа mike"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 22.6
+  },
+  {
+   "scene": 7,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick tree 1 green»: нет клетки 1",
+    "строка 4 «act thief hide behind tree from 0s to 5s»: нет персонажа thief",
+    "строка 5 «cop walk past tree from 0s to 5s»: нет команды cop",
+    "строка 6 «face thief sly at 4s»: нет персонажа thief",
+    "строка 7 «cam close on thief at 4s»: цель не персонаж, не деталь и не клетка: thief",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 13.3
+  },
+  {
+   "scene": 7,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 7 «hero cop mike walk past tree from 0s to 5s»: где: near/behind/on <деталь или имя>",
+    "строка 9 «cam close on thief shake at 4.5s»: cam <...> on <имя или деталь> at <время>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 2,
+   "sec": 14.8
+  },
+  {
+   "scene": 8,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall bars <a1> black»: нет клетки bars",
+    "строка 10 «act lost happy at 3.5s»: act <имя> <действие> <куда> from <начало>s to <конец>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 21.0
+  },
+  {
+   "scene": 8,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall 10 gray»: нет клетки 10",
+    "строка 4 «hero kid lost behind wall 10»: нет детали wall на сцене",
+    "строка 5 «hero cop near brick tree»: где: near/behind/on <деталь или имя>",
+    "строка 6 «cam wide on wall 10 at 0s»: cam <...> on <имя или деталь> at <время>s",
+    "строка 7 «act lost run away from wall 10 from 0s to 2.5s»: нет персонажа lost",
+    "строка 8 «act lost climb over wall 10 from 2.0s to 3.5s»: нет персонажа lost",
+    "строка 9 «face lost happy at 3.5s»: нет персонажа lost",
+    "строка 10 «act lost wave from 3.5s to 4.5s»: нет персонажа lost",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 17.7
+  },
+  {
+   "scene": 8,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall j yellow»: нет клетки j",
+    "строка 4 «hero kid lost near wall j»: нет детали wall на сцене",
+    "строка 5 «hero cop hero1 near wall j»: нет детали wall на сцене",
+    "строка 6 «cam wide on wall j at 0s»: cam <...> on <имя или деталь> at <время>s",
+    "строка 7 «act hero1 run to lost from 0s to 3.5s»: нет персонажа hero1",
+    "строка 8 «act hero1 jump over wall j from 2s to 3.5s»: нет персонажа hero1",
+    "строка 9 «face lost happy at 3.5s»: нет персонажа lost",
+    "строка 10 «act lost wave from 3.5s to 5s»: нет персонажа lost",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 16.7
+  },
+  {
+   "scene": 9,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «hero prisoner alex near lamp»: нет детали lamp на сцене",
+    "строка 8 «cam low on alex at 0s shake»: цель не персонаж, не деталь и не клетка: alex",
+    "строка 9 «act mike run to alex from 0s to 3s»: нет цели alex",
+    "строка 10 «act tom run to alex from 0s to 3s»: нет цели alex",
+    "строка 11 «face alex scared at 3.5s»: нет персонажа alex"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 18.8
+  },
+  {
+   "scene": 9,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall bars a white»: нет клетки bars",
+    "строка 4 «brick lamp c gray»: нет клетки c",
+    "строка 5 «hero prisoner near lamp»: где: near/behind/on <деталь или имя>",
+    "строка 6 «hero guard near wall bars a»: где: near/behind/on <деталь или имя>",
+    "строка 7 «hero guard near wall bars b»: где: near/behind/on <деталь или имя>",
+    "строка 8 «cam low on lamp at 0s [shake]»: cam <...> on <имя или деталь> at <время>s",
+    "строка 9 «act prisoner stand from 0s to 1s»: нет персонажа prisoner",
+    "строка 10 «act guard run to prisoner from 1s to 3.5s»: нет персонажа guard",
+    "строка 11 «act guard run to prisoner from 2s to 4s»: нет персонажа guard",
+    "строка 12 «face prisoner scared at 3s»: нет персонажа prisoner",
+    "строка 13 «fx alarm on prisoner at 3s»: цель не персонаж, не деталь и не клетка: prisoner",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 16.4
+  },
+  {
+   "scene": 9,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick tower near wall bars at 1 red»: brick <деталь> <клетка> <цвет>",
+    "строка 4 «brick tree near wall bars at 2 green»: brick <деталь> <клетка> <цвет>",
+    "строка 5 «hero prisoner prisoner_night near tree»: нет детали tree на сцене",
+    "строка 6 «hero guard guard_left behind brick tree at 4 blue»: не найдено, рядом с чем ставить: behind brick tree at 4 blue",
+    "строка 7 «hero guard guard_right behind brick tree at 6 yellow»: не найдено, рядом с чем ставить: behind brick tree at 6 yellow",
+    "строка 8 «cam low on prisoner_night at 0s shake»: цель не персонаж, не деталь и не клетка: prisoner_night",
+    "строка 9 «act guard_left run to prisoner_night from 0.5s to 3s»: нет персонажа guard_left",
+    "строка 10 «act guard_right run to prisoner_night from 1.5s to 3s»: нет персонажа guard_right",
+    "строка 11 «face prisoner_night scared at 2s»: нет персонажа prisoner_night",
+    "строка 12 «fx crash on tree from 3s to 4s»: fx <...> on <имя или деталь> at <время>s",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 20.2
+  },
+  {
+   "scene": 10,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 14 «act jinx stop from 2s to 3s»: нет действия stop",
+    "строка 15 «act alex happy near wall from 3s to 4s»: нет действия happy",
+    "строка 17 «act alex wave at 3.5s»: act <имя> <действие> <куда> from <начало>s to <конец>s",
+    "строка 18 «act mara happy near wall from 3s to 4s»: нет действия happy",
+    "строка 20 «act mara wave at 3.5s»: act <имя> <действие> <куда> from <начало>s to <конец>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 27.2
+  },
+  {
+   "scene": 10,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall bars car a1 gray»: brick <деталь> <клетка> <цвет>",
+    "строка 4 «hero cop patrick near car»: нет детали car на сцене",
+    "строка 5 «hero thief robby near car»: нет детали car на сцене",
+    "строка 6 «hero citizen john near car»: нет детали car на сцене",
+    "строка 7 «hero citizen jane behind car»: нет детали car на сцене",
+    "строка 8 «cam wide on car at 0s»: цель не персонаж, не деталь и не клетка: car",
+    "строка 9 «act patrick run to robby from 2s to 4s»: нет персонажа patrick",
+    "строка 10 «act robby stand from 3s to 5s»: нет персонажа robby",
+    "строка 11 «act john walk past block from 1s to 3s»: нет персонажа john",
+    "строка 12 «act jane wave from 2s to 4s»: нет персонажа jane",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 18.2
+  },
+  {
+   "scene": 10,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «brick wall bars car near tree blue»: brick <деталь> <клетка> <цвет>",
+    "строка 4 «hero cop <officer> near wall bars car»: нет детали wall на сцене",
+    "строка 5 «hero thief <burglar> behind wall bars car»: нет детали wall на сцене",
+    "строка 6 «hero citizen <pedestrian1> near tree»: нет детали tree на сцене",
+    "строка 7 «hero citizen <pedestrian2> near tree»: нет детали tree на сцене",
+    "строка 8 «cam wide on wall bars car at 0s»: cam <...> on <имя или деталь> at <время>s",
+    "строка 9 «act <burglar> run to wall bars car from 0s to 1.5s»: нет персонажа burglar",
+    "строка 10 «act <officer> run to <burglar> from 0s to 3s»: нет персонажа officer",
+    "строка 11 «act <burglar> stop to wall bars car from 2s to 3s»: нет персонажа burglar",
+    "строка 12 «act <pedestrian1> wave past <wall bars car> from 1s to 4s»: нет персонажа pedestrian1",
+    "строка 13 «act <pedestrian2> wave past <wall bars car> from 1s to 4s»: нет персонажа pedestrian2",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 25.2
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+len 5s
+plate white
+brick door d1 west red
+hero guard guard g5 east
+hero prisoner prisoner d7 north
+cam medium on g5 at 0s
+act prisoner sneak to d9 from 0.0s to 2.5s
+face guard surprised at 4.5s

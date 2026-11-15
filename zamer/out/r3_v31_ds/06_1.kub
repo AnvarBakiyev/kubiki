@@ -1,0 +1,13 @@
+len 5s
+plate gray
+brick wall gray
+brick door brown
+hero prisoner near door
+hero guard near wall
+cam wide on door at 0s
+act prisoner run away from door from 0s to 3s
+fx alarm on prisoner at 0.5s
+face guard angry at 1s
+cam medium on guard at 1.5s shake
+act guard stand from 3s to 5s
+cam follow on prisoner at 2s shake

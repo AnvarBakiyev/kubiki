@@ -1,0 +1,13 @@
+len 6s
+plate tan
+brick tower yellow
+brick block red
+brick crate blue
+hero citizen east of tower
+hero kid west of tower
+cam medium on tower at 0s
+act citizen run to kid from 0s to 3s
+face kid happy at 3s
+face citizen happy at 3s
+act kid wave from 3s to 6s
+act citizen wave from 3s to 6s

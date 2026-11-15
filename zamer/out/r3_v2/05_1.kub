@@ -1,0 +1,11 @@
+len 5s
+plate tan
+brick crate e3 east brown
+hero thief thief d4 north
+hero cop cop d3 south
+cam wide on d4 at 0s
+act thief run to f6 from 0s to 2.5s
+face thief scared at 2.5s
+act thief fall to e3 from 2.5s to 3s
+fx dust on thief at 3s
+act cop walk to d3 from 1s to 4s

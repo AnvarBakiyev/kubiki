@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick door a1 east white
+hero prisoner jack a2 north
+hero guard bob b3 south
+cam wide on b3 at 0s
+act jack run to j10 from 0s to 4.5s
+face bob angry at 4.5s
+fx alarm on b3 at 4.5s
+cam follow on jack at 4.5s shake

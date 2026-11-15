@@ -1,0 +1,14 @@
+len 6s
+plate gray
+brick wall gray
+brick wall gray
+brick wall gray
+hero prisoner west of wall
+hero cop east of wall
+cam follow on cop at 0s shake
+act prisoner run past wall from 0s to 3s
+act cop run past wall from 0s to 3s
+act prisoner run away from cop from 3s to 6s
+act cop run to prisoner from 3s to 6s
+face cop angry at 3s
+fx dust on cop at 3s

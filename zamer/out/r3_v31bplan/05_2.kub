@@ -1,0 +1,10 @@
+len 5s
+plate tan
+brick crate brown
+hero thief near block
+hero cop behind block
+act thief stumble past block from 0s to 1s
+act thief fall to ground from 1s to 2s
+fx dust on thief at 2s
+cam wide on crate at 3s
+act cop run to thief from 4s to 5s

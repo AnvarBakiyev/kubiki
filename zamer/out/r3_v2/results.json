@@ -1,0 +1,566 @@
+{
+ "model": "qwen3.5:9b",
+ "cfg": "v2",
+ "summary": {
+  "valid": 14,
+  "must": 8,
+  "full": 1,
+  "n": 30,
+  "scenes_full_any": [
+   6
+  ],
+  "scenes_full_majority": []
+ },
+ "results": [
+  {
+   "scene": 1,
+   "rep": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:prisoner:run"
+   ],
+   "staging": [
+    "заключённый не перелезает через стену",
+    "охранник не проходит мимо решётки"
+   ],
+   "fixes": 1,
+   "sec": 17.6
+  },
+  {
+   "scene": 1,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 10 «climb John jump to b6 from 3.5s to 4.5s»: нет команды climb"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 11.6
+  },
+  {
+   "scene": 1,
+   "rep": 3,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:prisoner:run"
+   ],
+   "staging": [],
+   "fixes": 2,
+   "sec": 8.3
+  },
+  {
+   "scene": 2,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «hero cop e2 north»: hero <вид> <имя> <клетка> <направление>",
+    "строка 8 «act cop run to g1 from 0s to 5s»: нет персонажа cop"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 10.8
+  },
+  {
+   "scene": 2,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero thief rob to d3 from 0.5s to 2.5s»: hero <вид> <имя> <клетка> <направление>",
+    "строка 5 «hero cop jack to f3 from 0.5s to 2.5s»: hero <вид> <имя> <клетка> <направление>",
+    "строка 6 «cam follow on rob at 0s»: цель не персонаж и не клетка: rob",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 5.8
+  },
+  {
+   "scene": 2,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero thief rob at a2 south»: hero <вид> <имя> <клетка> <направление>",
+    "строка 6 «cam follow on rob at 0s»: цель не персонаж и не клетка: rob",
+    "строка 7 «act rob run to g5 from 0s to 5s»: нет персонажа rob",
+    "строка 9 «fx dust on rob at 0.5s»: цель не персонаж и не клетка: rob"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 5,
+   "sec": 7.8
+  },
+  {
+   "scene": 3,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero kid kid c1 top»: нет направления top",
+    "строка 6 «face kid scared at 0.5s»: нет персонажа kid",
+    "строка 7 «cop cop c2 south»: нет команды cop",
+    "строка 8 «act cop climb to c1 from 1s to 4s»: нет персонажа cop",
+    "строка 9 «face kid happy at 3.5s»: нет персонажа kid",
+    "строка 10 «fx flash on kid at 4.5s»: цель не персонаж и не клетка: kid",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 11.6
+  },
+  {
+   "scene": 3,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "ребёнок не на вышке"
+   ],
+   "fixes": 3,
+   "sec": 9.9
+  },
+  {
+   "scene": 3,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "ребёнок не на вышке",
+    "полицейский не забирается на вышку"
+   ],
+   "fixes": 0,
+   "sec": 8.3
+  },
+  {
+   "scene": 4,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "заключённый не крадётся мимо охранника"
+   ],
+   "fixes": 0,
+   "sec": 10.3
+  },
+  {
+   "scene": 4,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero guard j3 south wall»: нет клетки south",
+    "строка 5 «hero prisoner a10 north sneak»: нет клетки north",
+    "строка 7 «act prisoner walk to d8 from 0s to 4s»: нет персонажа prisoner",
+    "строка 8 «face guard surprised at 5s»: нет персонажа guard",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 5.8
+  },
+  {
+   "scene": 4,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "охранник не у двери",
+    "заключённый не крадётся мимо охранника"
+   ],
+   "fixes": 0,
+   "sec": 6.1
+  },
+  {
+   "scene": 5,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "вор падает не у ящика",
+    "полицейский не подбегает к вору"
+   ],
+   "fixes": 1,
+   "sec": 13.5
+  },
+  {
+   "scene": 5,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 8 «thug face scared at 1.5s»: нет команды thug"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 9.2
+  },
+  {
+   "scene": 5,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "вор падает не у ящика"
+   ],
+   "fixes": 2,
+   "sec": 10.0
+  },
+  {
+   "scene": 6,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «guard mike b3 north»: нет команды guard",
+    "строка 8 «face mike angry at 1.5s»: нет персонажа mike",
+    "строка 9 «fx alarm on mike at 1.5s»: цель не персонаж и не клетка: mike",
+    "строка 10 «cam shake on a1 at 2.0s»: нет слова shake"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 11.7
+  },
+  {
+   "scene": 6,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero prisoner p1 north j1»: нет клетки north",
+    "строка 5 «hero guard g1 south j1»: нет клетки south",
+    "строка 7 «act prisoner run to h1 from 0s to 4s»: нет персонажа prisoner",
+    "строка 8 «face guard angry at 3s»: нет персонажа guard",
+    "строка 10 «cam follow on prisoner at 1s shake»: цель не персонаж и не клетка: prisoner",
+    "строка 11 «act prisoner walk to g1 from 3s to 5s»: нет персонажа prisoner",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 8.8
+  },
+  {
+   "scene": 6,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 0,
+   "sec": 8.0
+  },
+  {
+   "scene": 7,
+   "rep": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:thief:hide",
+    "act:cop:walk"
+   ],
+   "staging": [
+    "вор прячется не у дерева",
+    "полицейский не проходит мимо вора"
+   ],
+   "fixes": 1,
+   "sec": 11.0
+  },
+  {
+   "scene": 7,
+   "rep": 2,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:thief:hide"
+   ],
+   "staging": [
+    "вор прячется не у дерева"
+   ],
+   "fixes": 0,
+   "sec": 8.9
+  },
+  {
+   "scene": 7,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 10 «polys walk to a2 from 2s to 4s»: нет команды polys"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 8.4
+  },
+  {
+   "scene": 8,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не перепрыгивает стену"
+   ],
+   "fixes": 2,
+   "sec": 15.2
+  },
+  {
+   "scene": 8,
+   "rep": 2,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:cop:jump|act:cop:climb"
+   ],
+   "staging": [
+    "полицейский не перепрыгивает стену"
+   ],
+   "fixes": 0,
+   "sec": 7.2
+  },
+  {
+   "scene": 8,
+   "rep": 3,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:kid:wave"
+   ],
+   "staging": [
+    "полицейский не перепрыгивает стену"
+   ],
+   "fixes": 3,
+   "sec": 7.4
+  },
+  {
+   "scene": 9,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «fx dust on tower at 0s»: цель не персонаж и не клетка: tower",
+    "строка 5 «cam top on tower at 0s shake»: цель не персонаж и не клетка: tower",
+    "строка 12 «bob run to f8 from 0s to 1s»: нет команды bob",
+    "строка 13 «bob run to f7 from 1s to 2.5s»: нет команды bob",
+    "строка 14 «bob run to f6 from 2.5s to 4s»: нет команды bob"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 15.6
+  },
+  {
+   "scene": 9,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «fx dust on citizen at 0s»: цель не персонаж и не клетка: citizen"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 8.2
+  },
+  {
+   "scene": 9,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «act john stand at 0s to 5s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 2,
+   "sec": 10.3
+  },
+  {
+   "scene": 10,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero cop d1 north»: hero <вид> <имя> <клетка> <направление>",
+    "строка 5 «hero thief c2 west»: hero <вид> <имя> <клетка> <направление>",
+    "строка 6 «hero citizen b5 south»: hero <вид> <имя> <клетка> <направление>",
+    "строка 7 «hero citizen e4 north»: hero <вид> <имя> <клетка> <направление>",
+    "строка 9 «act cop walk to c2 from 0s to 2.5s»: нет персонажа cop",
+    "строка 10 «act thief run to b5 from 0s to 1.5s»: нет персонажа thief",
+    "строка 11 «act thief stop from 1.5s to 2.5s»: нет персонажа thief",
+    "строка 12 «face citizen b5 happy at 1s»: face <имя> <лицо> at <время>s",
+    "строка 13 «face citizen e4 happy at 1s»: face <имя> <лицо> at <время>s",
+    "строка 14 «act citizen b5 wave from 1s to 3s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "строка 15 «act citizen e4 wave from 1s to 3s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 14.0
+  },
+  {
+   "scene": 10,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 11 «act mike stop at a5 from 1.5s to 5.0s»: to <клетка>"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 2,
+   "sec": 11.5
+  },
+  {
+   "scene": 10,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 6 «hero thief d11 south»: hero <вид> <имя> <клетка> <направление>",
+    "строка 11 «hero citizen a2 west»: hero <вид> <имя> <клетка> <направление>",
+    "строка 12 «hero citizen b2 east»: hero <вид> <имя> <клетка> <направление>",
+    "строка 7 «car car d11 north black»: нет команды car",
+    "строка 8 «act cian walk to a11 from 1.5s to 4s»: to <клетка>",
+    "строка 9 «act d11 walk to e11 from 1.5s to 3s»: to <клетка>",
+    "строка 10 «act d11 stand at 3s to 5s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "строка 13 «cam wide on d11 at 0s»: цель не персонаж и не клетка: d11",
+    "строка 14 «face a2 happy at 4.5s»: нет персонажа a2",
+    "строка 15 «face b2 happy at 4.5s»: нет персонажа b2",
+    "строка 16 «act a2 wave to a11 from 3s to 5s»: to <клетка>",
+    "строка 17 «act b2 wave to a11 from 3s to 5s»: to <клетка>"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 2,
+   "sec": 14.2
+  }
+ ]
+}

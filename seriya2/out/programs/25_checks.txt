@@ -1,0 +1,6 @@
+brick tower  
+hero kid  
+start kid on tower  
+act kid jump  
+face kid happy  
+cam close

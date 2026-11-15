@@ -1,0 +1,7 @@
+brick car  
+hero cop  
+hero kid  
+act cop wave  
+act kid wave  
+face kid happy  
+cam medium

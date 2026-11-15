@@ -1,0 +1,14 @@
+brick bars  
+brick wall  
+hero prisoner  
+hero guard  
+start prisoner near bars  
+start guard near bars  
+act guard walk  
+away guard prisoner  
+over prisoner wall  
+act prisoner climb  
+act prisoner run  
+cam wide  
+cam close  
+end prisoner near wall

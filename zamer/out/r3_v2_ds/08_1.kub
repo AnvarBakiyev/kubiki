@@ -1,0 +1,21 @@
+len 5s
+plate gray
+brick wall a1 east gray
+brick wall a2 east gray
+brick wall a3 east gray
+brick wall a4 east gray
+brick wall a5 east gray
+brick wall a6 east gray
+brick wall a7 east gray
+brick wall a8 east gray
+brick wall a9 east gray
+brick wall a10 east gray
+hero kid kid a10 south
+hero cop cop a1 east
+cam wide on a1 at 0s
+act cop run to a5 from 0s to 2.5s
+act cop jump to a10 from 2.5s to 4s
+act kid wave from 2.5s to 5s
+face kid happy at 3s
+cam close on kid at 3.5s
+fx dust on cop at 2.5s

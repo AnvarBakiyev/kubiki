@@ -1,0 +1,7 @@
+brick lamp
+hero cop
+hero kid
+start cop near lamp
+act kid wave
+face cop surprised
+cam close

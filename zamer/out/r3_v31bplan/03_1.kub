@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick tower gray
+hero citizen on tower
+hero cop near tower
+face citizen scared at 0s
+cam low on citizen at 0s
+cop run over tower from 2s to 4s
+cop climb onto tower from 4s to 5s
+citizen happy at 4s

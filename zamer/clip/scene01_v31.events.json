@@ -1,0 +1,74 @@
+{
+"events": [
+{
+"t": 1.25,
+"sfx": "step"
+},
+{
+"t": 1.5,
+"sfx": "step"
+},
+{
+"t": 1.75,
+"sfx": "step"
+},
+{
+"t": 2.156,
+"sfx": "step"
+},
+{
+"t": 2.312,
+"sfx": "step"
+},
+{
+"t": 2.469,
+"sfx": "step"
+},
+{
+"t": 2.625,
+"sfx": "step"
+},
+{
+"t": 2.781,
+"sfx": "step"
+},
+{
+"t": 3.0,
+"sfx": "whoosh"
+},
+{
+"t": 4.0,
+"sfx": "land"
+},
+{
+"t": 4.156,
+"sfx": "step"
+},
+{
+"t": 4.312,
+"sfx": "step"
+},
+{
+"t": 4.469,
+"sfx": "step"
+},
+{
+"t": 4.625,
+"sfx": "step"
+},
+{
+"t": 4.781,
+"sfx": "step"
+},
+{
+"t": 4.938,
+"sfx": "step"
+}
+],
+"earshot_ids": {
+"knock/plastic": 14,
+"whoosh_fast/crisp": 1,
+"impact/punch": 1,
+"cut_hit/sub": 1
+}
+}

@@ -1,0 +1,9 @@
+brick tree
+brick lamp
+hero citizen
+hero kid
+start citizen near lamp
+start kid near lamp
+act citizen walk
+act kid walk
+cam wide

@@ -1,0 +1,11 @@
+len 5s
+plate brown
+brick crate d2 north yellow
+hero thief thug d7 south
+hero cop police a7 north
+cam wide on d1 at 0s
+act thug run to d3 from 0s to 1s
+thug face scared at 1.5s
+act thug fall from 2s to 3s
+fx dust on thug at 3s
+act police walk to d4 from 1s to 3s

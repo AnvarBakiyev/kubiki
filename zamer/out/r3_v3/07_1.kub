@@ -1,0 +1,14 @@
+len 5s
+plate gray
+brick tree a1 green
+brick wall bars car b2 brown
+hero thief crook behind tree
+hero cop mike near block
+cam wide on block at 0s
+act crook stand from 0s to 5s
+face mike calm at 0s
+act mike walk past tree from 0.5s to 3.5s
+face mike calm at 1.5s
+act mike walk past tree from 3.5s to 5s
+face crook sly at 4s
+cam close on crook at 4s

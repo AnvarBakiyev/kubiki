@@ -1,0 +1,14 @@
+len 5s
+plate gray
+brick wall j1 e white
+hero lostkid kid i2 n
+hero cop cop h9 w
+cam wide on j1 at 0s
+act lostkid stand from 0s to 5s
+face lostkid scared at 1s
+act cop run to i9 from 3s to 4.5s
+fx alarm on cop at 4.2s
+act cop jump to i1 from 4.5s to 5s
+cam close on i9 at 4.8s shake
+face lostkid happy at 4.8s
+act lostkid wave from 4.8s to 5s

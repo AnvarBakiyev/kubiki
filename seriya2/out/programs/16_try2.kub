@@ -1,0 +1,7 @@
+len 6s
+plate gray
+brick crate brown
+hero thief behind crate
+cam close on thief at 0s
+face thief sly at 0s
+act thief hide behind crate from 0s to 6s

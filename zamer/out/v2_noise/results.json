@@ -1,0 +1,60 @@
+{
+ "model": "qwen3.5:9b",
+ "lang": "2",
+ "mode": "noise",
+ "results": [
+  {
+   "scene": 1,
+   "rep": 1,
+   "ok": false,
+   "errors": [],
+   "missing": [
+    "act:prisoner:run"
+   ],
+   "fixes": [
+    "hero prisoner jake a2 east: персонаж перенесён с детали bars на b2",
+    "hero guard mike c2 west: персонаж перенесён с детали wall на c1"
+   ],
+   "sec": 20.5,
+   "prompt_tokens": 919,
+   "out_tokens": 109
+  },
+  {
+   "scene": 1,
+   "rep": 2,
+   "ok": false,
+   "errors": [
+    "строка 8 «act guard alex walk to b2 from 0s to 2.5s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "строка 9 «face prisoner tom scared at 1s»: face <имя> <лицо> at <время>s",
+    "строка 10 «act prisoner tom climb to c2 from 2.6s to 4s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "строка 11 «act prisoner tom run to d2 from 3.8s to 4.9s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s"
+   ],
+   "missing": [
+    "act:guard:walk",
+    "act:prisoner:climb|act:prisoner:jump",
+    "act:prisoner:run"
+   ],
+   "fixes": [
+    "hero prisoner tom a3 north: персонаж перенесён с детали wall на b3"
+   ],
+   "sec": 18.1,
+   "prompt_tokens": 919,
+   "out_tokens": 122
+  },
+  {
+   "scene": 1,
+   "rep": 3,
+   "ok": false,
+   "errors": [],
+   "missing": [
+    "act:prisoner:run"
+   ],
+   "fixes": [],
+   "sec": 8.7,
+   "prompt_tokens": 919,
+   "out_tokens": 121
+  }
+ ],
+ "ok": 0,
+ "n": 3
+}

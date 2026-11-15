@@ -1,0 +1,10 @@
+len 5s
+plate tan
+brick tower c7 n blue
+hero cop1 cop c6 e
+hero kid2 kid c8 w
+cam low on c7 at 0s
+act cop1 run to c7 from 0s to 4s
+face kid2 scared at 1.5s
+act cop1 climb to c7 from 4s to 5s
+face kid2 happy at 4.5s

@@ -1,0 +1,7 @@
+brick car
+hero cop
+hero thief
+act cop walk
+act thief walk
+face thief scared
+cam wide

@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick tree d1 north green
+hero thief badguy d2 east
+hero cop officer c4 south
+cam wide on d1 at 0s
+act thief sneak to e3 from 0.5s to 4s
+face badguy sly at 4.5s
+cam close on badguy at 4.8s

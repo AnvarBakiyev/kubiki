@@ -1,0 +1,14 @@
+len 5s
+plate gray
+brick door j10 north brown
+brick tower i10 south gray
+brick wall h10 west gray
+brick crate g10 north yellow
+hero prisoner Bob j10 south
+hero guard Sam a1 east
+cam wide on j10 at 0s
+act Bob run to e10 from 0s to 3s
+act Bob climb to d10 from 3s to 4s
+fx alarm on Bob at 3s
+face Sam angry at 3.5s
+cam close on Sam at 3.5s shake

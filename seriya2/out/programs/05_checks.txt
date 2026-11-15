@@ -1,0 +1,7 @@
+brick lamp
+hero citizen
+start citizen near lamp
+act citizen stand
+face citizen calm
+face citizen surprised
+cam close

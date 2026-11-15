@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick tower gray
+hero kid on tower
+hero cop near tower
+cam low on tower at 0s
+act kid stand from 1s to 2s
+face kid scared at 2s
+act cop run to tower from 3s to 4s
+act cop climb onto tower from 4s to 5s
+face kid happy at 5s

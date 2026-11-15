@@ -1,0 +1,9 @@
+len 6s
+plate gray
+brick wall gray
+brick bars gray
+hero prisoner near bars
+cam close on prisoner at 0s
+act prisoner push from 0s to 2s
+fx flash on prisoner at 2s
+face prisoner surprised at 2.5s

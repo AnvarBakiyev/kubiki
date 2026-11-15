@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick car <a1> brown
+hero thief stealer near wall
+hero guard cop on wall
+cam follow on stealer at 0s
+act stealer run to wall from 0s to 5s
+act cop run to wall from 0s to 5s
+fx alarm on stealer at 2.5s

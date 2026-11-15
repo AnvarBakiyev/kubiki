@@ -1,0 +1,9 @@
+brick crate
+hero thief
+hero police
+act thief run
+act thief fall
+away thief police
+fx dust
+act police run
+end police near thief

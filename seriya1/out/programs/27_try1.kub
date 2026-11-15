@@ -1,0 +1,12 @@
+len 6s
+plate green
+brick tree green
+brick block gray
+hero cop west of tree
+hero guard east of tree
+cam medium on tree at 0s
+act cop wave from 0s to 3s
+face guard surprised at 1.5s
+act guard stand from 0s to 4s
+face guard happy at 4s
+act cop walk past guard from 3s to 6s

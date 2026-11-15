@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick door a1 white
+hero prisoner john near door
+hero guard mike behind door
+act john run away from door from 1s to 2s
+fx alarm on door at 3s
+face mike angry at 3s
+cam follow on john at 0s shake

@@ -1,0 +1,14 @@
+len 6s
+plate green
+brick tree green
+hero citizen near tree
+hero citizen2 near tree
+cam wide on tree at 0s
+face citizen happy at 0s
+act citizen wave from 0s to 3s
+face citizen2 happy at 0s
+act citizen2 wave from 0s to 3s
+face citizen calm at 3s
+act citizen stand from 3s to 6s
+face citizen2 calm at 3s
+act citizen2 stand from 3s to 6s

@@ -1,0 +1,10 @@
+len 6s
+plate gray
+brick car blue
+hero cop west of car
+hero thief east of car
+cam wide on car at 0s
+face thief scared at 0s
+act cop walk to car from 0s to 3s
+act thief walk to car from 0s to 3s
+face thief scared at 3s

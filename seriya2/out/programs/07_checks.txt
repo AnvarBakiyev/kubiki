@@ -1,0 +1,6 @@
+brick door  
+hero thief  
+act thief sneak  
+act thief push  
+start thief near door  
+cam medium

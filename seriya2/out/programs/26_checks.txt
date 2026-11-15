@@ -1,0 +1,8 @@
+brick tower  
+hero citizen  
+hero kid  
+act citizen run  
+end citizen near kid  
+act kid happy  
+act citizen happy  
+cam medium

@@ -1,0 +1,7 @@
+brick car
+hero prisoner
+hero citizen
+past prisoner car
+act prisoner run
+face citizen surprised
+cam follow

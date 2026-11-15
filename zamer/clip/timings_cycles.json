@@ -1,0 +1,20 @@
+{
+ "engine": "cycles",
+ "res": "1920x1080",
+ "samples": 64,
+ "fps": 12,
+ "frames": [
+  0,
+  24,
+  48
+ ],
+ "sec": [
+  48.6,
+  79.85,
+  101.88
+ ],
+ "devices": [
+  "Apple M2 Pro",
+  "Apple M2 Pro (GPU - 16 cores)"
+ ]
+}

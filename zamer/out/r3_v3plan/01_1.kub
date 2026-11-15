@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick wall near tree a1 black
+hero prisoner name1 behind wall
+hero guard name2 walk past wall from 0s to 3s
+cam wide on wall at 0s
+act name2 away from wall from 0s to 3s
+act name1 climb over wall from 3s to 4s
+act name1 run away from wall from 4s to 5s
+cam close on name1 at 5s

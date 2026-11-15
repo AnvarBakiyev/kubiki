@@ -1,0 +1,13 @@
+len 5s
+plate tan
+brick wall brown
+hero kid behind wall
+hero cop near wall
+cam wide on wall at 0s
+face kid scared at 0s
+act cop run away from wall from 0s to 1.5s
+act cop jump over wall from 1.5s to 3s
+face kid surprised at 2.5s
+face kid happy at 3.5s
+act kid wave from 3.5s to 5s
+cam follow on kid at 3.5s

@@ -1,0 +1,9 @@
+brick tower
+hero kid
+hero prisoner
+away kid tower
+away prisoner tower
+act kid walk
+act prisoner walk
+start kid near prisoner
+cam wide

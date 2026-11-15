@@ -1,0 +1,8 @@
+brick tower
+hero prisoner
+hero kid
+act prisoner climb
+onto prisoner tower
+end prisoner near kid
+face kid scared
+cam low

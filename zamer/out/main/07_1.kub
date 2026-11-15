@@ -1,0 +1,10 @@
+len 5s
+plate white
+brick tree a5 e green
+brick crate a6 n brown
+hero thief badboy a4 n
+hero cop officer b7 s
+cam wide on a1 at 0s
+act officer walk to b8 from 1.5s to 4.5s
+face badboy sly at 3s
+cam close on badboy at 4s

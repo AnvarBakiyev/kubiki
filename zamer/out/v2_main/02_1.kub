@@ -1,0 +1,8 @@
+len 5s
+plate gray
+brick car d7 north white
+hero thief bagger d2 east
+hero cop b12 west
+cam follow on thief at 0s
+act thief run to i2 from 0s to 4s
+act cop chase to i10 from 0s to 4.5s

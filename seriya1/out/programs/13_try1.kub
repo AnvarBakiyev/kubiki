@@ -1,0 +1,8 @@
+len 6s
+plate gray
+brick crate brown
+hero prisoner east of crate
+cam medium on prisoner at 0s
+act prisoner trip over crate from 0s to 3s
+fx dust on prisoner at 2.5s
+act prisoner stand from 3s to 6s

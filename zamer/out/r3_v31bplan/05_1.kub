@@ -1,0 +1,9 @@
+len 5s
+plate gray
+hero thief near road
+hero cop near road
+act thief run to road from 0s to 1s
+act thief fall over road from 1s to 3s
+fx dust on air from 2s to 4s
+cam top follow thief at 2s shake
+act cop run to thief from 2s to 5s

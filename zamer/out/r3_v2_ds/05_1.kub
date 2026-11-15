@@ -1,0 +1,13 @@
+len 5s
+plate gray
+brick crate d5 north brown
+hero thief Jack d6 west
+hero cop Tom e5 north
+cam wide on d6 at 0s
+act Jack run to d4 from 0s to 2s
+act Jack fall from 2s to 3s
+fx dust on Jack at 2.5s
+act Jack stand from 3s to 4s
+act Tom run to d5 from 2s to 4s
+cam close on Tom at 4s
+face Jack scared at 4s

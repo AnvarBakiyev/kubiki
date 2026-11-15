@@ -1,0 +1,8 @@
+len 6s
+plate green
+brick tree green
+hero citizen west of tree
+cam follow on citizen at 0s
+face citizen scared at 0s
+act citizen run to tree from 0s to 3s
+act citizen hide behind tree from 3s to 6s

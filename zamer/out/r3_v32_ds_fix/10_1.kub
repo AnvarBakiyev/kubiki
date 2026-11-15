@@ -1,0 +1,20 @@
+len 5s
+plate gray
+brick car yellow
+brick wall red
+brick block blue
+hero cop west of car
+hero thief east of car
+hero kid north of car
+hero citizen south of car
+cam wide on car at 0s
+act cop run to car from 0s to 2.5s
+act thief run to car from 0s to 2.5s
+act thief stop at car from 2.5s to 3s
+act cop stop at car from 2.5s to 3s
+face kid happy at 2.5s
+face citizen happy at 2.5s
+act kid wave from 2.5s to 5s
+act citizen wave from 2.5s to 5s
+face cop angry at 3s
+face thief scared at 3s

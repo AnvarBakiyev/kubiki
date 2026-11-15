@@ -1,0 +1,14 @@
+len 6s
+plate gray
+brick car black
+hero thief near car
+hero cop west of car
+cam wide on car at 0s
+face thief scared at 0s
+act cop run past car from 0s to 4s
+face cop calm at 4s
+act cop stand from 4s to 6s
+act thief hide behind car from 0s to 2s
+face thief sly at 2s
+act thief stand from 2s to 6s
+cam follow on cop at 3s

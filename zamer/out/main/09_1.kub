@@ -1,0 +1,12 @@
+len 5s
+plate black
+brick tower a1 n white
+brick wall b3 e blue
+brick lamp a7 s red
+hero pr1 prisoner a1 n
+hero guard1 cop b1 w
+hero guard2 cop d1 s
+cam low on a7 at 0s shake
+act guard1 run to a1 from 1s to 2s
+act guard2 run to a1 from 3s to 4s
+face pr1 scared at 2s

@@ -1,0 +1,10 @@
+len 6s
+plate gray
+brick wall gray
+hero prisoner behind wall
+hero cop behind wall
+cam wide on prisoner at 0s
+act prisoner stand from 0s to 1.5s
+act prisoner run away from cop from 1.5s to 4s
+face cop angry at 1.5s
+act cop run past prisoner from 2s to 6s

@@ -1,0 +1,10 @@
+len 5s
+plate white
+brick wall 10 gray
+hero kid lost behind wall 10
+hero cop near brick tree
+cam wide on wall 10 at 0s
+act lost run away from wall 10 from 0s to 2.5s
+act lost climb over wall 10 from 2.0s to 3.5s
+face lost happy at 3.5s
+act lost wave from 3.5s to 4.5s

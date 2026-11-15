@@ -1,0 +1,6 @@
+brick bars  
+hero prisoner  
+act prisoner push bars  
+fx flash  
+face prisoner surprised  
+cam close

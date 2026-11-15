@@ -1,0 +1,7 @@
+len 5s
+plate gray
+brick crate tan
+act thief run away from wall from 0s to 5s
+fx dust on thief at 2.5s
+act thief fall from 3s to 4s
+act cop run to thief from 1s to 4s

@@ -1,0 +1,14 @@
+len 6s
+plate gray
+brick car red
+brick wall gray
+hero cop east of car
+hero kid west of car
+cam medium on car at 0s
+act cop walk to car from 0s to 2s
+face cop calm at 2s
+act cop wave from 2s to 4s
+face kid happy at 3s
+act kid wave from 3s to 5s
+act kid walk to car from 4s to 6s
+face kid happy at 5s

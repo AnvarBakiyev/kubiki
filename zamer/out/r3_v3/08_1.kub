@@ -1,0 +1,10 @@
+len 5s
+plate white
+brick wall bars <a1> black
+hero kid lost near <a1>
+hero cop patrol <a2>
+cam wide on <a1> at 0s
+act patrol run to <a1> from 0.5s to 1.5s
+act lost wave from 0s to 5s
+act patrol jump over <a1> from 1.5s to 3.5s
+act lost happy at 3.5s

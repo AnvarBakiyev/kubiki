@@ -1,0 +1,9 @@
+len 6s
+plate green
+brick tower gray
+brick tree green
+brick tree green
+hero prisoner west of tower
+cam follow on prisoner at 0s
+act prisoner run to tower from 0s to 6s
+face prisoner scared at 6s

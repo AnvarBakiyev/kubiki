@@ -1,0 +1,7 @@
+len 5s
+plate gray
+brick wall bars car near a1 blue
+hero thief bag near a2
+hero cop run past car from 0s to 5s
+act thief run past car from 0s to 5s
+cam follow on thief at 0s

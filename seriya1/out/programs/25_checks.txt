@@ -1,0 +1,10 @@
+brick tower
+hero prisoner
+hero cop
+start prisoner near tower
+act prisoner stand
+face prisoner calm
+act cop walk
+end cop near prisoner
+face cop happy
+cam medium

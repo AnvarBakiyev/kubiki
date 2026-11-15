@@ -1,0 +1,11 @@
+len 5s
+plate black
+brick lamp d5 north yellow
+hero prisoner jeff d5 south
+hero guard boris b5 east
+hero guard charles f5 west
+cam low on jeff at 0s shake
+act jeff stand from 0s to 5s
+act boris run to d5 from 0s to 4s
+act charles run to d5 from 0s to 4s
+face jeff scared at 2s

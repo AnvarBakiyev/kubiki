@@ -1,0 +1,11 @@
+len 6s
+plate tan
+brick crate brown
+hero thief near crate
+hero cop east of crate
+cam medium on cop at 0s
+face cop angry at 0s
+act cop run to thief from 0s to 4s
+act cop stop at thief from 4s to 6s
+face thief scared at 4s
+act thief push from 0s to 6s

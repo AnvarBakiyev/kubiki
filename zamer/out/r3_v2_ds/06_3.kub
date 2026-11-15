@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick door e4 north tan
+hero prisoner prisoner d3 east
+hero guard guard e6 west
+cam wide on e4 at 0s
+act prisoner run to d2 from 0s to 1.5s
+act prisoner sneak to f4 from 1.5s to 3s
+fx alarm on prisoner at 3s
+face guard angry at 3s
+cam close on guard at 3s shake

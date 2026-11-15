@@ -1,0 +1,7 @@
+brick crate
+hero thief
+act thief sneak
+past thief crate
+hide thief
+act thief hide
+cam medium

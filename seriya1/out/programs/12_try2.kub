@@ -1,0 +1,12 @@
+len 6s
+plate gray
+brick wall gray
+brick car gray
+hero prisoner west of wall
+hero cop east of car
+cam follow on cop at 0s shake
+act cop run past car from 0s to 3s
+act prisoner run past wall from 0s to 3s
+act cop run past wall from 3s to 6s
+act prisoner run past car from 3s to 6s
+cam low on cop at 6s shake

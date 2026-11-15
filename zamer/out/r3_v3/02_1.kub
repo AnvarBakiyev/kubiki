@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick car <a1> tan
+hero thief <bob> near tree
+hero cop <jake> past tree
+cam wide on bob at 0s
+act bob run to a1 from 0s to 2.5s
+act jake run past car from 0s to 2.5s
+cam follow on bob at 2.5s

@@ -1,0 +1,14 @@
+len 5s
+plate green
+brick tree green
+brick block gray
+brick crate brown
+hero thief behind tree
+hero cop near block
+cam wide on tree at 0s
+face cop calm at 0s
+face thief sly at 0s
+act cop walk past tree from 0s to 4s
+cam medium on thief at 2s
+cam close on thief at 4s
+face thief sly at 4s

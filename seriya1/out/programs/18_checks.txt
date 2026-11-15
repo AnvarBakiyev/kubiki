@@ -1,0 +1,8 @@
+brick tree
+brick tower
+hero prisoner
+hero kid
+start prisoner near tree
+start kid on tower
+face prisoner surprised
+cam close

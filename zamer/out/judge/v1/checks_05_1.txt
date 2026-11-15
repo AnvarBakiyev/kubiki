@@ -1,0 +1,12 @@
+brick crate
+brick tree
+hero thief
+hero guard
+start thief near crate
+act thief run
+away thief guard
+act thief fall
+over thief crate
+fx dust
+act guard run
+end guard near thief

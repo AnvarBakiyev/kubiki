@@ -1,0 +1,14 @@
+len 5s
+plate gray
+brick crate brown
+hero thief near crate
+hero cop away from crate
+act thief run to left from 0s to 1s
+cam close on thief at 1s
+act thief trip over crate from 2s to 2.5s
+act thief fall down from 2.5s to 3s
+fx dust on thief at 3s
+act cop run to thief from 3s to 4s
+cam low on thief and cop at 4s
+act cop stand near thief from 4.5s to 5s
+face cop calm at 4.5s

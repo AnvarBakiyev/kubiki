@@ -1,0 +1,13 @@
+len 6s
+plate green
+brick tree green
+brick lamp tan
+hero citizen near lamp
+hero kid west of lamp
+cam medium on lamp at 0s
+face kid scared at 0s
+act kid run away from lamp from 0s to 3s
+act kid hide behind tree from 3s to 6s
+face citizen calm at 0s
+act citizen stand from 0s to 6s
+cam medium on tree at 3s

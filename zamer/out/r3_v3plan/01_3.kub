@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick wall bars a1 tan
+brick wall block a2 gray
+hero prisoner Alex behind wall bars a1
+hero guard Mike near wall block a2
+cam wide on wall bars a1 at 0s
+act Mike walk to wall block a2 from 0.0s to 2.0s
+act Alex climb over wall block a2 from 2.0s to 4.0s
+cam close on Alex at 4.0s

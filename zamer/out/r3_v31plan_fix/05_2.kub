@@ -1,0 +1,10 @@
+len 5s
+brick crate brown
+hero cop near camera
+hero thief near block
+cam top on camera at 0s
+act thief run to farthest from 0s to 2s
+act thief fall over block from 1.5s to 2s
+fx dust on thief at 2s
+cam low on thief at 2s shake
+act cop run past camera to thief from 3s to 4s

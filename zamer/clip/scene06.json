@@ -1,0 +1,173 @@
+{
+ "len": 5.0,
+ "plate": "gray",
+ "bricks": [
+  {
+   "kind": "door",
+   "cells": [
+    [
+     0,
+     0
+    ]
+   ],
+   "dir": "n",
+   "color": "white"
+  }
+ ],
+ "heroes": {
+  "bob": {
+   "look": "prisoner",
+   "cell": [
+    0,
+    1
+   ],
+   "dir": "s",
+   "line": "hero prisoner bob a1 south",
+   "end": [
+    8,
+    8
+   ]
+  },
+  "robby": {
+   "look": "guard",
+   "cell": [
+    1,
+    0
+   ],
+   "dir": "n",
+   "line": "hero guard robby b1 north",
+   "end": [
+    0,
+    4
+   ]
+  }
+ },
+ "acts": [
+  {
+   "hero": "bob",
+   "act": "run",
+   "dest": [
+    8,
+    8
+   ],
+   "t0": 0.0,
+   "t1": 5.0,
+   "line": 7,
+   "src": "act bob run to i9 from 0s to 5s",
+   "from": [
+    0,
+    1
+   ],
+   "path": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     7,
+     7
+    ],
+    [
+     8,
+     8
+    ]
+   ]
+  },
+  {
+   "hero": "robby",
+   "act": "run",
+   "dest": [
+    0,
+    4
+   ],
+   "t0": 2.0,
+   "t1": 3.0,
+   "line": 8,
+   "src": "act robby run to a5 from 2s to 3s",
+   "from": [
+    1,
+    0
+   ],
+   "path": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ]
+   ]
+  }
+ ],
+ "faces": [
+  {
+   "hero": "robby",
+   "face": "angry",
+   "t": 3.0
+  }
+ ],
+ "cams": [
+  {
+   "shot": "wide",
+   "target": [
+    0,
+    0
+   ],
+   "t": 0.0,
+   "shake": false
+  },
+  {
+   "shot": "follow",
+   "target": "bob",
+   "t": 1.0,
+   "shake": true
+  }
+ ],
+ "fx": [
+  {
+   "fx": "alarm",
+   "target": "robby",
+   "t": 4.0
+  }
+ ],
+ "fixes": [
+  "hero prisoner bob a1 south: персонаж перенесён с детали door на a2"
+ ]
+}

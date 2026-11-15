@@ -1,0 +1,10 @@
+brick tower  
+hero kid  
+hero guard  
+start kid on tower  
+face kid scared  
+act guard run  
+act guard climb  
+onto guard tower  
+face kid happy  
+cam low

@@ -1,0 +1,10 @@
+len 6s
+plate green
+brick tower green
+hero prisoner near tower
+hero cop east of prisoner
+cam medium on tower at 0s
+face prisoner calm at 0s
+act cop walk to prisoner from 0s to 3s
+face cop happy at 3s
+act cop stand from 3s to 6s

@@ -1,0 +1,9 @@
+len 6s
+plate gray
+brick door gray
+brick car gray
+hero thief near door
+cam follow on thief at 0s
+act thief run away from door from 0s to 3s
+act thief run past car from 3s to 6s
+cam follow on thief at 3s

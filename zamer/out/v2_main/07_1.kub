@@ -1,0 +1,9 @@
+len 5s
+plate tan
+brick tree a1 east green
+hero thief sneaky a2 south
+hero cop officer j7 north
+cam wide on scene at 0s
+act thief hide to a1 from 1s to 4s
+face sneaky sly at 3s
+act cop walk to b7 from 0s to 5s

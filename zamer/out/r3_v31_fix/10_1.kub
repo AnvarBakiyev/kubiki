@@ -1,0 +1,12 @@
+len 5s
+plate white
+brick wall black
+brick car gray
+hero cop near car
+hero thief near car
+hero citizen near wall
+cam wide on car at 0s
+act cop run to thief from 0s to 2s
+act thief stand near wall from 2s to 3s
+act citizen wave past wall from 1s to 5s
+act citizen wave past wall from 2s to 5s

@@ -1,0 +1,8 @@
+len 5s
+plate gray
+brick door a10 east brown
+hero guard guard a9 south
+hero prisoner prisoner a8 north
+cam medium on guard at 0s
+act prisoner sneak to a7 from 1s to 3s
+face guard surprised at 4s

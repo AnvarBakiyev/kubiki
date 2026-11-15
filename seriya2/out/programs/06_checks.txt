@@ -1,0 +1,7 @@
+brick door
+brick lamp
+hero kid
+start kid near door
+end kid near lamp
+act kid walk
+cam medium

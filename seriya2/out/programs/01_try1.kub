@@ -1,0 +1,9 @@
+len 6s
+plate green
+brick tree green
+brick lamp gray
+hero citizen west of lamp
+hero kid east of lamp
+cam wide on lamp at 0s
+act citizen walk to lamp from 0s to 5s
+act kid walk to lamp from 0s to 5s

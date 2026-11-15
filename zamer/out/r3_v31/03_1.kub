@@ -1,0 +1,12 @@
+len 5s
+plate white
+brick tower white
+cam top on tower at 0s
+hero kid on tower
+hero cop near block
+face kid scared at 1s
+act kid fall from tower at 2s to 3s
+act cop climb onto tower at 1s to 4s
+cam low on kid at 1s shake
+fx flash on kid at 3s
+face kid happy at 4s

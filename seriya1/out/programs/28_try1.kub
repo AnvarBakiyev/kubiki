@@ -1,0 +1,15 @@
+len 6s
+plate green
+brick tower gray
+brick wall gray
+brick tree green
+brick crate brown
+hero kid near tree
+hero prisoner west of tower
+hero cop east of tower
+hero guard south of tower
+cam top on tower at 0s
+act kid wave from 0s to 6s
+act prisoner wave from 0s to 6s
+act cop wave from 0s to 6s
+act guard wave from 0s to 6s

@@ -1,0 +1,8 @@
+len 5s
+plate black
+brick lamp yellow
+hero prisoner near lamp
+hero guard behind prisoner from 0s to 3.5s
+hero guard2 near prisoner from 0s to 3.5s
+cam low on prisoner at 0s shake
+face prisoner scared at 1.0s

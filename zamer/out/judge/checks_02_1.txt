@@ -1,0 +1,9 @@
+brick car
+hero thief
+hero cop
+start thief near car
+past thief car
+act thief run
+act cop run
+chase cop thief
+cam follow

@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick tree d5 north green
+hero thief Tom d6 west
+hero cop Bob a1 east
+cam wide on d5 at 0s
+act Bob walk to d9 from 0s to 4s
+face Tom sly at 4.5s
+cam close on Tom at 4.5s

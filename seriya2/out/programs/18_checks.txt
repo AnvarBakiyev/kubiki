@@ -1,0 +1,10 @@
+brick lamp
+hero citizen
+hero citizen 2
+start citizen near lamp
+past citizen lamp
+chase citizen citizen
+face citizen sly
+act citizen walk
+act citizen wave
+cam medium

@@ -1,0 +1,12 @@
+len 6s
+plate gray
+brick wall gray
+hero guard west of wall
+hero guard2 east of wall
+cam wide on wall at 0s shake
+act guard run to wall from 0s to 3s
+act guard2 run to wall from 0s to 3s
+face guard angry at 3s
+face guard2 angry at 3s
+act guard stand from 3s to 6s
+act guard2 stand from 3s to 6s

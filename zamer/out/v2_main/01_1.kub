@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick bars a1 east brown
+brick wall a2 north tan
+hero prisoner p1 a1 north
+hero guard g1 a6 south
+cam wide on a1 at 0s
+act p1 stand to a1 from 1s to 3s
+act g1 walk to a5 from 0s to 4s
+face p1 scared at 2s
+act p1 climb to b3 from 3.5s to 4.5s
+cam close on p1 at 5s

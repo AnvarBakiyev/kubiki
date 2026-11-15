@@ -1,0 +1,9 @@
+len 6s
+plate gray
+brick tower gray
+hero guard near tower
+hero prisoner behind tower
+cam medium on guard at 0s
+act prisoner sneak past guard from 0s to 3s
+face guard surprised at 3s
+act guard stand from 3s to 6s

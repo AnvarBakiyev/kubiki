@@ -1,0 +1,5 @@
+brick lamp
+hero kid
+act kid hide
+face kid surprised
+cam close

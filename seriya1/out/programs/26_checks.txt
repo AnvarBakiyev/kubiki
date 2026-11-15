@@ -1,0 +1,7 @@
+brick tower
+hero guard
+act guard run
+end guard near tower
+face guard angry
+cam close
+shake

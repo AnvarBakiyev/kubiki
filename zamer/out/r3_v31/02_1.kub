@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick wall tan
+brick block red
+brick car blue
+hero thief near car
+hero cop behind thief
+cam follow on thief at 0s
+act thief run past car from 0s to 5s
+act cop run past car from 2s to 5s

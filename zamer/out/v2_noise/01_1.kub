@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick bars a1 north gray
+brick wall c4 south brown
+hero prisoner jake a2 east
+hero guard mike c2 west
+cam wide on b2 at 0s
+act mike walk to e3 from 1.5s to 3.5s
+face jake happy at 3.5s
+act jake jump to h4 from 3.5s to 4.8s
+cam close on jake at 4.8s

@@ -1,0 +1,10 @@
+brick tower  
+hero kid  
+hero cop  
+start kid on tower  
+face kid scared  
+act cop run  
+act cop climb  
+end cop on tower  
+face kid happy  
+cam low

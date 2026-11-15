@@ -1,0 +1,14 @@
+len 5s
+plate white
+brick wall a10 east red
+brick crate c2 west blue
+brick car d3 north gray
+hero cop cop a1 north
+hero thief kid d4 south
+hero citizen man b1 west
+hero citizen woman e1 west
+cam wide on d2 at 0s
+act cop walk to d4 from 0.5s to 4s
+act thief stand from 4s to 5s
+act citizen man wave to e3 from 1s to 3s
+act citizen woman wave to b4 from 1s to 3s

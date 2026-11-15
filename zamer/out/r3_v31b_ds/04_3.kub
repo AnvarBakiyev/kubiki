@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick door white
+hero guard near door
+hero prisoner near door
+cam medium on guard at 0s
+act prisoner sneak past guard from 0s to 4.5s
+face guard surprised at 4.5s
+act guard turn from 4.5s to 5s

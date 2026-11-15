@@ -1,0 +1,13 @@
+len 5s
+plate tan
+brick tower yellow
+brick wall gray
+hero kid on tower
+hero cop west of tower
+cam low on tower at 0s
+face kid scared at 0s
+act cop run to tower from 0s to 3s
+face kid scared at 3s
+act cop climb onto tower from 3s to 4.5s
+face kid happy at 4.5s
+act kid wave from 4.5s to 5s

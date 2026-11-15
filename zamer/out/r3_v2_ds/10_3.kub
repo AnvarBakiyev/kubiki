@@ -1,0 +1,16 @@
+len 5s
+plate gray
+brick car e4 east red
+hero cop chase a1 north
+hero thief mark e2 north
+hero citizen ann d5 west
+hero citizen bob e6 east
+cam wide on e4 at 0s
+act chase run to e3 from 0s to 3s
+act mark run to e4 from 0s to 2s
+act mark stand from 2s to 5s
+act ann wave from 0s to 5s
+face ann happy at 1s
+act bob wave from 0s to 5s
+face bob happy at 1s
+face mark scared at 2s

@@ -1,0 +1,7 @@
+brick lamp  
+hero cop  
+hero prisoner  
+start cop near lamp  
+act cop stand  
+face cop angry  
+cam close

@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick door a1 north white
+hero prisoner john a2 west
+guard mike b3 north
+cam wide on a1 at 0s
+act john run to h8 from 0.0s to 4.5s
+face mike angry at 1.5s
+fx alarm on mike at 1.5s
+cam shake on a1 at 2.0s

@@ -1,0 +1,11 @@
+brick tree  
+brick lamp  
+hero citizen  
+hero kid  
+start citizen near lamp  
+act citizen stand  
+act kid run  
+away kid lamp  
+act kid hide  
+end kid near tree  
+cam medium

@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick car red
+hero thief west of car
+hero cop east of car
+cam follow on thief at 0s
+act thief run past car from 0s to 3s
+act cop run past car from 1s to 4s
+face thief scared at 2s
+face cop angry at 1s
+act thief run away from cop from 3s to 5s
+act cop run to thief from 4s to 5s

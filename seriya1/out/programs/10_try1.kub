@@ -1,0 +1,10 @@
+len 6s
+plate gray
+brick car gray
+hero prisoner west of car
+hero citizen east of car
+cam follow on prisoner at 0s
+act prisoner run past car from 0s to 6s
+face citizen surprised at 4s
+cam medium on prisoner at 2s
+cam close on prisoner at 4s

@@ -1,0 +1,12 @@
+len 5s
+plate green
+brick tower a1 north black
+brick lamp a1 north yellow
+hero kid kid1 a1 south
+hero cop cop1 b1 east
+cam low on a1 at 0s
+act cop1 run to a1 from 0s to 3s
+act cop1 climb to a1 from 3s to 4.5s
+face kid1 scared at 0s
+face kid1 happy at 4.5s
+cam close on kid1 at 4s

@@ -1,0 +1,6 @@
+brick bars  
+hero prisoner  
+hero prisoner 2  
+act prisoner stand  
+face prisoner sly  
+cam close

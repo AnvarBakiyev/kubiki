@@ -1,0 +1,10 @@
+len 6s
+plate gray
+brick bars gray
+brick wall gray
+brick tower gray
+hero prisoner behind bars
+hero guard west of bars
+cam wide on prisoner at 0s
+act guard walk past bars from 0s to 6s
+face prisoner calm at 0s

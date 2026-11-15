@@ -1,0 +1,6 @@
+len 6s
+plate gray
+brick lamp gray
+hero cop near lamp
+cam close on cop at 0s
+face cop angry at 0s

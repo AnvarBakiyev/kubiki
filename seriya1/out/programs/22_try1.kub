@@ -1,0 +1,8 @@
+len 6s
+plate green
+brick tower green
+brick crate yellow
+hero kid on tower
+cam medium on kid at 0s
+act kid jump over crate from 0s to 2.5s
+act kid wave from 2.5s to 6s

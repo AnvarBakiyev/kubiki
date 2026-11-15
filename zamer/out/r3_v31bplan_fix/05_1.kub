@@ -1,0 +1,10 @@
+len 5s
+plate gray
+hero thief near crate
+brick crate brown
+hero cop near crate
+cam top on crate at 0s
+act thief run to crate from 0s to 1s
+act thief fall over crate from 1s to 3s
+fx dust on thief at 2s
+act cop run to thief from 2s to 5s

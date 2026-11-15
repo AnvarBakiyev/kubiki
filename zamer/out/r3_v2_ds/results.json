@@ -1,0 +1,472 @@
+{
+ "model": "DeepSeek-V4-Flash",
+ "cfg": "v2",
+ "summary": {
+  "valid": 23,
+  "must": 20,
+  "full": 11,
+  "n": 30,
+  "scenes_full_any": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "scenes_full_majority": [
+   2,
+   9
+  ]
+ },
+ "results": [
+  {
+   "scene": 1,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "заключённый не перелезает через стену"
+   ],
+   "fixes": 2,
+   "sec": 1.9
+  },
+  {
+   "scene": 1,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "заключённый не перелезает через стену"
+   ],
+   "fixes": 5,
+   "sec": 1.9
+  },
+  {
+   "scene": 1,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 14 «act guard tom walk to d10 from 0s to 3s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "строка 15 «act prisoner jack climb to b4 from 3s to 4.5s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "строка 16 «act prisoner jack run to j10 from 4.5s to 5s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 8,
+   "sec": 1.8
+  },
+  {
+   "scene": 2,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 1,
+   "sec": 1.7
+  },
+  {
+   "scene": 2,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 0,
+   "sec": 1.6
+  },
+  {
+   "scene": 2,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 6 «cam follow Bob at 0s»: cam <...> on <имя или клетка> at <время>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 2.2
+  },
+  {
+   "scene": 3,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 5 «hero police p1 f2 east»: нет вида police",
+    "строка 7 «act p1 run to h1 from 0s to 3s»: нет персонажа p1",
+    "строка 8 «act p1 climb to h3 from 3s to 4.5s»: нет персонажа p1"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 2.1
+  },
+  {
+   "scene": 3,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 6 «hero policeman cop1 a3 west»: нет вида policeman",
+    "строка 10 «act cop1 run to a1 from 0s to 2.5s»: нет персонажа cop1",
+    "строка 11 «act cop1 climb to b2 from 2.5s to 4s»: нет персонажа cop1"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 2.2
+  },
+  {
+   "scene": 3,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.9
+  },
+  {
+   "scene": 4,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «act guard face at 4.5s to 5s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 1.7
+  },
+  {
+   "scene": 4,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.5
+  },
+  {
+   "scene": 4,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "заключённый не крадётся мимо охранника"
+   ],
+   "fixes": 1,
+   "sec": 1.5
+  },
+  {
+   "scene": 5,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.9
+  },
+  {
+   "scene": 5,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "вор падает не у ящика"
+   ],
+   "fixes": 1,
+   "sec": 2.4
+  },
+  {
+   "scene": 5,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не подбегает к вору"
+   ],
+   "fixes": 3,
+   "sec": 1.9
+  },
+  {
+   "scene": 6,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "заключённый не выбегает из двери"
+   ],
+   "fixes": 1,
+   "sec": 2.2
+  },
+  {
+   "scene": 6,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 3,
+   "sec": 2.0
+  },
+  {
+   "scene": 6,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "заключённый не выбегает из двери"
+   ],
+   "fixes": 0,
+   "sec": 1.5
+  },
+  {
+   "scene": 7,
+   "rep": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:thief:hide"
+   ],
+   "staging": [
+    "вор прячется не у дерева"
+   ],
+   "fixes": 0,
+   "sec": 2.0
+  },
+  {
+   "scene": 7,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 0,
+   "sec": 1.8
+  },
+  {
+   "scene": 7,
+   "rep": 3,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:thief:hide"
+   ],
+   "staging": [
+    "вор прячется не у дерева"
+   ],
+   "fixes": 2,
+   "sec": 2.6
+  },
+  {
+   "scene": 8,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 16 «act cop run to a5 from 0s to 2.5s»: к цели не подойти"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 2.4
+  },
+  {
+   "scene": 8,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 4 «hero kid b4 north»: hero <вид> <имя> <клетка> <направление>",
+    "строка 5 «hero cop a1 east»: hero <вид> <имя> <клетка> <направление>",
+    "строка 7 «act cop run to b4 from 0s to 3s»: нет персонажа cop",
+    "строка 8 «face kid happy at 2s»: нет персонажа kid",
+    "строка 9 «act kid wave from 2s to 5s»: нет персонажа kid",
+    "строка 10 «cam close on kid at 3s»: цель не персонаж и не клетка: kid",
+    "строка 11 «fx dust on cop at 2s»: цель не персонаж и не клетка: cop",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 0,
+   "sec": 1.7
+  },
+  {
+   "scene": 8,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.7
+  },
+  {
+   "scene": 9,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 3,
+   "sec": 1.9
+  },
+  {
+   "scene": 9,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "два охранника не прибегают к заключённому"
+   ],
+   "fixes": 3,
+   "sec": 1.8
+  },
+  {
+   "scene": 9,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 4,
+   "sec": 2.2
+  },
+  {
+   "scene": 10,
+   "rep": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:cop:run"
+   ],
+   "staging": [
+    "полицейский не догоняет вора у машины"
+   ],
+   "fixes": 0,
+   "sec": 2.0
+  },
+  {
+   "scene": 10,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не догоняет вора у машины"
+   ],
+   "fixes": 1,
+   "sec": 2.0
+  },
+  {
+   "scene": 10,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 1,
+   "sec": 1.8
+  }
+ ]
+}

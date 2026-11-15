@@ -1,0 +1,9 @@
+len 6s
+plate gray
+brick lamp yellow
+hero citizen west of lamp
+hero citizen2 east of lamp
+cam medium on lamp at 0s
+act citizen run to citizen2 from 0s to 3s
+face citizen2 happy at 3s
+act citizen2 wave from 3s to 6s

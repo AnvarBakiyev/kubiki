@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick crate d3 east tan
+hero thief boris d1 north
+hero cop patrick a7 south
+cam wide on d1 at 0s
+act boris run to f2 from 0s to 4s
+face patrick angry at 0.5s
+act patrick run to g2 from 2s to 5s
+act boris fall to f3 from 3s to 3.5s
+fx dust on boris at 3.5s

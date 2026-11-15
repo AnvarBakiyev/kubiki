@@ -1,0 +1,8 @@
+len 5s
+plate gray
+brick tree green
+hero thief behind tree
+hero cop walk past block from 0s to 5s
+face thief sly at 1s
+cam close on thief at 2s
+fx dust on thief at 2s

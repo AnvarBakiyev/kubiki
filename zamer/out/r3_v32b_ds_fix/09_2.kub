@@ -1,0 +1,11 @@
+len 5s
+plate black
+brick lamp gray
+hero prisoner near lamp
+hero guard west of lamp
+hero guard2 east of lamp
+cam low on prisoner at 0s shake
+act guard run to prisoner from 0s to 3s
+act guard2 run to prisoner from 0s to 3s
+face prisoner scared at 3s
+fx flash on prisoner at 3s

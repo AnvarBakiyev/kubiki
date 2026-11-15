@@ -1,0 +1,11 @@
+len 6s
+plate green
+brick tree green
+brick lamp gray
+hero citizen near lamp
+hero kid behind tree
+cam wide on tree at 0s
+face kid sly at 0s
+act kid hide behind tree from 0s to 2s
+face citizen happy at 2s
+act citizen wave from 2s to 4s

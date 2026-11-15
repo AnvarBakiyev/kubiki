@@ -1,0 +1,466 @@
+{
+ "cfg": "r3_v31bplan_fix",
+ "summary": {
+  "valid": 21,
+  "must": 10,
+  "full": 8,
+  "n": 30,
+  "calls_extra": 22,
+  "scenes_full_any": [
+   1,
+   2,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "scenes_full_majority": [
+   5
+  ]
+ },
+ "results": [
+  {
+   "scene": 1,
+   "rep": 1,
+   "tries": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": []
+  },
+  {
+   "scene": 1,
+   "rep": 2,
+   "tries": 2,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:guard:walk"
+   ],
+   "staging": [
+    "охранник не проходит мимо решётки"
+   ]
+  },
+  {
+   "scene": 1,
+   "rep": 3,
+   "tries": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «prisoner stand at 0s to 3s»: нет команды prisoner"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ]
+  },
+  {
+   "scene": 2,
+   "rep": 1,
+   "tries": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не бежит за вором"
+   ]
+  },
+  {
+   "scene": 2,
+   "rep": 2,
+   "tries": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 7 «bag on thief»: нет команды bag"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ]
+  },
+  {
+   "scene": 2,
+   "rep": 3,
+   "tries": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": []
+  },
+  {
+   "scene": 3,
+   "rep": 1,
+   "tries": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 10 «citizen happy from 4s to 5s»: нет команды citizen"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ]
+  },
+  {
+   "scene": 3,
+   "rep": 2,
+   "tries": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «hero cop cop near camera»: не найдено, рядом с чем ставить: near camera",
+    "строка 9 «cop run onto tower from 1s to 2s»: нет команды cop",
+    "строка 10 «climb cop climb onto tower from 2s to 3s»: нет команды climb",
+    "строка 11 «walk cop walk to kid from 3s to 4s»: нет команды walk"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ]
+  },
+  {
+   "scene": 3,
+   "rep": 3,
+   "tries": 2,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:cop:climb",
+    "face:kid:scared"
+   ],
+   "staging": [
+    "полицейский не забирается на вышку"
+   ]
+  },
+  {
+   "scene": 4,
+   "rep": 1,
+   "tries": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 10 «act guard stand away from guard at 4.3s»: act <имя> <действие> <куда> from <начало>s to <конец>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ]
+  },
+  {
+   "scene": 4,
+   "rep": 2,
+   "tries": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «hero prisoner prisoner near camera»: не найдено, рядом с чем ставить: near camera",
+    "строка 8 «act prisoner walk sneak past guard from 2s to 4s»: нет персонажа prisoner",
+    "строка 9 «cam follow on prisoner from 1s to 3s»: cam <...> on <имя или деталь> at <время>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ]
+  },
+  {
+   "scene": 4,
+   "rep": 3,
+   "tries": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 3 «hero prisoner center»: hero <вид> <имя> <где>",
+    "строка 8 «act center sneak past guard from 2s to 4s»: нет персонажа center"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ]
+  },
+  {
+   "scene": 5,
+   "rep": 1,
+   "tries": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": []
+  },
+  {
+   "scene": 5,
+   "rep": 2,
+   "tries": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "вор падает не у ящика"
+   ]
+  },
+  {
+   "scene": 5,
+   "rep": 3,
+   "tries": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": []
+  },
+  {
+   "scene": 6,
+   "rep": 1,
+   "tries": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "shake"
+   ],
+   "staging": [
+    "заключённый не выбегает из двери"
+   ]
+  },
+  {
+   "scene": 6,
+   "rep": 2,
+   "tries": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «cam follow on guard shake»: cam <...> on <имя или деталь> at <время>s"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ]
+  },
+  {
+   "scene": 6,
+   "rep": 3,
+   "tries": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": []
+  },
+  {
+   "scene": 7,
+   "rep": 1,
+   "tries": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "look:thief",
+    "act:thief:hide",
+    "act:cop:walk",
+    "face:thief:sly"
+   ],
+   "staging": [
+    "вор прячется не у дерева",
+    "полицейский не проходит мимо вора"
+   ]
+  },
+  {
+   "scene": 7,
+   "rep": 2,
+   "tries": 2,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:thief:hide"
+   ],
+   "staging": [
+    "вор прячется не у дерева"
+   ]
+  },
+  {
+   "scene": 7,
+   "rep": 3,
+   "tries": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": []
+  },
+  {
+   "scene": 8,
+   "rep": 1,
+   "tries": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "look:kid",
+    "face:kid:happy",
+    "act:kid:wave"
+   ],
+   "staging": [
+    "полицейский не оказывается рядом с ребёнком"
+   ]
+  },
+  {
+   "scene": 8,
+   "rep": 2,
+   "tries": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": []
+  },
+  {
+   "scene": 8,
+   "rep": 3,
+   "tries": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:kid:wave"
+   ],
+   "staging": [
+    "полицейский не оказывается рядом с ребёнком"
+   ]
+  },
+  {
+   "scene": 9,
+   "rep": 1,
+   "tries": 2,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:guard:run",
+    "cam:low"
+   ],
+   "staging": [
+    "два охранника не прибегают к заключённому"
+   ]
+  },
+  {
+   "scene": 9,
+   "rep": 2,
+   "tries": 2,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:guard:run"
+   ],
+   "staging": [
+    "два охранника не прибегают к заключённому"
+   ]
+  },
+  {
+   "scene": 9,
+   "rep": 3,
+   "tries": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": []
+  },
+  {
+   "scene": 10,
+   "rep": 1,
+   "tries": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 10 «act thief stop near car from 2s to 3s»: нет действия stop"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ]
+  },
+  {
+   "scene": 10,
+   "rep": 2,
+   "tries": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "face:citizen:happy"
+   ],
+   "staging": []
+  },
+  {
+   "scene": 10,
+   "rep": 3,
+   "tries": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "face:citizen:happy"
+   ],
+   "staging": []
+  }
+ ]
+}

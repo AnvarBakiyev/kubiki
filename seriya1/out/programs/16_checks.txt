@@ -1,0 +1,5 @@
+brick tree  
+hero prisoner  
+start prisoner near tree  
+face prisoner sly  
+cam close

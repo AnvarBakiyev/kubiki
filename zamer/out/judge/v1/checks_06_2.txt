@@ -1,0 +1,8 @@
+brick door
+hero prisoner
+hero guard
+start prisoner near door
+act prisoner run
+fx alarm
+face guard angry
+shake

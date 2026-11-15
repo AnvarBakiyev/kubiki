@@ -1,0 +1,14 @@
+len 5s
+plate black
+brick door a1 e gray
+brick wall c1 n gray
+brick wall b1 n gray
+hero prisoner prisoner c2 e
+hero guard guard b2 w
+hero cop cop d3 s
+cam wide on c2 at 0s
+face guard angry at 2s
+fx alarm on c2 at 3s
+act prisoner run to a1 from 1s to 4s
+act guard push prisoner to d2 from 2s to 4s
+cam shake follow on prisoner at 4s

@@ -1,0 +1,10 @@
+len 5s
+plate tan
+brick wall j yellow
+hero kid lost near wall j
+hero cop hero1 near wall j
+cam wide on wall j at 0s
+act hero1 run to lost from 0s to 3.5s
+act hero1 jump over wall j from 2s to 3.5s
+face lost happy at 3.5s
+act lost wave from 3.5s to 5s

@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick bars a1 east white
+brick wall a4 north tan
+hero prisoner John a3 north
+hero guard Smith b3 south
+cam wide on c2 at 0s
+act Smith walk to b2 from 1.0s to 3.0s
+face John scared at 2.5s
+climb John jump to b6 from 3.5s to 4.5s
+act John run to a9 from 4.0s to 5.0s
+cam close on John at 5.0s

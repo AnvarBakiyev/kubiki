@@ -1,0 +1,10 @@
+brick crate
+brick tree
+hero thief
+hero cop
+act thief run
+act thief fall
+act cop run
+end cop near thief
+fx dust
+cam medium

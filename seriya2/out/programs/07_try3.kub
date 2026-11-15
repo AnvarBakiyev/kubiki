@@ -1,0 +1,7 @@
+len 6s
+plate gray
+brick door black
+hero thief west of door
+cam medium on thief at 0s
+act thief sneak to door from 0s to 4s
+act thief push from 4s to 6s

@@ -1,0 +1,9 @@
+len 6s
+plate green
+brick tree green
+hero prisoner behind tree
+hero guard west of tree
+cam wide on tree at 0s
+act guard walk past tree from 0s to 5s
+act prisoner hide behind tree from 0s to 6s
+face guard calm at 5s

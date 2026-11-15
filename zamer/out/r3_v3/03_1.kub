@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick tower c1 white
+hero kid max on tower
+hero cop alice near tree
+cam low on tower at 0s
+act max stand from 0s to 1.5s
+face max scared at 1.5s
+act alice walk past tree from 2s to 4.5s
+act alice climb onto tower from 3.5s to 5s
+face max happy at 4.5s

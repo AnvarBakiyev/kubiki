@@ -1,0 +1,12 @@
+len 5s
+plate white
+brick block brown
+hero thief near brick
+hero cop near brick
+cam wide on brick at 0s
+act thief run to brick from 0s to 2s
+face thief scared at 1.5s
+act thief fall to floor from 2s to 3s
+fx dust on brick at 3s
+act cop run to thief from 3s to 4s
+act cop stand past thief from 4s to 5s

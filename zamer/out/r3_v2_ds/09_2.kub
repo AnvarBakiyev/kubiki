@@ -1,0 +1,11 @@
+len 5s
+plate black
+brick lamp a5 east yellow
+hero prisoner bob a5 east
+hero guard alice b10 south
+hero guard charlie j4 west
+cam low on a5 at 0s shake
+act alice run to a5 from 0s to 4.5s
+act charlie run to a5 from 0s to 4.5s
+face bob scared at 4.5s
+act bob stand from 0s to 5s

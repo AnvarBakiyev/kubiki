@@ -1,0 +1,256 @@
+[
+ {
+  "run": "v1 (один раз)",
+  "folder": "main",
+  "n": 10,
+  "form": 1,
+  "must": 1,
+  "full": 0,
+  "scenes": 0,
+  "scene_ids": []
+ },
+ {
+  "run": "v2 (один раз)",
+  "folder": "v2_main",
+  "n": 10,
+  "form": 6,
+  "must": 4,
+  "full": 1,
+  "scenes": 1,
+  "scene_ids": [
+   6
+  ]
+ },
+ {
+  "run": "v2",
+  "folder": "r3_v2",
+  "n": 30,
+  "form": 14,
+  "must": 8,
+  "full": 1,
+  "scenes": 0,
+  "scene_ids": []
+ },
+ {
+  "run": "v3",
+  "folder": "r3_v3",
+  "n": 30,
+  "form": 1,
+  "must": 1,
+  "full": 1,
+  "scenes": 0,
+  "scene_ids": []
+ },
+ {
+  "run": "v3.1",
+  "folder": "r3_v31",
+  "n": 30,
+  "form": 13,
+  "must": 10,
+  "full": 7,
+  "scenes": 2,
+  "scene_ids": [
+   2,
+   4
+  ]
+ },
+ {
+  "run": "v3.1 + план",
+  "folder": "r3_v31plan",
+  "n": 30,
+  "form": 13,
+  "must": 9,
+  "full": 8,
+  "scenes": 2,
+  "scene_ids": [
+   4,
+   8
+  ]
+ },
+ {
+  "run": "v3.1 + исправление",
+  "folder": "r3_v31_fix",
+  "n": 30,
+  "form": 24,
+  "must": 15,
+  "full": 11,
+  "scenes": 4,
+  "scene_ids": [
+   1,
+   2,
+   4,
+   6
+  ]
+ },
+ {
+  "run": "v3.1 + план + исправление",
+  "folder": "r3_v31plan_fix",
+  "n": 30,
+  "form": 25,
+  "must": 17,
+  "full": 15,
+  "scenes": 6,
+  "scene_ids": [
+   2,
+   3,
+   4,
+   5,
+   8,
+   10
+  ]
+ },
+ {
+  "run": "v3.1 + план + исправление, повтор",
+  "folder": "r3_v31bplan_fix",
+  "n": 30,
+  "form": 22,
+  "must": 10,
+  "full": 8,
+  "scenes": 1,
+  "scene_ids": [
+   5
+  ]
+ },
+ {
+  "run": "DeepSeek: v2",
+  "folder": "r3_v2_ds",
+  "n": 30,
+  "form": 23,
+  "must": 20,
+  "full": 11,
+  "scenes": 2,
+  "scene_ids": [
+   2,
+   9
+  ]
+ },
+ {
+  "run": "DeepSeek: v3.1",
+  "folder": "r3_v31_ds",
+  "n": 30,
+  "form": 26,
+  "must": 22,
+  "full": 14,
+  "scenes": 5,
+  "scene_ids": [
+   1,
+   2,
+   3,
+   6,
+   8
+  ]
+ },
+ {
+  "run": "DeepSeek: v3.1 + исправление",
+  "folder": "r3_v31_ds_fix",
+  "n": 30,
+  "form": 29,
+  "must": 25,
+  "full": 16,
+  "scenes": 6,
+  "scene_ids": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   8
+  ]
+ },
+ {
+  "run": "DeepSeek: v3.1, повтор",
+  "folder": "r3_v31b_ds",
+  "n": 30,
+  "form": 25,
+  "must": 23,
+  "full": 14,
+  "scenes": 4,
+  "scene_ids": [
+   1,
+   2,
+   3,
+   6
+  ]
+ },
+ {
+  "run": "DeepSeek: v3.1 + исправление, повтор",
+  "folder": "r3_v31b_ds_fix",
+  "n": 30,
+  "form": 30,
+  "must": 27,
+  "full": 18,
+  "scenes": 5,
+  "scene_ids": [
+   1,
+   2,
+   3,
+   4,
+   6
+  ]
+ },
+ {
+  "run": "DeepSeek: v3.2",
+  "folder": "r3_v32_ds",
+  "n": 30,
+  "form": 26,
+  "must": 24,
+  "full": 15,
+  "scenes": 4,
+  "scene_ids": [
+   1,
+   3,
+   5,
+   9
+  ]
+ },
+ {
+  "run": "DeepSeek: v3.2 + исправление",
+  "folder": "r3_v32_ds_fix",
+  "n": 30,
+  "form": 30,
+  "must": 28,
+  "full": 18,
+  "scenes": 5,
+  "scene_ids": [
+   1,
+   3,
+   4,
+   5,
+   9
+  ]
+ },
+ {
+  "run": "DeepSeek: v3.2, повтор",
+  "folder": "r3_v32b_ds",
+  "n": 30,
+  "form": 26,
+  "must": 21,
+  "full": 16,
+  "scenes": 5,
+  "scene_ids": [
+   1,
+   3,
+   5,
+   8,
+   9
+  ]
+ },
+ {
+  "run": "DeepSeek: v3.2 + исправление, повтор",
+  "folder": "r3_v32b_ds_fix",
+  "n": 30,
+  "form": 30,
+  "must": 24,
+  "full": 19,
+  "scenes": 7,
+  "scene_ids": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   8,
+   9
+  ]
+ }
+]

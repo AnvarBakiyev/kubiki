@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick car e3 east red
+hero thief jack e5 north
+hero cop bob f5 north
+cam follow on jack at 0s
+act jack run to e8 from 0s to 3s
+act bob run to f8 from 0s to 3s
+act jack run to e10 from 3s to 5s
+act bob run to f10 from 3s to 5s
+cam follow on jack at 3s
+cam close on jack at 5s shake

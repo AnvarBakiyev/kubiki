@@ -1,0 +1,9 @@
+brick car  
+hero cop  
+hero thief  
+hero citizen  
+chase cop thief  
+end thief near car  
+act citizen wave  
+face citizen happy  
+cam wide

@@ -1,0 +1,6 @@
+brick wall  
+hero prisoner  
+act prisoner run  
+act prisoner jump  
+over prisoner wall  
+cam low

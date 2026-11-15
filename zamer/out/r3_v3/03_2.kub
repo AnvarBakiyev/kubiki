@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick tower <a1> white
+hero kid kid near <a1>
+hero cop cop on <a1>
+cam low on <a1> at 0s
+face kid scared at 1.5s
+act cop walk to <a1> from 1.5s to 4s
+climb onto <a1> from 2s to 4s
+face kid happy at 4s
+fx dust on <a1> at 4s

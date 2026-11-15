@@ -1,0 +1,6 @@
+brick crate
+hero kid
+act kid sneak
+act kid hide
+start kid near crate
+cam medium

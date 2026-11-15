@@ -1,0 +1,16 @@
+len 5s
+plate black
+brick tower a1 north gray
+fx dust on tower at 0s
+cam top on tower at 0s shake
+hero prisoner john a1 north
+hero guard mike c1 west
+hero guard bob g9 east
+act mike run to c2 from 0s to 1s
+act mike run to c3 from 1s to 2.5s
+act mike run to c4 from 2.5s to 4s
+bob run to f8 from 0s to 1s
+bob run to f7 from 1s to 2.5s
+bob run to f6 from 2.5s to 4s
+face john scared at 1s
+cam follow on john at 3s

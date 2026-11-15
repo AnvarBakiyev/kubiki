@@ -1,0 +1,7560 @@
+{
+ "summary": {
+  "pairs": 666,
+  "agree": 412,
+  "judge_yes_hand_yes": 190,
+  "judge_yes_hand_no": 54,
+  "judge_no_hand_yes": 200,
+  "judge_no_hand_no": 222,
+  "precision": 0.779,
+  "recall": 0.487,
+  "agree_by_extraction": {
+   "1": "134/222",
+   "2": "128/222",
+   "3": "150/222"
+  }
+ },
+ "rows": [
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide",
+    "act cop walk"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act cop walk",
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide",
+    "act cop walk"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act cop walk",
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief",
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "sides guard prisoner",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v31b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "start thief near car",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "start thief near car",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "start thief near car",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "start thief near car",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "start thief near car",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero thief",
+    "hero guard",
+    "start thief near crate",
+    "act thief run",
+    "away thief guard",
+    "act thief fall",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero thief",
+    "act thief run",
+    "act thief fall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero thief",
+    "hero guard",
+    "act thief run",
+    "away thief guard",
+    "start thief near crate",
+    "act thief fall",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "start thief near car",
+    "act citizen wave"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "act citizen wave"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "act citizen wave",
+    "face citizen happy"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "face guard calm",
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_1.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start guard near bars",
+    "away guard prisoner",
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_2.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "away guard prisoner",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end prisoner near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "01_3.kub",
+   "scene": 1,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "end guard near bars",
+    "end prisoner near wall",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "start thief near car",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_1.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "chase cop thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "start thief near car",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_2.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "start thief near car",
+    "chase guard thief",
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "02_3.kub",
+   "scene": 2,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_1.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_2.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 2,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard run",
+    "act guard climb",
+    "onto guard tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "03_3.kub",
+   "scene": 3,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_1.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_2.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero prisoner",
+    "past prisoner guard",
+    "act prisoner sneak"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero prisoner",
+    "act prisoner sneak",
+    "past prisoner guard"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "04_3.kub",
+   "scene": 4,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero prisoner",
+    "act prisoner sneak",
+    "past prisoner guard"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero thief",
+    "hero guard",
+    "start thief near crate",
+    "act thief run",
+    "away thief guard",
+    "act thief fall",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero thief",
+    "act thief run",
+    "act thief fall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_1.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero thief",
+    "hero guard",
+    "act thief run",
+    "away thief guard",
+    "start thief near crate",
+    "act thief fall",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_2.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "start thief near crate",
+    "away thief guard",
+    "over thief crate",
+    "act guard run",
+    "end guard near thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "05_3.kub",
+   "scene": 5,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "brick tree",
+    "hero guard",
+    "away thief guard",
+    "start thief near crate",
+    "act guard run",
+    "end guard near thief",
+    "chase guard thief"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_1.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_2.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 1,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "06_3.kub",
+   "scene": 6,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "brick tower"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_1.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_2.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act thief hide"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "07_3.kub",
+   "scene": 7,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero guard",
+    "act guard walk",
+    "past guard tree"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_1.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_2.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start kid near wall",
+    "end cop near kid"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "08_3.kub",
+   "scene": 8,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_1.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_2.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "09_3.kub",
+   "scene": 9,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "act guard run",
+    "act prisoner stand"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_1.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "start thief near car",
+    "act citizen wave"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "act citizen wave"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_2.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": false,
+   "judge": false,
+   "fails": [
+    "hero citizen",
+    "act citizen wave",
+    "face citizen happy"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 1,
+   "hand": true,
+   "judge": false,
+   "fails": [
+    "start thief near car"
+   ]
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 2,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  },
+  {
+   "folder": "r3_v32b_ds_fix",
+   "file": "10_3.kub",
+   "scene": 10,
+   "k": 3,
+   "hand": true,
+   "judge": true,
+   "fails": []
+  }
+ ]
+}

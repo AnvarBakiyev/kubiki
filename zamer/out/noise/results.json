@@ -1,0 +1,58 @@
+{
+ "model": "qwen3.5:9b",
+ "mode": "noise",
+ "results": [
+  {
+   "scene": 1,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 4 «brick wall a1 b green»: нет направления b"
+   ],
+   "missing": [
+    "brick:wall",
+    "act:prisoner:run"
+   ],
+   "sec": 18.5,
+   "prompt_tokens": 1054,
+   "out_tokens": 113
+  },
+  {
+   "scene": 1,
+   "rep": 2,
+   "ok": false,
+   "errors": [
+    "строка 6 «hero guard1 cop f3 w»: персонаж стоит внутри детали wall",
+    "строка 8 «act guard1 walk to h3 from 2s to 5s»: нет персонажа guard1",
+    "строка 9 «act prisoner1 climb to g3 from 4.5s to 5.5s»: кончается после конца сцены"
+   ],
+   "missing": [
+    "look:guard",
+    "act:guard:walk",
+    "act:prisoner:run"
+   ],
+   "sec": 13.5,
+   "prompt_tokens": 1054,
+   "out_tokens": 105
+  },
+  {
+   "scene": 1,
+   "rep": 3,
+   "ok": false,
+   "errors": [
+    "строка 3 «brick bars c2 e n gray»: brick <деталь> <клетка> <направление> <цвет>",
+    "строка 4 «brick wall g2 s gray»: деталь выходит за плиту",
+    "строка 11 «act prisoner run to h10 from 4.8s to 5s»: накладывается на прошлое действие prisoner"
+   ],
+   "missing": [
+    "brick:bars",
+    "brick:wall"
+   ],
+   "sec": 8.5,
+   "prompt_tokens": 1054,
+   "out_tokens": 118
+  }
+ ],
+ "ok": 0,
+ "n": 3
+}

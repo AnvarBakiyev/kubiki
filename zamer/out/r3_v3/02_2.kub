@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick wall a1 green
+brick car a2 blue
+hero thief rob near wall
+hero cop chas near car
+act rob run to wall from 0s to 1s
+act chas run past wall from 1s to 2s
+act rob walk away from car from 2s to 3s
+act chas run away from rob from 3s to 4s
+cam follow on rob from 0s to 5s

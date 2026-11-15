@@ -1,0 +1,8 @@
+len 6s
+plate gray
+brick door red
+hero cop west of door
+cam close on cop at 0s
+act cop run to door from 0s to 4s
+face cop angry at 4s
+act cop stand from 4s to 6s

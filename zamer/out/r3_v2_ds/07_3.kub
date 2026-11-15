@@ -1,0 +1,9 @@
+len 5s
+plate green
+brick tree d5 north green
+hero thief Val d5 south
+hero cop Cop a5 east
+cam wide on a5 at 0s
+act Cop walk to i5 from 0s to 4.5s
+face Val sly at 4s
+cam close on Val at 4.5s

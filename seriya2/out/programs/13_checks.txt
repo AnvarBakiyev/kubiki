@@ -1,0 +1,9 @@
+brick car  
+hero thief  
+hero kid  
+start thief near car  
+away thief car  
+act thief sneak  
+act kid sneak  
+chase kid thief  
+cam wide

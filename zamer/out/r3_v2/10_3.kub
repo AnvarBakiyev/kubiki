@@ -1,0 +1,17 @@
+len 5s
+plate gray
+brick wall a1 west tan
+brick wall a2 east tan
+hero cop cian <a10> north
+hero thief d11 south
+car car d11 north black
+act cian walk to a11 from 1.5s to 4s
+act d11 walk to e11 from 1.5s to 3s
+act d11 stand at 3s to 5s
+hero citizen a2 west
+hero citizen b2 east
+cam wide on d11 at 0s
+face a2 happy at 4.5s
+face b2 happy at 4.5s
+act a2 wave to a11 from 3s to 5s
+act b2 wave to a11 from 3s to 5s

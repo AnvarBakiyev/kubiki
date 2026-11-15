@@ -1,0 +1,11 @@
+len 5s
+plate black
+brick tower a1 blue
+brick tree a2 yellow
+hero prisoner alex near lamp
+hero guard mike behind tree a1
+hero guard tom behind tree a2
+cam low on alex at 0s shake
+act mike run to alex from 0s to 3s
+act tom run to alex from 0s to 3s
+face alex scared at 3.5s

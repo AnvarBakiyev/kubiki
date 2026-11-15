@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick tree a1 brown
+brick block a2 red
+brick block b1 white
+hero thief steve near tree
+hero cop mike walk past tree from 0s to 5s
+face thief sly at 0s
+cam close on thief shake at 4.5s

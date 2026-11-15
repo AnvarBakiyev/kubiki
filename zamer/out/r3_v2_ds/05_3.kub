@@ -1,0 +1,15 @@
+len 5s
+plate gray
+brick crate e3 east brown
+hero thief Tom e2 north
+hero cop Sam d5 east
+cam wide on e2 at 0s
+act Tom run to e3 from 0s to 1.5s
+act Tom fall from 1.5s to 2.5s
+fx dust on Tom at 2.5s
+act Sam run to e3 from 1s to 3.5s
+cam close on Tom at 2.5s
+act Tom stand from 2.5s to 4s
+face Tom scared at 3s
+act Sam walk to e3 from 3.5s to 5s
+cam medium on Sam at 4s

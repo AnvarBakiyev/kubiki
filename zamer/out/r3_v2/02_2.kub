@@ -1,0 +1,6 @@
+len 5s
+plate gray
+brick car d1 north blue
+hero thief rob to d3 from 0.5s to 2.5s
+hero cop jack to f3 from 0.5s to 2.5s
+cam follow on rob at 0s

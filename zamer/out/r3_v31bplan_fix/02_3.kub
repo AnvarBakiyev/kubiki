@@ -1,0 +1,21 @@
+len 5s
+plate gray
+brick wall gray
+brick car red
+hero thief near wall
+hero cop behind thief
+cam wide on thief at 0s
+act thief run past car from 0s to 1s
+act cop run past thief from 0s to 1s
+cam follow on thief at 0s
+act thief run past car from 1s to 2s
+act cop run past thief from 1s to 2s
+cam follow on thief at 1s
+act thief run over wall from 2s to 3s
+act cop run onto wall from 2s to 3s
+cam close on thief at 2s
+act thief walk past car from 3s to 4s
+act cop walk past thief from 3s to 4s
+cam wide on thief at 3s
+act thief stand near car from 4s to 5s
+act cop stand near thief from 4s to 5s

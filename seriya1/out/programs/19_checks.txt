@@ -1,0 +1,5 @@
+brick tower
+hero prisoner
+act prisoner run
+end prisoner near tower
+cam follow

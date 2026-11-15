@@ -1,0 +1,13 @@
+len 6s
+plate gray
+brick bars gray
+brick crate tan
+brick tree green
+hero prisoner east of bars
+hero guard west of crate
+cam medium on prisoner at 0s
+act prisoner climb over bars from 0s to 2s
+act prisoner sneak past crate from 2s to 4s
+face prisoner sly at 3s
+face guard calm at 0s
+act guard stand from 0s to 6s

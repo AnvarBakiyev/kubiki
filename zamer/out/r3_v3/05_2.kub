@@ -1,0 +1,16 @@
+len 5s
+plate white
+brick block a1 brown
+brick wall bars a2 gray
+hero thief bor near crate
+hero cop max on tower
+act bor run from 0s to 5s
+act bor walk past block from 0s to 4s
+act bor stand at 3.5s
+act bor fall from 4s to 4s
+act bor climb over block from 3.5s to 4s
+fx dust on bor at 4s
+face bor scared at 4.5s
+act max walk near bor from 1s to 2s
+act max run to bor from 2s to 5s
+face max angry at 4.5s

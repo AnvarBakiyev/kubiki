@@ -1,0 +1,7 @@
+brick wall  
+hero guard 2  
+sides guard wall  
+act guard run  
+face guard angry  
+cam wide  
+shake

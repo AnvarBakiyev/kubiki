@@ -1,0 +1,12 @@
+len 6s
+plate tan
+brick crate brown
+brick crate brown
+brick crate brown
+brick block red
+brick block red
+hero kid near block
+cam medium on kid at 0s
+act kid sneak past crate from 0s to 3s
+act kid hide behind crate from 3s to 6s
+face kid sly at 3s

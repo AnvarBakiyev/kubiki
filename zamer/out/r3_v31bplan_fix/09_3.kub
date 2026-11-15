@@ -1,0 +1,12 @@
+len 5s
+plate black
+brick lamp post white
+hero prisoner near lamp post
+cam low on prisoner at 0s shake
+fx dust on lamp post at 0s
+act prisoner stand from 0s to 5s
+face prisoner scared at 2s
+hero guard behind lamp post
+hero guard2 behind tree
+act guard run to prisoner from 1.5s to 3s
+act guard2 run to prisoner from 2s to 4s

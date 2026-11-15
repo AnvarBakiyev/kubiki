@@ -1,0 +1,11 @@
+len 5s
+plate gray
+brick bars c5 e gray
+brick wall f5 e tan
+hero max prisoner d6 s
+hero bob guard a3 e
+cam wide on e5 at 0s
+act bob walk to j3 from 0s to 2.5s
+act max climb to g4 from 2.5s to 3.5s
+act max run to g1 from 3.5s to 5s
+cam close on max at 3.8s shake

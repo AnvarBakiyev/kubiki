@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick door a5 north brown
+brick crate d8 north tan
+hero guard Alex a5 east
+hero prisoner Bob d1 north
+cam medium on Bob at 0s
+act Bob sneak to a1 from 0s to 4s
+face Alex surprised at 4.5s
+act Alex stand from 4s to 5s

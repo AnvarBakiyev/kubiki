@@ -1,0 +1,11 @@
+len 6s
+plate tan
+brick crate brown
+brick crate brown
+brick crate brown
+brick tower brown
+hero cop west of tower
+cam follow on cop at 0s
+act cop run to crate from 0s to 4s
+face cop angry at 4s
+act cop hide behind crate from 4s to 6s

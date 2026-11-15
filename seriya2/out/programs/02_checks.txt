@@ -1,0 +1,7 @@
+brick lamp
+hero kid
+hero citizen
+face kid sly
+act kid wave
+act citizen walk
+cam close

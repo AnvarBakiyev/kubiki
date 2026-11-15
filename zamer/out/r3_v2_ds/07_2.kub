@@ -1,0 +1,11 @@
+len 5s
+plate green
+brick tree e5 north green
+hero thief Tom e4 south
+hero cop Jack g1 west
+cam wide on e5 at 0s
+act Jack walk to e8 from 0s to 3.5s
+act Tom hide from 0s to 3.5s
+cam close on Tom at 3.5s
+face Tom sly at 3.5s
+act Tom stand from 3.5s to 5s

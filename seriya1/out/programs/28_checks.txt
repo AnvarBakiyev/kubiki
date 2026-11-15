@@ -1,0 +1,10 @@
+brick tower
+hero kid
+hero prisoner
+hero cop
+hero guard
+act kid wave
+act prisoner wave
+act cop wave
+act guard wave
+cam top

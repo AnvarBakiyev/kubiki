@@ -1,0 +1,8 @@
+brick crate
+hero thief
+hero cop
+face thief scared
+act thief run
+start thief near crate
+away thief crate
+cam medium

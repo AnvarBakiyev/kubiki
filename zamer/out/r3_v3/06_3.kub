@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick wall <a1> white
+brick door <b2> black
+hero prisoner jack near wall
+hero guard smith behind wall
+act jack run away from wall to past door from 0s to 3s
+fx alarm on door at 2s
+act smith angry at 2s
+face smith angry at 3s
+cam wide on smith at 0s
+cam shake on smith at 4s

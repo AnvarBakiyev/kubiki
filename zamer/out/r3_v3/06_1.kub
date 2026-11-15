@@ -1,0 +1,13 @@
+len 5s
+plate gray
+brick wall bars <a1> black
+brick door <a2> white
+hero prisoner jake near door
+hero guard mike behind wall bars b1
+face mike angry at 0s
+act mike fall from 0s to 3s
+fx alarm on scene at 1s
+cam wide on mike at 0s shake
+act jake run away from mike from 0s to 5s
+act jake jump over door from 1s to 2s
+act mike wave from 2s to 5s

@@ -1,0 +1,15 @@
+len 5s
+plate gray
+brick car e1 east blue
+hero cop john e2 west
+hero thief jack e6 east
+hero citizen mike d4 south
+hero citizen anna f4 north
+cam wide on a1 at 0s
+act john walk to e5 from 0s to 2s
+act jack run to e5 from 0s to 2s
+act jack stand from 2s to 5s
+act mike wave from 1s to 5s
+act anna wave from 1s to 5s
+face mike happy at 2s
+face anna happy at 2s

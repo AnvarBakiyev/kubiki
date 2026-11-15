@@ -1,0 +1,10 @@
+len 5s
+plate white
+brick wall d1 east white
+hero kid losty d2 north
+hero cop brave d1 south
+cam wide on losty at 0s
+act brave run to d2 from 1s to 4s
+act brave jump to d3 from 3s to 5s
+face losty happy at 4s
+fx alarm on losty at 4s

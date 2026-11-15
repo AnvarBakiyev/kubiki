@@ -1,0 +1,441 @@
+{
+ "model": "DeepSeek-V4-Flash",
+ "cfg": "v32",
+ "summary": {
+  "valid": 26,
+  "must": 24,
+  "full": 15,
+  "n": 30,
+  "scenes_full_any": [
+   1,
+   2,
+   3,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "scenes_full_majority": [
+   1,
+   3,
+   5,
+   9
+  ]
+ },
+ "results": [
+  {
+   "scene": 1,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 3,
+   "sec": 2.3
+  },
+  {
+   "scene": 1,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 3,
+   "sec": 1.7
+  },
+  {
+   "scene": 1,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 3,
+   "sec": 1.5
+  },
+  {
+   "scene": 2,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 1,
+   "sec": 1.5
+  },
+  {
+   "scene": 2,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не бежит за вором"
+   ],
+   "fixes": 1,
+   "sec": 1.5
+  },
+  {
+   "scene": 2,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не бежит за вором"
+   ],
+   "fixes": 1,
+   "sec": 1.7
+  },
+  {
+   "scene": 3,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 1,
+   "sec": 1.6
+  },
+  {
+   "scene": 3,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.6
+  },
+  {
+   "scene": 3,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.6
+  },
+  {
+   "scene": 4,
+   "rep": 1,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «act guard turn from 4.5s to 5s»: нет действия turn"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 1.5
+  },
+  {
+   "scene": 4,
+   "rep": 2,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «act guard turn from 4s to 5s»: нет действия turn"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 1.5
+  },
+  {
+   "scene": 4,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 9 «act guard turn from 4s to 5s»: нет действия turn"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 1,
+   "sec": 1.6
+  },
+  {
+   "scene": 5,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 1,
+   "sec": 2.1
+  },
+  {
+   "scene": 5,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не подбегает к вору"
+   ],
+   "fixes": 1,
+   "sec": 1.8
+  },
+  {
+   "scene": 5,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.7
+  },
+  {
+   "scene": 6,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "заключённый не выбегает из двери"
+   ],
+   "fixes": 3,
+   "sec": 1.6
+  },
+  {
+   "scene": 6,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "заключённый не выбегает из двери"
+   ],
+   "fixes": 3,
+   "sec": 2.2
+  },
+  {
+   "scene": 6,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.5
+  },
+  {
+   "scene": 7,
+   "rep": 1,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:thief:hide"
+   ],
+   "staging": [
+    "вор прячется не у дерева"
+   ],
+   "fixes": 1,
+   "sec": 2.4
+  },
+  {
+   "scene": 7,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.6
+  },
+  {
+   "scene": 7,
+   "rep": 3,
+   "valid": true,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [],
+   "missing": [
+    "act:thief:hide"
+   ],
+   "staging": [
+    "вор прячется не у дерева"
+   ],
+   "fixes": 1,
+   "sec": 1.6
+  },
+  {
+   "scene": 8,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не оказывается рядом с ребёнком"
+   ],
+   "fixes": 3,
+   "sec": 1.8
+  },
+  {
+   "scene": 8,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 3,
+   "sec": 1.4
+  },
+  {
+   "scene": 8,
+   "rep": 3,
+   "valid": false,
+   "must_ok": false,
+   "full_ok": false,
+   "errors": [
+    "строка 2 «hero child east of wall»: нет вида child",
+    "строка 8 «face child happy at 3.5s»: нет персонажа child",
+    "строка 9 «act child wave from 3.5s to 5s»: нет персонажа child",
+    "строка 10 «cam close on child at 4s»: цель не персонаж, не деталь и не клетка: child"
+   ],
+   "missing": [
+    "(ошибки)"
+   ],
+   "staging": [
+    "(ошибки)"
+   ],
+   "fixes": 3,
+   "sec": 1.6
+  },
+  {
+   "scene": 9,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.8
+  },
+  {
+   "scene": 9,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 2,
+   "sec": 1.5
+  },
+  {
+   "scene": 9,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": true,
+   "errors": [],
+   "missing": [],
+   "staging": [],
+   "fixes": 3,
+   "sec": 1.6
+  },
+  {
+   "scene": 10,
+   "rep": 1,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не догоняет вора у машины"
+   ],
+   "fixes": 3,
+   "sec": 10.8
+  },
+  {
+   "scene": 10,
+   "rep": 2,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не догоняет вора у машины"
+   ],
+   "fixes": 2,
+   "sec": 1.8
+  },
+  {
+   "scene": 10,
+   "rep": 3,
+   "valid": true,
+   "must_ok": true,
+   "full_ok": false,
+   "errors": [],
+   "missing": [],
+   "staging": [
+    "полицейский не догоняет вора у машины"
+   ],
+   "fixes": 1,
+   "sec": 1.6
+  }
+ ]
+}

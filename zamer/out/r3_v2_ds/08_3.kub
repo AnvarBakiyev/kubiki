@@ -1,0 +1,13 @@
+len 5s
+plate gray
+brick wall a1 east brown
+brick wall a4 east brown
+brick wall a7 east brown
+hero cop officer b1 north
+hero kid child a5 east
+cam wide on d5 at 0s
+act officer run to a4 from 0s to 4s
+act officer jump to a5 from 4s to 5s
+face child happy at 4.5s
+act child wave from 4.5s to 5s
+cam close on child at 0s

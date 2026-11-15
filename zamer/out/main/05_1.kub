@@ -1,0 +1,12 @@
+len 5s
+plate gray
+brick crate a7 n brown
+hero thief kid a7 s
+hero cop guard b9 w
+cam wide on a7 at 0s
+act thief run to a6 from 0s to 1s
+fx crash on thief at 1.2s
+act thief fall from 1.2s to 1.5s
+act thief stand from 1.6s to 2s
+fx dust on thief at 1.7s
+act cop walk to a6 from 0s to 3.5s

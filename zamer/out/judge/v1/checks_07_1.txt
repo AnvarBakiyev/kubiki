@@ -1,0 +1,9 @@
+brick tree
+hero thief
+hero cop
+start thief near tree
+act thief hide
+act cop walk
+past cop tree
+face thief sly
+cam close

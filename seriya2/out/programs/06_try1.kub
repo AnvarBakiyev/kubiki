@@ -1,0 +1,8 @@
+len 6s
+plate gray
+brick door white
+brick lamp tan
+hero kid west of door
+cam medium on kid at 0s
+act kid walk past door from 0s to 3s
+act kid walk to lamp from 3s to 6s

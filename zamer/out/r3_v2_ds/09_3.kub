@@ -1,0 +1,12 @@
+len 5s
+plate black
+brick lamp d5 north yellow
+brick crate d5 south brown
+hero prisoner john d5 north
+hero guard steve b5 east
+hero guard mike f5 west
+cam low on john at 0s shake
+act steve run to d5 from 0s to 3s
+face john scared at 1.5s
+act mike run to d5 from 0s to 3.5s
+act john fall from 2s to 2.5s

@@ -1,0 +1,9 @@
+brick wall
+brick lamp
+hero prisoner
+hero cop
+act prisoner run
+act cop run
+chase cop prisoner
+cam follow
+shake

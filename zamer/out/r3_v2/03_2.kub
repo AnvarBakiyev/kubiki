@@ -1,0 +1,11 @@
+len 5s
+plate tan
+brick tower a2 north blue
+hero kid timmy a10 north
+hero cop sarge a2 south
+cam low on a2 at 0s
+act timmy stand from 0s to 5s
+face timmy scared at 2s
+act timmy fall to a2 from 3.5s to 4s
+act sarge climb to a2 from 0s to 4s
+face timmy happy at 4.5s

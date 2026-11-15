@@ -1,0 +1,5 @@
+fx alarm
+hero guard
+face guard angry
+cam close
+shake

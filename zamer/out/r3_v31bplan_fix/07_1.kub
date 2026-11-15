@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick tree green
+cam wide on tree at 0s
+hero prisoner behind tree
+hero cop walk near tree from 0s to 5s
+act prisoner hide behind tree from 0s to 5s
+cam close on prisoner at 4s shake
+face prisoner sly at 5s

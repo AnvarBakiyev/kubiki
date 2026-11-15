@@ -1,0 +1,9 @@
+len 6s
+plate tan
+brick crate brown
+hero thief near crate
+cam medium on crate at 0s
+act thief trip over crate from 0s to 2.5s
+fx dust on thief at 2.5s
+act thief stand from 2.5s to 4s
+face thief angry at 4s

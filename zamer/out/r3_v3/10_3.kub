@@ -1,0 +1,13 @@
+len 5s
+plate gray
+brick wall bars car near tree blue
+hero cop <officer> near wall bars car
+hero thief <burglar> behind wall bars car
+hero citizen <pedestrian1> near tree
+hero citizen <pedestrian2> near tree
+cam wide on wall bars car at 0s
+act <burglar> run to wall bars car from 0s to 1.5s
+act <officer> run to <burglar> from 0s to 3s
+act <burglar> stop to wall bars car from 2s to 3s
+act <pedestrian1> wave past <wall bars car> from 1s to 4s
+act <pedestrian2> wave past <wall bars car> from 1s to 4s

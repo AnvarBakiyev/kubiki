@@ -1,0 +1,13 @@
+len 5s
+plate gray
+brick crate a3 north brown
+hero thief Max a1 east
+hero cop Alex b1 west
+cam wide on a3 at 0s
+act Max run to c3 from 0s to 2s
+act Max fall from 2s to 2.5s
+face Max scared at 2.5s
+fx dust on Max at 2.5s
+act Alex run to a3 from 1s to 4s
+cam close on Max at 3s shake
+face Alex angry at 4s

@@ -1,0 +1,12 @@
+len 5s
+plate white
+brick wall bars car a1 gray
+hero cop patrick near car
+hero thief robby near car
+hero citizen john near car
+hero citizen jane behind car
+cam wide on car at 0s
+act patrick run to robby from 2s to 4s
+act robby stand from 3s to 5s
+act john walk past block from 1s to 3s
+act jane wave from 2s to 4s

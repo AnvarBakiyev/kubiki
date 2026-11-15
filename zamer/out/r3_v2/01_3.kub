@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick bars d1 east white
+brick wall e2 north black
+hero prisoner zack d1 south
+hero guard patrick e2 west
+cam wide on d1 at 0s
+act patrick walk to h2 from 0s to 4s
+act zack climb to h3 from 4s to 5s
+cam close on zack at 5s

@@ -1,0 +1,9 @@
+brick door
+hero guard
+hero prisoner
+start guard near door
+act prisoner sneak
+past prisoner guard
+end guard near prisoner
+face guard surprised
+cam medium

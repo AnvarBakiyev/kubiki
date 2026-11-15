@@ -1,0 +1,7 @@
+brick tree
+hero prisoner
+hero cop
+act prisoner hide
+act cop walk
+past cop tree
+cam wide

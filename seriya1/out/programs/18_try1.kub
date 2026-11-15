@@ -1,0 +1,10 @@
+len 6s
+plate green
+brick tree green
+brick tower yellow
+hero prisoner near tree
+hero kid on tower
+cam close on prisoner at 0s
+act prisoner stand from 0s to 3s
+face prisoner surprised at 3s
+act prisoner stand from 3s to 6s

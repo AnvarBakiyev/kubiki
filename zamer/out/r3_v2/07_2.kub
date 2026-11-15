@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick tree d1 north brown
+hero thief thief d2 east
+hero cop mike c3 west
+cam wide on d1 at 0s
+act thief sneak to d2 from 1s to 2s
+face thief sly at 2.5s
+act mike walk to e5 from 1s to 4s
+cam close on thief at 2.5s

@@ -1,0 +1,10 @@
+len 5s
+plate green
+brick tree green
+hero thief behind tree
+hero cop west of tree
+cam wide on tree at 0s
+act cop walk past tree from 0s to 4.5s
+act thief hide behind tree from 0s to 5s
+face thief sly at 4.5s
+cam close on thief at 4.5s

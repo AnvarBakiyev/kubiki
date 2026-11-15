@@ -1,0 +1,11 @@
+len 5s
+plate black
+brick tower a7 north gray
+fx alarm on a7 at 0s
+cam low on a7 at 0s shake
+hero prisoner zoe a6 north
+hero guard mike c6 south
+hero guard bob i6 east
+act mike run to a6 from 1s to 4s
+act bob run to a6 from 1s to 4s
+face zoe scared at 3s

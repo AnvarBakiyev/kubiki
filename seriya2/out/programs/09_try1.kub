@@ -1,0 +1,8 @@
+len 6s
+plate gray
+brick lamp yellow
+brick wall gray
+hero kid behind lamp
+cam close on kid at 0s
+face kid surprised at 0s
+act kid hide behind lamp from 0s to 6s

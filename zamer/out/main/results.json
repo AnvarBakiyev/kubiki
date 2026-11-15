@@ -1,0 +1,216 @@
+{
+ "model": "qwen3.5:9b",
+ "mode": "main",
+ "results": [
+  {
+   "scene": 1,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 3 «brick bars a3 east white»: нет направления east",
+    "строка 4 «brick wall c1 north brown»: нет направления north",
+    "строка 5 «hero prisoner citizen a3 west»: нет направления west",
+    "строка 6 «hero guard guard b1 east»: нет направления east",
+    "строка 8 «act guard walk to i5 from 0s to 4s»: нет персонажа guard",
+    "строка 9 «face prisoner calm at 0s»: нет персонажа prisoner",
+    "строка 10 «act prisoner climb to e1 from 2.5s to 3.5s»: нет персонажа prisoner",
+    "строка 11 «act prisoner run to g9 from 3.5s to 4.5s»: нет персонажа prisoner",
+    "строка 12 «face prisoner scared at 3s»: нет персонажа prisoner",
+    "строка 13 «cam follow on prisoner at 3.8s shake»: цель камеры не персонаж и не клетка: prisoner",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "brick:bars",
+    "brick:wall",
+    "look:prisoner",
+    "look:guard",
+    "act:guard:walk",
+    "act:prisoner:climb|act:prisoner:jump",
+    "act:prisoner:run"
+   ],
+   "sec": 15.2,
+   "prompt_tokens": 1054,
+   "out_tokens": 127
+  },
+  {
+   "scene": 2,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 4 «brick wall j1 s white»: деталь выходит за плиту",
+    "строка 5 «car car d1 s black»: нет команды car",
+    "строка 6 «hero thief rob <a3> w red»: hero <имя> <вид> <клетка> <направление>",
+    "строка 7 «hero cop patr <j3> e blue»: hero <имя> <вид> <клетка> <направление>",
+    "строка 8 «act thief run to d6 from 0.5s to 4s»: нет персонажа thief",
+    "строка 9 «act cop run to d5 from 1s to 4s»: нет персонажа cop",
+    "строка 10 «cam follow on thief at 0s»: цель камеры не персонаж и не клетка: thief",
+    "строка 11 «face scared at 1s»: face <имя> <лицо> at <время>s",
+    "строка 12 «fx crash on car at 1s»: цель эффекта: car",
+    "нет ни одного персонажа",
+    "нет ни одной строки cam"
+   ],
+   "missing": [
+    "brick:car",
+    "look:thief",
+    "look:cop",
+    "act:thief:run",
+    "act:cop:run",
+    "cam:follow"
+   ],
+   "sec": 10.5,
+   "prompt_tokens": 1023,
+   "out_tokens": 107
+  },
+  {
+   "scene": 3,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 7 «act cop1 run to c7 from 0s to 4s»: клетка назначения c7 занята деталью tower"
+   ],
+   "missing": [],
+   "sec": 15.9,
+   "prompt_tokens": 1029,
+   "out_tokens": 95
+  },
+  {
+   "scene": 4,
+   "rep": 1,
+   "ok": true,
+   "errors": [],
+   "missing": [],
+   "sec": 8.0,
+   "prompt_tokens": 1027,
+   "out_tokens": 72
+  },
+  {
+   "scene": 5,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 12 «act cop walk to a6 from 0s to 3.5s»: путь идёт сквозь crate на a7"
+   ],
+   "missing": [
+    "look:thief",
+    "look:cop",
+    "act:thief:run",
+    "act:thief:fall",
+    "act:cop:run|act:cop:walk"
+   ],
+   "sec": 20.8,
+   "prompt_tokens": 1020,
+   "out_tokens": 123
+  },
+  {
+   "scene": 6,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 6 «hero prisoner prisoner c2 e»: персонаж стоит внутри детали wall",
+    "строка 7 «hero guard guard b2 w»: персонаж стоит внутри детали wall",
+    "строка 10 «face guard angry at 2s»: нет персонажа guard",
+    "строка 12 «act prisoner run to a1 from 1s to 4s»: нет персонажа prisoner",
+    "строка 13 «act guard push prisoner to d2 from 2s to 4s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "строка 14 «cam shake follow on prisoner at 4s»: cam <план> on <имя или клетка> at <время>s [shake]"
+   ],
+   "missing": [
+    "look:prisoner",
+    "look:guard",
+    "act:prisoner:run",
+    "face:guard:angry",
+    "shake"
+   ],
+   "sec": 19.1,
+   "prompt_tokens": 1019,
+   "out_tokens": 119
+  },
+  {
+   "scene": 7,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 5 «hero thief badboy a4 n»: нет вида badboy",
+    "строка 6 «hero cop officer b7 s»: нет вида officer",
+    "строка 8 «act officer walk to b8 from 1.5s to 4.5s»: нет персонажа officer",
+    "строка 9 «face badboy sly at 3s»: нет персонажа badboy",
+    "строка 10 «cam close on badboy at 4s»: цель камеры не персонаж и не клетка: badboy",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "look:thief",
+    "look:cop",
+    "act:thief:hide",
+    "act:cop:walk",
+    "face:thief:sly",
+    "cam:close"
+   ],
+   "sec": 16.2,
+   "prompt_tokens": 1019,
+   "out_tokens": 86
+  },
+  {
+   "scene": 8,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 3 «brick wall j1 e white»: деталь выходит за плиту",
+    "строка 14 «act lostkid wave from 4.8s to 5s»: накладывается на прошлое действие lostkid"
+   ],
+   "missing": [
+    "brick:wall"
+   ],
+   "sec": 15.7,
+   "prompt_tokens": 1026,
+   "out_tokens": 146
+  },
+  {
+   "scene": 9,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 10 «act guard1 run to a1 from 1s to 2s»: клетка назначения a1 занята деталью tower",
+    "строка 11 «act guard2 run to a1 from 3s to 4s»: клетка назначения a1 занята деталью tower"
+   ],
+   "missing": [
+    "look:guard*2",
+    "act:guard:run"
+   ],
+   "sec": 24.1,
+   "prompt_tokens": 1022,
+   "out_tokens": 105
+  },
+  {
+   "scene": 10,
+   "rep": 1,
+   "ok": false,
+   "errors": [
+    "строка 3 «brick wall a10 east red»: нет направления east",
+    "строка 4 «brick crate c2 west blue»: нет направления west",
+    "строка 5 «brick car d3 north gray»: нет направления north",
+    "строка 6 «hero cop cop a1 north»: нет направления north",
+    "строка 7 «hero thief kid d4 south»: нет направления south",
+    "строка 8 «hero citizen man b1 west»: нет вида man",
+    "строка 9 «hero citizen woman e1 west»: нет вида woman",
+    "строка 11 «act cop walk to d4 from 0.5s to 4s»: нет персонажа cop",
+    "строка 12 «act thief stand from 4s to 5s»: нет персонажа thief",
+    "строка 13 «act citizen man wave to e3 from 1s to 3s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "строка 14 «act citizen woman wave to b4 from 1s to 3s»: act <имя> <действие> [to <клетка>] from <начало>s to <конец>s",
+    "нет ни одного персонажа"
+   ],
+   "missing": [
+    "brick:car",
+    "look:cop",
+    "look:thief",
+    "look:citizen",
+    "act:cop:run",
+    "act:citizen:wave",
+    "face:citizen:happy"
+   ],
+   "sec": 26.1,
+   "prompt_tokens": 1019,
+   "out_tokens": 129
+  }
+ ],
+ "ok": 1,
+ "n": 10
+}

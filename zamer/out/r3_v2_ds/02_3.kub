@@ -1,0 +1,9 @@
+len 5s
+plate gray
+brick car c4 east red
+hero thief Bob a3 north
+hero cop John a5 north
+cam follow Bob at 0s
+act Bob run to j3 from 0s to 4s
+act John run to j5 from 0s to 4s
+cam close on Bob at 4s

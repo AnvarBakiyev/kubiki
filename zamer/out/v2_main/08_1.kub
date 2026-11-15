@@ -1,0 +1,10 @@
+len 5s
+plate gray
+brick wall a1 east green
+hero kid losty b2 north
+hero cop officer g6 south
+cam wide on c5 at 0s
+act officer run to b2 from 0s to 3.5s
+act officer jump to b2 from 3.5s to 4.5s
+face losty happy at 4.5s
+act losty wave from 4.5s to 5s

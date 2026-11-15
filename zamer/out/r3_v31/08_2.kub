@@ -1,0 +1,11 @@
+len 5s
+plate white
+brick wall black
+hero prisoner near wall
+hero cop past wall
+hero kid on wall
+cam wide on wall at 0s
+act cop run to wall from 2s to 4s
+act cop jump over wall from 3s to 4.5s
+act prisoner happy face at 4.5s
+act prisoner wave from 4.5s to 5s

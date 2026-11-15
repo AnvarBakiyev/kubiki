@@ -1,0 +1,12 @@
+len 5s
+plate black
+brick tower near wall bars at 1 red
+brick tree near wall bars at 2 green
+hero prisoner prisoner_night near tree
+hero guard guard_left behind brick tree at 4 blue
+hero guard guard_right behind brick tree at 6 yellow
+cam low on prisoner_night at 0s shake
+act guard_left run to prisoner_night from 0.5s to 3s
+act guard_right run to prisoner_night from 1.5s to 3s
+face prisoner_night scared at 2s
+fx crash on tree from 3s to 4s

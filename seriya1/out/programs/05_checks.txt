@@ -1,0 +1,8 @@
+brick bars
+brick crate
+brick tree
+hero prisoner
+act prisoner climb bars
+act prisoner sneak
+past prisoner crate
+cam medium

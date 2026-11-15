@@ -1,0 +1,9 @@
+brick lamp  
+hero prisoner  
+hero guard 2  
+start prisoner near lamp  
+sides guard lamp  
+act guard run  
+cam low  
+shake  
+face prisoner scared

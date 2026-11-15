@@ -1,0 +1,9 @@
+len 5s
+plate white
+brick wall gray
+hero cop behind wall
+hero kid near wall
+cam wide on wall at 0s
+act cop jump over wall from 0s to 1s
+face kid happy at 2s
+act kid wave from 2s to 3s
