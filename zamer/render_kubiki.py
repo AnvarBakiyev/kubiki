@@ -772,6 +772,24 @@ def _bvh_of(obs):
     return BVHTree.FromPolygons(verts, polys) if polys else None
 
 
+_TREES = {}
+
+
+def _trees_at(t):
+    """Деревья поиска для героев в момент t: поза зависит только от времени, строим один раз на момент."""
+    if t not in _TREES:
+        for o in RIG:
+            pose(o, t, _JIT0)
+        bpy.context.view_layer.update()
+        trees = {}
+        for ob in sc.objects:
+            h = _hero_of(ob.name)
+            if h and ob.type == 'MESH' and not ob.hide_viewport:
+                trees.setdefault(h, []).append(ob)
+        _TREES[t] = {h: _bvh_of(v) for h, v in trees.items()}
+    return _TREES[t]
+
+
 def head_visible(p, nm, t):
     """Луч от камеры до головы героя: первым попадается сам герой (сквозь прутья решётки видно).
     Своё дерево поиска (BVH): неподвижное строится один раз, герои — на каждую пробу. scene.ray_cast
@@ -781,21 +799,14 @@ def head_visible(p, nm, t):
         stat = [ob for ob in sc.objects if ob.type == 'MESH' and not _hero_of(ob.name) and not _see_through(ob)
                 and not ob.name.startswith(('city_g_', 'city_far', 'city_marks', 'plate', 'backdrop'))]
         _STATIC.append(_bvh_of(stat))
-    for o in RIG:
-        pose(o, t, _JIT0)
-    bpy.context.view_layer.update()
-    trees = {}
-    for ob in sc.objects:
-        h = _hero_of(ob.name)
-        if h and ob.type == 'MESH' and not ob.hide_viewport:
-            trees.setdefault(h, []).append(ob)
-    trees = {h: _bvh_of(v) for h, v in trees.items()}
+    trees = _trees_at(t)
     st = hero_state(nm, t)
     s_ = RIG[nm]['s']
     # лицо должно смотреть в сторону камеры, иначе снимаем затылок
     fx_, fy_ = -math.sin(st['yaw']), math.cos(st['yaw'])
     cx_, cy_ = p.x - st['xy'][0], p.y - st['xy'][1]
-    if (fx_ * cx_ + fy_ * cy_) / (math.hypot(cx_, cy_) or 1) < -0.1 and st['act'] not in ('fall', 'lying'):
+    # лицо нарисовано только спереди: в профиль (90°) его не видно, нужен поворот к камере не больше ~70°
+    if (fx_ * cx_ + fy_ * cy_) / (math.hypot(cx_, cy_) or 1) < 0.35 and st['act'] not in ('fall', 'lying'):
         return False
     ok = 0
     for dz in (0.034, 0.028):
@@ -824,67 +835,123 @@ def on_cell(c, t):
     return None
 
 
+def _near_heroes(xy, t0, t1, r):
+    """Герои, которые в начале или в конце плана стоят ближе r к точке xy."""
+    out = []
+    for h in sorted(RIG):
+        for tp in (t0, t1):
+            hx, hy = hero_state(h, tp)['xy']
+            if math.hypot(hx - xy[0], hy - xy[1]) < r:
+                out.append(h)
+                break
+    return out
+
+
 def cam_update(t, jit):
     c = dict([c for c in CAMS if c['t'] <= t + 1e-6][-1])
     key = [i for i, x in enumerate(CAMS) if x['t'] <= t + 1e-6][-1]
+    nxt = [x['t'] for x in CAMS if x['t'] > c['t']]
+    t_end = min(nxt) if nxt else S['len']
     if not isinstance(c['target'], str):
         hn = on_cell(c['target'], c['t'])
-        nxt = [x['t'] for x in CAMS if x['t'] > c['t']]
-        hn = hn or on_cell(c['target'], (min(nxt) if nxt else S['len']) - 0.05)
+        hn = hn or on_cell(c['target'], t_end - 0.05)
         if hn and c['shot'] != 'wide':
             c['target'] = hn
     dist, elev, lens, fst = SHOT[c['shot']]
-    tgt_now = target_xyz(c['target'], t)
-    base = tgt_now if isinstance(c['target'], str) else target_xyz(c['target'], c['t'])
+    near_shot = c['shot'] in ('close', 'medium', 'low', 'follow')
+    # группа: план на деталь, а рядом герои — снимаем героев (середину группы), а не деталь;
+    # план на героя, а рядом другие — их лица тоже должны быть видны
+    grp, main = [], None
+    if near_shot and not isinstance(c['target'], str):
+        grp = _near_heroes(cell_xy(c['target']), c['t'], t_end - 0.05, 4 * CELL)
+    elif near_shot:
+        main = c['target']
+        st0 = hero_state(main, c['t'])['xy']
+        grp = [main] + [h for h in _near_heroes(st0, c['t'], t_end - 0.05, 3 * CELL) if h != main]
+        if len(grp) == 1:
+            grp, main = [], None
+
+    def aim(tp):
+        if grp:
+            vs = [target_xyz(h, tp) for h in grp]
+            return sum(vs, Vector((0, 0, 0))) / len(vs)
+        return target_xyz(c['target'], tp)
+
+    tgt_now = aim(t)
+    base = tgt_now if (grp or isinstance(c['target'], str)) else target_xyz(c['target'], c['t'])
     if c['shot'] == 'wide':
         base = Vector((base.x * 0.4, base.y * 0.4, 0.01))
         tgt_now = base
     front = math.radians(-18)
-    if isinstance(c['target'], str) and c['shot'] in ('close', 'medium', 'low', 'follow'):
+    if isinstance(c['target'], str) and near_shot and not grp:
         yw = hero_state(c['target'], c['t'])['yaw']
         front = math.atan2(-math.sin(yw), -math.cos(yw))  # направление «лицом к камере»
+    if len(grp) >= 2:
+        # двое и больше: смотреть поперёк линии между ними, тогда оба в профиль или вполоборота,
+        # а не один из них затылком к камере
+        tm = (c['t'] + t_end) / 2
+        ax, ay = hero_state(grp[0], tm)['xy']
+        bx, by = hero_state(grp[1], tm)['xy']
+        nx, ny = -(by - ay), (bx - ax)
+        if ny > 0:
+            nx, ny = -nx, -ny  # камера с ближней к зрителю стороны
+        if abs(nx) + abs(ny) > 1e-6:
+            front = math.atan2(nx, -ny)
     if key not in _CUT:
         t_cut = time.time()
         # место камеры выбирается один раз на склейку: смотрим начало, середину и конец плана
-        nxt = [x['t'] for x in CAMS if x['t'] > c['t']]
-        t_end = min(nxt) if nxt else S['len']
         probes = [c['t'], (c['t'] + t_end) / 2, max(c['t'], t_end - 0.05)]
         skip = c['target'] if isinstance(c['target'], str) else None
-        choice = None
-        lifts = (0.0, 0.3, 0.6, 0.95)
         lows = (0.006, 0.02, 0.04, 0.06)
-        face = isinstance(c['target'], str) and c['shot'] in ('close', 'medium', 'low', 'follow')
+        face = (isinstance(c['target'], str) and near_shot) or bool(grp)
+        # группа шире кадра: отойти, чтобы поместились все
+        scale = 1.0
+        if grp:
+            span = max([0.0] + [(target_xyz(a, tp) - target_xyz(b, tp)).length
+                                for tp in probes for a in grp for b in grp])
+            scale = max(1.0, (span + 3 * CELL) / (dist * 36.0 / lens))  # ширина кадра ~ расстояние * 36 / фокусное
         fronts = (0, 20, -20, 45, -45, 70, -70)
         order = [(dd, li, dm) for dm in (1.0, 1.4, 1.9) for li in (0, 1) for dd in fronts] + \
-                [(dd, li, dm) for dm in (1.0, 1.4, 1.9) for li in (2, 3) for dd in fronts] + \
-                [(dd, li, dm) for dm in (1.0, 1.4) for li in range(4) for dd in (100, -100, 150, -150, 180)]
+                [(dd, 2, dm) for dm in (1.0, 1.4, 1.9) for dd in fronts]
+        if grp:
+            order += [(dd, li, dm) for dm in (1.0, 1.4) for li in (0, 1) for dd in (180, 160, -160)]
+        if face and not grp:
+            # сзади лица не видно, но если спереди закрыто всё, лучше отойти сбоку, чем снимать сверху
+            order += [(dd, li, dm) for dm in (1.0, 1.4) for li in (0, 1) for dd in (100, -100)]
         if not face:
             order = [(dd, li, 1.0) for dd in (0, 20, -20, 45, -45) for li in range(4)] + \
                     [(dd, li, 1.0) for li in range(4) for dd in (75, -75, 110, -110, 150, -150, 180)]
+        full = len(probes) * ((len(grp) + (1 if main else 0)) if grp else 1)
         best, best_n = None, -1
         for dd, li, dm in order:
             n_ok = 0
             for tp in probes:
-                bp = target_xyz(c['target'], tp) if isinstance(c['target'], str) else base
+                bp = aim(tp) if (grp or isinstance(c['target'], str)) else base
                 if c['shot'] == 'wide':
                     bp = base
-                el = elev + lifts[li]
+                el = elev + (0.0, 0.3, 0.6, 0.95)[li]
                 az = front + math.radians(dd)
-                cand = bp + Vector((math.sin(az) * math.cos(el), -math.cos(az) * math.cos(el), math.sin(el))) * dist * dm
+                cand = bp + Vector((math.sin(az) * math.cos(el), -math.cos(az) * math.cos(el), math.sin(el))) * dist * dm * scale
                 if c['shot'] == 'low':
                     cand.z = lows[li] if dm == 1.0 else lows[li] + 0.5 * (bp.z - lows[li]) * (dm - 1)
                 if c['shot'] in ('wide', 'top'):
                     n_ok += 1
+                elif grp:
+                    for h in grp:
+                        # лицо главного героя весит вдвое
+                        n_ok += head_visible(cand, h, tp) * (2 if h == main else 1)
                 elif isinstance(c['target'], str):
                     n_ok += head_visible(cand, c['target'], tp)
                 else:
                     n_ok += not blocked(cand, bp, tp, skip)
             if n_ok > best_n:
-                best, best_n = (dd, li, dm), n_ok
-            if n_ok == len(probes):
+                best, best_n = (dd, li, dm * scale), n_ok
+            if n_ok >= full:
                 break
         _CUT[key] = best
-        print('KUBIKI cam cut %d %s -> %s (%d/%d) %.1fs' % (key, c['target'], best, best_n, len(probes), time.time() - t_cut), flush=True)
+        print('KUBIKI cam cut %d %s%s -> (%d, %d, %.2f) (%d/%d) %.1fs' % (
+            key, c['target'], (' group ' + ','.join(grp)) if grp else '', best[0], best[1], best[2],
+            best_n, full, time.time() - t_cut), flush=True)
         for o in RIG:
             pose(o, t, jit)
     dd, li, dm = _CUT[key]
@@ -902,8 +969,8 @@ def cam_update(t, jit):
     rk = 0.012 if c['shake'] else 0.0015
     cam.rotation_euler = (e.x + jit.gauss(0, rk), e.y + jit.gauss(0, rk * 0.5), e.z + jit.gauss(0, rk))
     camd.lens = lens
-    camd.dof.aperture_fstop = fst
-    camd.dof.focus_distance = d.length - (0.008 if isinstance(c['target'], str) else 0.0)
+    camd.dof.aperture_fstop = fst if not grp else max(fst, 16.0)
+    camd.dof.focus_distance = d.length - (0.008 if (grp or isinstance(c['target'], str)) else 0.0)
 
 
 if A.place:

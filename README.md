@@ -31,11 +31,12 @@ cam medium on thief at 0s
 | Qwen 3.5 9B, первая версия языка, 10 сцен | 1 из 10 верных |
 | DeepSeek-V4-Flash, язык v3.2, исправление по ошибкам сборщика, 3 попытки, отбор судьёй | 78 % сцен верны по строгой ручной проверке |
 | Серия 1 «Побег», 29 сцен по 6 с | сборщик принял 29 из 29, судья 24 из 29, на глаз читается 26 из 29 |
-| Рендер Eevee 1080p на MacBook Pro M2 Pro | 2,3–2,8 с на кадр, серия 3 минуты за 80–90 мин |
+| Серия 2 «Прятки», 29 сцен по 6 с, город вокруг площадки | сборщик принял 29 из 29, судья 19 из 29, на глаз читается 29 из 29, из них 9 слабых |
+| Рендер Eevee 1080p на MacBook Pro M2 Pro | 2,3–2,8 с на кадр; серия 3 минуты за 80–90 мин, с городом около 126 мин |
 
-Серия 1: лист кадров [seriya1/out/sheet.jpg](seriya1/out/sheet.jpg), ролик в разделе Releases.
-Серия 2 «Прятки» (город вокруг площадки, волосы, герои не проходят друг сквозь друга): сценарий
-и программы в [seriya2/](seriya2/), рендер не проверен.
+Серия 1 «Побег»: лист кадров [seriya1/out/sheet.jpg](seriya1/out/sheet.jpg), ролик в релизе v0.1-seriya1.
+Серия 2 «Прятки» (город вокруг площадки, волосы, герои не проходят друг сквозь друга, камера снимает
+группу героев): лист кадров [seriya2/out/sheet.jpg](seriya2/out/sheet.jpg), ролик в релизе v0.2-seriya2.
 
 ## Как продолжить работу
 
@@ -126,5 +127,6 @@ GPL-3.0-or-later, см. [LICENSE](LICENSE). Рендер работает вну
 scene description into a program in a tiny scene language (`zamer/LANGUAGE-kubiki-v32.md`). A Python
 compiler lays the scene out, an LLM judge checks it against the description, and Blender (Eevee) renders
 it with procedural bricks, figures and a city. Best result: DeepSeek-V4-Flash, 3 attempts and judge
-selection give 78 % correct scenes. Episode 1: 26 of 29 scenes readable by eye. Docs are in Russian.
+selection give 78 % correct scenes. Episode 1: 26 of 29 scenes readable by eye. Episode 2 (city, hair,
+group-aware camera): 29 of 29 readable, 9 of them weak. Docs are in Russian.
 Start with `HOW-WE-WORK.md`.
