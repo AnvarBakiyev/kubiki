@@ -1,0 +1,2 @@
+say kid "Мама, ищи!" from 0s to 2s
+say citizen "Ку-ку!" from 3s to 5.5s

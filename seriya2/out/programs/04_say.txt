@@ -1,0 +1,1 @@
+say kid "Я в прятки!" from 0s to 2s

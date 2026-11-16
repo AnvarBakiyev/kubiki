@@ -1,0 +1,1 @@
+say cop "Куда делся?" from 2s to 5.5s

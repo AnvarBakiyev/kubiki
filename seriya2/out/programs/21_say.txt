@@ -1,0 +1,1 @@
+say cop "Попался, вор!" from 4s to 6s

@@ -1,0 +1,1 @@
+say cop "Ого!" from 2s to 4.5s

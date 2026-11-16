@@ -170,6 +170,8 @@ def music(L):
 
 
 GAIT = dict(walk=2.0, run=3.2, sneak=1.4)
+VMIN = dict(walk=1.3, sneak=0.9, run=2.4)  # как в render_kubiki.py
+STEPS_PER_CELL = 1.3
 
 
 def build(S, with_music=True):
@@ -189,11 +191,16 @@ def build(S, with_music=True):
     for a in S['acts']:
         d = a['t1'] - a['t0']
         if a['act'] in GAIT:
-            f = GAIT[a['act']]
-            k = 1
-            while k / (2 * f) < d:
-                put(sfx_step(soft=a['act'] == 'sneak'), a['t0'] + k / (2 * f), 'step')
-                k += 1
+            # шаги совпадают с ногами в рендере: шаг на каждые полшага пути, путь проходится не медленнее VMIN,
+            # нулевой путь — шагов нет (render_kubiki.py, _hero_state)
+            pts = a.get('path') or ([a['from'], a['dest']] if a.get('dest') else [])
+            plen = sum(math.dist(pts[i], pts[i + 1]) for i in range(len(pts) - 1)) if len(pts) > 1 else 0.0
+            if plen < 0.05:
+                continue
+            move = min(d, plen / VMIN[a['act']])
+            nstep = int(plen * 2 * STEPS_PER_CELL)
+            for k in range(1, nstep + 1):
+                put(sfx_step(soft=a['act'] == 'sneak'), a['t0'] + move * k / (plen * 2 * STEPS_PER_CELL), 'step')
         elif a['act'] in ('climb', 'jump'):
             w = sfx_whoosh(min(0.8, d))
             put(w, a['t0'] + d / 2 - len(w) / SR / 2, 'whoosh')

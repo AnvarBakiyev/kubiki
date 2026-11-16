@@ -1,0 +1,1 @@
+say thief "Ай!" from 0s to 1.8s

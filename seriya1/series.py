@@ -3,6 +3,8 @@
     KUBIKI_BACKEND=api python3 series.py programs     программы сцен (out/programs/, picks.json)
     python3 series.py render                             кадры каждой сцены, Eevee 1080p, 12 к/с ($KUBIKI_FRAMES/seriya1)
     <venv earshot>/bin/python series.py sound            эффекты по сценам (earshot) + своя музыка на всю серию
+    KUBIKI_BACKEND=api python3 series.py dialogue       реплики в пузырях моделью (out/programs/NN_say.json)
+    python3 series.py bubbles                            пузыри поверх кадров ($FRAMES/NN_b), нужен heads.json рендера
     python3 series.py assemble                           титры, склейка, звук -> out/seriya1.mp4
     python3 series.py sheet                              контактный лист серии для проверки на глаз
 
@@ -76,6 +78,77 @@ def programs():
                               tries=len(cands), fixed=pick['fixed'], len=pick['S']['len'])
         print(sid, picks[sid], flush=True)
         json.dump(picks, open(pf, 'w'), ensure_ascii=False, indent=1)
+
+
+ROLES = dict(kid='ребёнок', citizen='прохожий', cop='полицейский', thief='вор', prisoner='заключённый',
+             guard='охранник')
+
+
+def dialogue():
+    """Реплики: модель дописывает к готовой сцене строки say; код проверяет, при ошибках один круг исправления."""
+    import dialogue as D
+    from run3 import chat
+    roles = dict(ROLES, **EP.get('roles', {}))
+    before = []
+    for sc in EP['scenes']:
+        sid = '%02d' % sc['id']
+        jp = os.path.join(PROG, sid + '.json')
+        sp = os.path.join(PROG, sid + '_say.json')
+        if not os.path.exists(jp):
+            continue
+        S = json.load(open(jp))
+        if os.path.exists(sp):
+            says = json.load(open(sp))['says']
+        else:
+            pr = D.prompt(S, sc['text'], roles, EP.get('note', ''), before)
+            txt, _ = chat(pr)
+            says, errs = D.parse(txt, S, before)
+            fixed = False
+            if errs:
+                txt, _ = chat(pr + NL + NL + 'ТВОИ СТРОКИ:' + NL + txt + NL + NL + 'НЕ ПРИНЯТЫ:' + NL + NL.join(errs) +
+                              NL + NL + 'Исправь и выведи строки say целиком.')
+                says, errs = D.parse(txt, S, before)
+                fixed = True
+            open(os.path.join(PROG, sid + '_say.txt'), 'w').write(txt)
+            json.dump(dict(says=says, errors=errs, fixed=fixed), open(sp, 'w'), ensure_ascii=False, indent=1)
+        before += ['%s: %s' % (roles.get(s_['hero'], s_['hero']), s_['text']) for s_ in says]
+        print(sid, ' | '.join('%s «%s» %g-%g' % (s_['hero'], s_['text'], s_['t0'], s_['t1']) for s_ in says) or '—',
+              flush=True)
+
+
+BUBBLE_FONT = os.environ.get('KUBIKI_BUBBLE_FONT', '/System/Library/Fonts/Supplemental/Comic Sans MS Bold.ttf')
+
+
+def bubbles():
+    """Кадры с пузырями пишутся в $FRAMES/NN_b целиком (на кадры без реплик ставятся ссылки), исходные кадры не трогаются."""
+    import dialogue as D
+    for sid, p in sorted(picks().items()):
+        sp = os.path.join(PROG, sid + '_say.json')
+        hp = os.path.join(FRAMES, sid, 'heads.json')
+        if not p['ok'] or not os.path.exists(sp) or not os.path.exists(hp):
+            continue
+        says = json.load(open(sp))['says']
+        if not says:
+            continue
+        n = int(round(p['len'] * FPS))
+        bf = D.bubble_frames(says, json.load(open(hp)), FPS, n)
+        od = os.path.join(FRAMES, sid + '_b')
+        os.makedirs(od, exist_ok=True)
+        for f in range(n):
+            src = os.path.join(FRAMES, sid, 'f%04d.png' % f)
+            dst = os.path.join(od, 'f%04d.png' % f)
+            if f in bf:
+                D.draw_bubbles(src, dst, bf[f], BUBBLE_FONT)
+            else:
+                if os.path.lexists(dst):
+                    os.remove(dst)
+                os.symlink(src, dst)  # кадр без пузыря: ссылка, а не копия (кадры серии — гигабайты)
+        print(sid, 'пузырей на кадрах', len(bf), flush=True)
+
+
+def frames_dir(sid):
+    b = os.path.join(FRAMES, sid + '_b')
+    return b if os.path.exists(os.path.join(b, 'f0000.png')) else os.path.join(FRAMES, sid)
 
 
 def picks():
@@ -227,7 +300,7 @@ def assemble():
     for sid, t0, L, mood in segs:
         p = os.path.join(tmp, sid + '.mp4')
         subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i',
-                        os.path.join(FRAMES, sid, 'f%04d.png'), '-t', '%.3f' % L,
+                        os.path.join(frames_dir(sid), 'f%04d.png'), '-t', '%.3f' % L,
                         '-r', '24', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', p], check=True)
         parts.append(p)
     endp = os.path.join(tmp, '99_end.mp4')
@@ -246,7 +319,7 @@ def sheet():
     rows = []
     for sid, t0, L, mood in timeline()[0]:
         n = int(round(L * FPS))
-        rows.append([os.path.join(FRAMES, sid, 'f%04d.png' % f) for f in (int(n * 0.2), int(n * 0.55), int(n * 0.9))])
+        rows.append([os.path.join(frames_dir(sid), 'f%04d.png' % f) for f in (int(n * 0.2), int(n * 0.55), int(n * 0.9))])
     inputs, filt = [], []
     for i, row in enumerate(rows):
         for p in row:
@@ -265,4 +338,5 @@ def sheet():
 
 
 if __name__ == '__main__':
-    dict(programs=programs, render=render, sound=sound, assemble=assemble, sheet=sheet)[sys.argv[1]]()
+    dict(programs=programs, render=render, sound=sound, assemble=assemble, sheet=sheet, dialogue=dialogue,
+         bubbles=bubbles)[sys.argv[1]]()

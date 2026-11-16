@@ -1,0 +1,1 @@
+say kid "Тише..." from 3s to 5s

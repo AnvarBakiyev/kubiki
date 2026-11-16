@@ -1,0 +1,2 @@
+say kid "Тише..." from 2s to 4.5s
+say thief "Вот так..." from 1.5s to 4s

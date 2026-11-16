@@ -1,0 +1,1 @@
+say kid "Мама, смотри!" from 3s to 5.5s

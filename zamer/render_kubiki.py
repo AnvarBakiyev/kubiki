@@ -18,6 +18,7 @@ T_START = time.time()
 
 import bmesh
 import bpy
+from bpy_extras.object_utils import world_to_camera_view
 from mathutils import Euler, Vector
 
 argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else []
@@ -29,6 +30,7 @@ ap.add_argument('--fps', type=int, default=12)
 ap.add_argument('--res', default='1920x1080')
 ap.add_argument('--frames', default='')
 ap.add_argument('--samples', type=int, default=32)
+ap.add_argument('--probe', action='store_true')  # без рендера: печать мест, где ноги идут, а герой стоит
 ap.add_argument('--place', default='')  # street|park|market|prison: город вокруг площадки
 A = ap.parse_args(argv)
 OUT = os.path.abspath(A.out)
@@ -369,6 +371,137 @@ for m, img in FACE_IMG.items():
     mt.blend_method = 'HASHED' if hasattr(mt, 'blend_method') else None
     FACE_MAT[m] = mt
 
+# ---------------- наклейки на корпусе ----------------
+# Рисунок на груди фигурки, как печать на настоящей детали: значок полицейского, полосы вора, звезда ребёнка.
+SW, SHt = 128, 88  # пикселей; наклейка 0,0125 x 0,0086 на плоской части груди
+
+
+def _hx(h):
+    h = COL.get(h, h).lstrip('#')
+    return [int(h[i:i + 2], 16) / 255 for i in (0, 2, 4)] + [1.0]
+
+
+def sticker_png(kind):
+    px = [0.0] * (SW * SHt * 4)
+
+    def put(x, y, c):
+        if 0 <= x < SW and 0 <= y < SHt:
+            i = (y * SW + x) * 4
+            px[i:i + 4] = c
+
+    def rect(x0, y0, x1, y1, c):
+        for y in range(int(y0), int(y1)):
+            for x in range(int(x0), int(x1)):
+                put(x, y, c)
+
+    def disc(cx, cy, r, c):
+        for y in range(int(cy - r) - 1, int(cy + r) + 2):
+            for x in range(int(cx - r) - 1, int(cx + r) + 2):
+                if (x - cx) ** 2 + (y - cy) ** 2 <= r * r:
+                    put(x, y, c)
+
+    def poly(pts, c):
+        ys = [p[1] for p in pts]
+        for y in range(int(min(ys)), int(max(ys)) + 1):
+            xs = []
+            for i in range(len(pts)):
+                (x0, y0), (x1, y1) = pts[i], pts[(i + 1) % len(pts)]
+                if (y0 <= y < y1) or (y1 <= y < y0):
+                    xs.append(x0 + (y - y0) * (x1 - x0) / (y1 - y0))
+            xs.sort()
+            for a, b in zip(xs[0::2], xs[1::2]):
+                for x in range(int(round(a)), int(round(b)) + 1):
+                    put(x, y, c)
+
+    def star(cx, cy, r, c):
+        pts = []
+        for k in range(10):
+            ang = math.pi / 2 + k * math.pi / 5
+            rr = r if k % 2 == 0 else r * 0.42
+            pts.append((cx + rr * math.cos(ang), cy + rr * math.sin(ang)))
+        poly(pts, c)
+
+    def collar(c_shirt, c_tie=None):
+        # воротник рубашки треугольником от горла и галстук
+        poly([(34, 88), (94, 88), (64, 46)], _hx(c_shirt))
+        if c_tie:
+            poly([(58, 88), (70, 88), (67, 80), (61, 80)], _hx(c_tie))
+            poly([(61, 80), (67, 80), (71, 46), (64, 38), (57, 46)], _hx(c_tie))
+
+    def seg7(x, y, digit, c, w=14, h=26, th=4):
+        on = ['abcdef', 'bc', 'abged', 'abgcd', 'fgbc', 'afgcd', 'afgedc', 'abc', 'abcdefg', 'abcdfg'][digit]
+        S_ = dict(a=(x, y + h - th, x + w, y + h), g=(x, y + h // 2 - th // 2, x + w, y + h // 2 + th // 2),
+                  d=(x, y, x + w, y + th), f=(x, y + h // 2, x + th, y + h), b=(x + w - th, y + h // 2, x + w, y + h),
+                  e=(x, y, x + th, y + h // 2), c=(x + w - th, y, x + w, y + h // 2))
+        for k in on:
+            rect(*S_[k], c)
+
+    if kind == 'cop':
+        collar('#dfe6ee', '#16305a')
+        star(94, 56, 19, _hx('#f2c418'))
+        disc(94, 56, 4, _hx('#b8901a'))
+        rect(22, 46, 44, 49, _hx('#16305a'))  # клапан кармана
+    elif kind == 'guard':
+        collar('#c9cdd2', 'black')
+        poly([(86, 72), (106, 72), (106, 58), (96, 48), (86, 58)], _hx('#c0c4c8'))
+    elif kind == 'thief':
+        for y in (14, 34, 54, 74):
+            rect(0, y, SW, y + 9, _hx('#e9e9e4'))
+    elif kind == 'kid':
+        star(64, 42, 40, _hx('red'))
+        star(64, 42, 17, _hx('white'))
+    elif kind == 'citizen_heart':
+        disc(52, 54, 17, _hx('#e0447a'))
+        disc(76, 54, 17, _hx('#e0447a'))
+        poly([(36, 49), (92, 49), (64, 14)], _hx('#e0447a'))
+    elif kind == 'citizen_tie':
+        collar('#eeeeea', '#8a1c2b')
+    elif kind == 'citizen':
+        collar('#eeeeea')
+        for y in (40, 24, 8):
+            disc(64, y, 4.5, _hx('#eeeeea'))
+    elif kind == 'prisoner':
+        rect(20, 38, 64, 76, _hx('#eeeeea'))
+        seg7(24, 44, 4, _hx('black'))
+        seg7(44, 44, 7, _hx('black'))
+    img = bpy.data.images.new('st_' + kind, SW, SHt, alpha=True)
+    img.pixels = px
+    mt = bpy.data.materials.new('st_' + kind)
+    mt.use_nodes = True
+    nt = mt.node_tree
+    b = nt.nodes['Principled BSDF']
+    tx = nt.nodes.new('ShaderNodeTexImage')
+    tx.image = img
+    tx.interpolation = 'Closest' if kind == 'prisoner' else 'Linear'
+    nt.links.new(tx.outputs['Color'], b.inputs['Base Color'])
+    nt.links.new(tx.outputs['Alpha'], b.inputs['Alpha'])
+    b.inputs['Roughness'].default_value = 0.3
+    STICK_MAT.append(mt)
+    return mt
+
+
+STICK_MAT = []
+_STICK = {}
+
+
+def sticker_on(nm, kind, hips):
+    if kind not in _STICK:
+        _STICK[kind] = sticker_png(kind)
+    me = bpy.data.meshes.new(nm + '_stk')
+    w, h = 0.0125, 0.0125 * SHt / SW
+    me.from_pydata([(-w / 2, 0, -h / 2), (w / 2, 0, -h / 2), (w / 2, 0, h / 2), (-w / 2, 0, h / 2)], [], [(0, 1, 2, 3)])
+    me.uv_layers.new()
+    for li, uv in zip(range(4), ((0, 0), (1, 0), (1, 1), (0, 1))):
+        me.uv_layers[0].data[li].uv = uv
+    ob = link(bpy.data.objects.new(nm + '_stk', me), hips)
+    # плоскость смотрит вперёд (+y), чуть перед грудью и перед полосами робы
+    me.polygons[0].vertices  # noqa
+    ob.location = (0, 0.0105 / 2 + 0.00032, 0.0068)
+    ob.rotation_euler = (0, 0, math.pi)
+    ob.data.materials.append(_STICK[kind])
+    return ob
+
+
 # ---------------- персонажи ----------------
 SKIN = '#e9c49d'
 LOOK = dict(prisoner=('orange', 'orange', None), guard=('#3d4249', 'black', 'black'),
@@ -417,8 +550,10 @@ for nm, h in S['heroes'].items():
     if h['look'] == 'prisoner':
         for z in (0.004, 0.0085):
             rounded_box(nm + '_str%.4f' % z, 0.0178, 0.0108, 0.0015, 0.0004, 'black', hips, (0, 0, z))
-    if h['look'] == 'cop':
-        rounded_box(nm + '_badge', 0.003, 0.001, 0.003, 0.0004, 'yellow', hips, (-0.004, 0.0053, 0.008))
+    kind = h['look']
+    if kind == 'citizen' and nm[-1].isdigit():
+        kind = 'citizen_tie' if int(nm[-1]) % 2 == 0 else 'citizen_heart'
+    sticker_on(nm, kind, hips)
     ar = {}
     for side, x in (('L', -0.0105), ('R', 0.0105)):
         pv = empty(nm + '_arm' + side, hips, (x, 0, 0.0115))
@@ -442,7 +577,8 @@ for nm, h in S['heroes'].items():
     elif hat:
         # из-под шапки видны виски
         for sx in (-0.0086, 0.0086):
-            rounded_box(nm + '_hairS%d' % (sx > 0), 0.0024, 0.0110, 0.0060, 0.0009, '#2a2a2a', neck, (sx, -0.0018, 0.0100))
+            # только за ухом: спереди сбоку прямоугольник читался как тёмные очки
+            rounded_box(nm + '_hairS%d' % (sx > 0), 0.0022, 0.0055, 0.0045, 0.0009, '#2a2a2a', neck, (sx, -0.0048, 0.0108))
     if hat:
         rounded_box(nm + '_hat', 0.0185, 0.0165, 0.0045, 0.0015, hat, neck, (0, 0, 0.0155))
         if h['look'] == 'cop':
@@ -520,6 +656,10 @@ def hero_state(nm, t):
     return st
 
 
+VMIN = dict(walk=1.3, sneak=0.9, run=2.4)  # клеток в секунду: медленнее ноги «шагают на месте»
+STEPS_PER_CELL = 1.3  # полных шагов ног на клетку пути: ноги не скользят по полу
+
+
 def _hero_state(nm, t):
     h = S['heroes'][nm]
     pos = tuple(h['cell'])
@@ -531,13 +671,28 @@ def _hero_state(nm, t):
             break
         fr, de = tuple(a['from']), (tuple(a['dest']) if a['dest'] else None)
         u = min(1.0, (t - a['t0']) / (a['t1'] - a['t0']))
-        st = dict(act=a['act'], u=u, tl=t - a['t0'], fallen=False, dur=a['t1'] - a['t0'])
+        st = dict(act=a['act'], u=u, tl=t - a['t0'], fallen=False, dur=a['t1'] - a['t0'], dist=0.0)
         if de:
             p0, p1 = cell_xy(fr), cell_xy(de)
             dx, dy = p1[0] - p0[0], p1[1] - p0[1]
             if abs(dx) + abs(dy) > 1e-9:
                 yaw = math.atan2(-dx, dy)
             ue = u if a['act'] in ('run', 'walk', 'sneak') else (0.5 - 0.5 * math.cos(math.pi * u))
+            if a['act'] in ('run', 'walk', 'sneak'):
+                # идти с живой скоростью: короткий путь на долгое время проходится быстро, дальше герой стоит;
+                # путь нулевой (уже на месте) — герой стоит, ноги не шагают
+                pts0 = [cell_xy(c) for c in a.get('path') or []] or [p0, p1]
+                plen = sum(math.dist(pts0[i], pts0[i + 1]) for i in range(len(pts0) - 1)) / CELL
+                vmin = VMIN[a['act']]
+                dur = a['t1'] - a['t0']
+                if plen < 0.05:
+                    ue = 1.0
+                    st['act'] = 'stand'
+                elif plen / dur < vmin:
+                    ue = min(1.0, (t - a['t0']) / (plen / vmin))
+                    if ue >= 1.0:
+                        st['act'] = 'stand'
+                st['dist'] = plen * ue
             xy = (p0[0] + dx * ue, p0[1] + dy * ue)
             pts = [cell_xy(c) for c in a.get('path') or []]
             if len(pts) > 2 and a['act'] in ('run', 'walk', 'sneak'):
@@ -584,14 +739,15 @@ def pose(nm, t, jit):
     st = hero_state(nm, t)
     root = R['root']
     x, y = st['xy']
-    root.location = (x + jit.gauss(0, 0.00012), y + jit.gauss(0, 0.00012), st['z'])
-    root.rotation_euler = (0, 0, st['yaw'] + jit.gauss(0, 0.012))
+    # покадровая «дрожь» фигурки убрана: на 12 к/с она читалась как тряска
+    root.location = (x, y, st['z'])
+    root.rotation_euler = (0, 0, st['yaw'])
     a, tl = st['act'], st['tl']
     sw = arm = lean = crouch = 0.0
     armL = armR = None
     if a in ('walk', 'run', 'sneak'):
-        amp, f = dict(walk=(0.45, 2.0), run=(0.8, 3.2), sneak=(0.3, 1.4))[a]
-        sw = amp * math.sin(2 * math.pi * f * tl)
+        amp = dict(walk=0.45, run=0.8, sneak=0.3)[a]
+        sw = amp * math.sin(2 * math.pi * STEPS_PER_CELL * st.get('dist', 0.0))
         lean = dict(walk=0.05, run=0.22, sneak=0.15)[a]
         crouch = 0.25 if a == 'sneak' else 0.0
     elif a in ('climb', 'jump'):
@@ -613,7 +769,7 @@ def pose(nm, t, jit):
     R['leg']['R'].rotation_euler = (-sw + (crouch * -1.0), 0, 0)
     R['arm']['L'].rotation_euler = (armL if armL is not None else -sw * 0.9, 0, 0)
     R['arm']['R'].rotation_euler = (armR if armR is not None else sw * 0.9, 0, 0)
-    R['neck'].rotation_euler = (0, 0, jit.gauss(0, 0.02))
+    R['neck'].rotation_euler = (0, 0, 0.05 * _wob(t, sum(map(ord, nm))))
     m = mood_at(nm, t)
     for k, fo in R['face'].items():
         fo.hide_render = (k != m)
@@ -808,9 +964,11 @@ def head_visible(p, nm, t):
     # лицо нарисовано только спереди: в профиль (90°) его не видно, нужен поворот к камере не больше ~70°
     if (fx_ * cx_ + fy_ * cy_) / (math.hypot(cx_, cy_) or 1) < 0.35 and st['act'] not in ('fall', 'lying'):
         return False
-    ok = 0
-    for dz in (0.034, 0.028):
-        q = Vector((st['xy'][0], st['xy'][1], st['z'] + dz * s_))
+    side = Vector((-(p.y - st['xy'][1]), p.x - st['xy'][0], 0)).normalized() * 0.007 * s_
+    pts = [Vector((st['xy'][0], st['xy'][1], st['z'] + dz * s_)) for dz in (0.034, 0.028)]
+    pts += [pts[0] + side, pts[0] - side]
+    vis = []
+    for q in pts:
         d, far = (q - p).normalized(), (q - p).length
         own = trees[nm].ray_cast(p, d, far + 0.02)[3] if trees.get(nm) else None
         lim = own if own is not None else far
@@ -822,8 +980,35 @@ def head_visible(p, nm, t):
             if dist is not None and dist < lim - 1e-5:
                 hit = True
                 break
-        ok += not hit
-    return ok == 2
+        vis.append(not hit)
+    # лицо видно целиком — 1; середина и один край — 0,5 (столб закрывает полголовы); иначе 0
+    if vis[0] and vis[1]:
+        return 1.0 if (vis[2] and vis[3]) else (0.5 if (vis[2] or vis[3]) else 0.0)
+    return 0.0
+
+
+def clutter(p, q, t, lens):
+    """Сколько из 6 лучей по краям кадра упираются во что-то ближе половины расстояния до цели."""
+    if not _STATIC:
+        head_visible(p, sorted(RIG)[0], t) if RIG else None
+    trees = [_STATIC[0]] + [tr for tr in _trees_at(t).values() if tr is not None] if _STATIC else []
+    fw = (q - p)
+    d0 = fw.length
+    fw = fw.normalized()
+    rt = fw.cross(Vector((0, 0, 1))).normalized()
+    up = rt.cross(fw).normalized()
+    hw = d0 * camd.sensor_width / lens / 2
+    hh = hw * 9 / 16
+    n = 0
+    for ax, ay in ((-0.7, -0.6), (0.7, -0.6), (-0.7, 0.5), (0.7, 0.5), (0, -0.8), (0, 0.6)):
+        r = q + rt * (ax * hw) + up * (ay * hh)
+        d = (r - p).normalized()
+        for tr in trees:
+            hd = tr.ray_cast(p, d, 0.5 * d0)[3]
+            if hd is not None:
+                n += 1
+                break
+    return n
 
 
 def on_cell(c, t):
@@ -845,6 +1030,12 @@ def _near_heroes(xy, t0, t1, r):
                 out.append(h)
                 break
     return out
+
+
+def _wob(t, seed):
+    """Плавный шум от -1 до 1: три синуса с частотами 0,23–0,9 Гц и фазами от зерна."""
+    r = random.Random(seed)
+    return sum(math.sin(2 * math.pi * r.uniform(0.23, 0.9) * t + r.uniform(0, 6.3)) for _ in range(3)) / 3
 
 
 def cam_update(t, jit):
@@ -877,15 +1068,21 @@ def cam_update(t, jit):
             return sum(vs, Vector((0, 0, 0))) / len(vs)
         return target_xyz(c['target'], tp)
 
-    tgt_now = aim(t)
+    # цель камеры сглажена по времени: группа и расталкивание не дёргают кадр
+    tgt_now = sum((aim(min(t_end, max(c['t'], t + d))) for d in (-0.25, -0.12, 0.0, 0.12, 0.25)), Vector((0, 0, 0))) / 5
     base = tgt_now if (grp or isinstance(c['target'], str)) else target_xyz(c['target'], c['t'])
     if c['shot'] == 'wide':
         base = Vector((base.x * 0.4, base.y * 0.4, 0.01))
         tgt_now = base
     front = math.radians(-18)
     if isinstance(c['target'], str) and near_shot and not grp:
-        yw = hero_state(c['target'], c['t'])['yaw']
-        front = math.atan2(-math.sin(yw), -math.cos(yw))  # направление «лицом к камере»
+        # куда герой смотрит в среднем за план, а не в первый миг: крадущийся разворачивается к укрытию
+        sx_ = sy_ = 0.0
+        for k_ in range(5):
+            yw = hero_state(c['target'], c['t'] + (max(c['t'], t_end - 0.05) - c['t']) * k_ / 4)['yaw']
+            sx_ += math.sin(yw)
+            sy_ += math.cos(yw)
+        front = math.atan2(-sx_, -sy_)  # направление «лицом к камере»
     if len(grp) >= 2:
         # двое и больше: смотреть поперёк линии между ними, тогда оба в профиль или вполоборота,
         # а не один из них затылком к камере
@@ -900,7 +1097,8 @@ def cam_update(t, jit):
     if key not in _CUT:
         t_cut = time.time()
         # место камеры выбирается один раз на склейку: смотрим начало, середину и конец плана
-        probes = [c['t'], (c['t'] + t_end) / 2, max(c['t'], t_end - 0.05)]
+        # пять моментов: в середине плана герой успевает зайти за столб, которого не видно в начале и конце
+        probes = [c['t'] + (max(c['t'], t_end - 0.05) - c['t']) * k / 4 for k in range(5)]
         skip = c['target'] if isinstance(c['target'], str) else None
         lows = (0.006, 0.02, 0.04, 0.06)
         face = (isinstance(c['target'], str) and near_shot) or bool(grp)
@@ -909,7 +1107,7 @@ def cam_update(t, jit):
         if grp:
             span = max([0.0] + [(target_xyz(a, tp) - target_xyz(b, tp)).length
                                 for tp in probes for a in grp for b in grp])
-            scale = max(1.0, (span + 3 * CELL) / (dist * 36.0 / lens))  # ширина кадра ~ расстояние * 36 / фокусное
+            scale = max(1.0, (span + 3 * CELL) / (dist * camd.sensor_width / lens))  # ширина кадра = расстояние * матрица / фокусное
         fronts = (0, 20, -20, 45, -45, 70, -70)
         order = [(dd, li, dm) for dm in (1.0, 1.4, 1.9) for li in (0, 1) for dd in fronts] + \
                 [(dd, 2, dm) for dm in (1.0, 1.4, 1.9) for dd in fronts]
@@ -922,7 +1120,7 @@ def cam_update(t, jit):
             order = [(dd, li, 1.0) for dd in (0, 20, -20, 45, -45) for li in range(4)] + \
                     [(dd, li, 1.0) for li in range(4) for dd in (75, -75, 110, -110, 150, -150, 180)]
         full = len(probes) * ((len(grp) + (1 if main else 0)) if grp else 1)
-        best, best_n = None, -1
+        best, best_n = None, -1e9
         for dd, li, dm in order:
             n_ok = 0
             for tp in probes:
@@ -944,14 +1142,17 @@ def cam_update(t, jit):
                     n_ok += head_visible(cand, c['target'], tp)
                 else:
                     n_ok += not blocked(cand, bp, tp, skip)
-            if n_ok > best_n:
-                best, best_n = (dd, li, dm * scale), n_ok
-            if n_ok >= full:
+            # близкий передний план (ящик, столб, голова соседа у самой камеры) закрывает кадр: штраф
+            cl = clutter(cand, bp, tp, lens) if c['shot'] not in ('wide', 'top') else 0
+            score = n_ok * 4 - cl
+            if score > best_n:
+                best, best_n, best_ok = (dd, li, dm * scale), score, n_ok
+            if n_ok >= full and cl <= 1:
                 break
         _CUT[key] = best
-        print('KUBIKI cam cut %d %s%s -> (%d, %d, %.2f) (%d/%d) %.1fs' % (
+        print('KUBIKI cam cut %d %s%s -> (%d, %d, %.2f) (%.1f/%d) %.1fs' % (
             key, c['target'], (' group ' + ','.join(grp)) if grp else '', best[0], best[1], best[2],
-            best_n, full, time.time() - t_cut), flush=True)
+            best_ok, full, time.time() - t_cut), flush=True)
         for o in RIG:
             pose(o, t, jit)
     dd, li, dm = _CUT[key]
@@ -961,13 +1162,16 @@ def cam_update(t, jit):
     if c['shot'] == 'low':
         lw = (0.006, 0.02, 0.04, 0.06)[li]
         pos.z = lw if dm == 1.0 else lw + 0.5 * (base.z - lw) * (dm - 1)
-    k = 0.0009 if c['shake'] else 0.00012
-    pos += Vector((jit.gauss(0, k), jit.gauss(0, k), jit.gauss(0, k)))
+    # ручная камера: плавное покачивание (сумма медленных синусов), а не случайный сдвиг в каждом кадре
+    k = 0.0012 if c['shake'] else 0.00025
+    sk = key * 7 + (3.0 if c['shake'] else 1.0)
+    pos += Vector((k * _wob(t, sk), k * _wob(t, sk + 1), 0.6 * k * _wob(t, sk + 2)))
     cam.location = pos
     d = tgt_now - pos
     e = d.to_track_quat('-Z', 'Y').to_euler()
-    rk = 0.012 if c['shake'] else 0.0015
-    cam.rotation_euler = (e.x + jit.gauss(0, rk), e.y + jit.gauss(0, rk * 0.5), e.z + jit.gauss(0, rk))
+    rk = 0.010 if c['shake'] else 0.0
+    fast = 2.5 if c['shake'] else 1.0
+    cam.rotation_euler = (e.x + rk * _wob(t * fast, sk + 3), e.y + 0.5 * rk * _wob(t * fast, sk + 4), e.z + rk * _wob(t * fast, sk + 5))
     camd.lens = lens
     camd.dof.aperture_fstop = fst if not grp else max(fst, 16.0)
     camd.dof.focus_distance = d.length - (0.008 if (grp or isinstance(c['target'], str)) else 0.0)
@@ -975,6 +1179,23 @@ def cam_update(t, jit):
 
 if A.place:
     exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'city_block.py')).read())
+
+if A.probe:
+    L = S['len']
+    for nm in sorted(RIG):
+        bad = tot = 0
+        for i in range(int(L * 12)):
+            t = i / 12.0
+            st = hero_state(nm, t)
+            if st['act'] not in ('walk', 'run', 'sneak'):
+                continue
+            a = hero_state(nm, max(0, t - 1 / 24.0))['xy']
+            b = hero_state(nm, t + 1 / 24.0)['xy']
+            v = math.dist(a, b) * 12 / CELL
+            tot += 1
+            bad += v < 0.4
+        print('KUBIKI probe %s walkframes %d still %d' % (nm, tot, bad), flush=True)
+    sys.exit(0)
 
 # ---------------- движок ----------------
 rx, ry = [int(v) for v in A.res.split('x')]
@@ -1005,7 +1226,7 @@ else:
         ee.use_raytracing = True
     if hasattr(ee, 'use_shadows'):
         ee.use_shadows = True
-    for mt in FACE_MAT.values():
+    for mt in list(FACE_MAT.values()) + STICK_MAT:
         if hasattr(mt, 'surface_render_method'):
             mt.surface_render_method = 'DITHERED'
 
@@ -1014,6 +1235,7 @@ L = S['len']
 nfr = int(round(L * A.fps))
 frames = [int(v) for v in A.frames.split(',')] if A.frames else list(range(nfr))
 times = []
+HEADS = {}
 for fi in frames:
     t = fi / A.fps
     jit = random.Random(1000 + fi)
@@ -1025,7 +1247,20 @@ for fi in frames:
     t0 = time.time()
     bpy.ops.render.render(write_still=True)
     times.append(round(time.time() - t0, 2))
+    # где на кадре макушка и середина головы каждого героя: по ним рисуются пузыри с репликами
+    hd = {}
+    for nm, R in RIG.items():
+        st = hero_state(nm, t)
+        base_ = Vector((st['xy'][0], st['xy'][1], st['z']))
+        top = world_to_camera_view(sc, cam, base_ + Vector((0, 0, 0.044 * R['s'])))
+        mid = world_to_camera_view(sc, cam, base_ + Vector((0, 0, 0.034 * R['s'])))
+        hd[nm] = [round(top.x, 4), round(1 - top.y, 4), round(mid.x, 4), round(1 - mid.y, 4), int(top.z > 0)]
+    HEADS[str(fi)] = hd
     print('KUBIKI frame %d %.2fs' % (fi, times[-1]), flush=True)
+_hp = os.path.join(OUT, 'heads.json')
+if os.path.exists(_hp):  # рендер частями: дописываем, а не затираем
+    HEADS = dict(json.load(open(_hp)), **HEADS)
+json.dump(HEADS, open(_hp, 'w'))
 json.dump(dict(engine=A.engine, res=A.res, samples=A.samples, fps=A.fps, frames=frames, sec=times,
                devices=[d.name for d in bpy.context.preferences.addons['cycles'].preferences.devices if d.use]
                if A.engine == 'cycles' else None),

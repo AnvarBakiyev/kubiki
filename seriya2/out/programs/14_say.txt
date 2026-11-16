@@ -1,0 +1,1 @@
+say thief "Тихо..." from 2s to 4s

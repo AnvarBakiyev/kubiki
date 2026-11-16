@@ -1,0 +1,2 @@
+say kid "Мама!" from 3s to 5s
+say citizen "Вот ты где!" from 3.5s to 6s

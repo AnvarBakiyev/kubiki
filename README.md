@@ -31,12 +31,14 @@ cam medium on thief at 0s
 | Qwen 3.5 9B, первая версия языка, 10 сцен | 1 из 10 верных |
 | DeepSeek-V4-Flash, язык v3.2, исправление по ошибкам сборщика, 3 попытки, отбор судьёй | 78 % сцен верны по строгой ручной проверке |
 | Серия 1 «Побег», 29 сцен по 6 с | сборщик принял 29 из 29, судья 24 из 29, на глаз читается 26 из 29 |
-| Серия 2 «Прятки», 29 сцен по 6 с, город вокруг площадки | сборщик принял 29 из 29, судья 19 из 29, на глаз читается 29 из 29, из них 9 слабых |
+| Серия 2 «Прятки», 29 сцен по 6 с, город вокруг площадки | сборщик принял 29 из 29, судья 19 из 29, на глаз читается 29 из 29, из них 5 слабых; реплики в пузырях в 20 сценах |
 | Рендер Eevee 1080p на MacBook Pro M2 Pro | 2,3–2,8 с на кадр; серия 3 минуты за 80–90 мин, с городом около 126 мин |
 
 Серия 1 «Побег»: лист кадров [seriya1/out/sheet.jpg](seriya1/out/sheet.jpg), ролик в релизе v0.1-seriya1.
 Серия 2 «Прятки» (город вокруг площадки, волосы, герои не проходят друг сквозь друга, камера снимает
 группу героев): лист кадров [seriya2/out/sheet.jpg](seriya2/out/sheet.jpg), ролик в релизе v0.2-seriya2.
+Третий рендер серии 2 (ходьба без топтания на месте, ровная камера, наклейки на корпусе, реплики в пузырях):
+ролик в релизе v0.3-seriya2.
 
 ## Как продолжить работу
 
@@ -91,6 +93,8 @@ $BLENDER -b --factory-startup --python zamer/render_kubiki.py -- \
 cd seriya1
 python3 series.py programs 2     # программы сцен моделью, судья, выбор попытки
 python3 series.py render 2       # кадры
+python3 series.py dialogue 2     # реплики моделью, программы сцен не меняются
+python3 series.py bubbles 2      # пузыри с репликами поверх кадров
 python3 series.py sound 2        # звук
 python3 series.py assemble 2     # титр, склейка, звук -> seriya2/out/seriya2.mp4
 python3 series.py sheet 2        # лист кадров для проверки на глаз
@@ -108,6 +112,7 @@ python3 series.py sheet 2        # лист кадров для проверки
 | `zamer/scenes.json`, `staging.py` | десять сцен замера и ручные условия, которыми мерили судью |
 | `zamer/render_kubiki.py` | рендер Blender: детали, человечки, камера с проверкой лучом, движение |
 | `zamer/city_block.py` | город вокруг площадки для мест street, park, market, prison |
+| `zamer/dialogue.py` | реплики: подсказка модели, проверка строк `say`, рисование пузырей |
 | `zamer/sound_kubiki.py`, `sound_earshot.py` | звук: музыка и эффекты по событиям сцены |
 | `zamer/out/` | все ответы моделей из замера с результатами проверок |
 | `zamer/clip/` | короткие ролики и листы кадров по ходу замера |
@@ -128,5 +133,6 @@ scene description into a program in a tiny scene language (`zamer/LANGUAGE-kubik
 compiler lays the scene out, an LLM judge checks it against the description, and Blender (Eevee) renders
 it with procedural bricks, figures and a city. Best result: DeepSeek-V4-Flash, 3 attempts and judge
 selection give 78 % correct scenes. Episode 1: 26 of 29 scenes readable by eye. Episode 2 (city, hair,
-group-aware camera): 29 of 29 readable, 9 of them weak. Docs are in Russian.
+group-aware camera): 29 of 29 readable; after the third render (no walking in place, smooth camera,
+printed torso stickers, speech bubbles written by a separate model pass) 5 of them weak. Docs are in Russian.
 Start with `HOW-WE-WORK.md`.

@@ -1,0 +1,12 @@
+{
+ "says": [
+  {
+   "hero": "thief",
+   "text": "Ха-ха!",
+   "t0": 0.0,
+   "t1": 2.0
+  }
+ ],
+ "errors": [],
+ "fixed": false
+}
